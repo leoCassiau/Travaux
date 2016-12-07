@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PACKAGE SYSTEM "package.dtd">
+<PACKAGE NAME="org.formation.generation.swt" METAMODEL="UI" NUMBER="2"
+>
+	<fileHeader version="6" toolName="Mia-Generation" toolVersion="9.2.1"/>
+	<SCRIPT NAME="shell" META_OBJECT="View" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+generated text
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="shell$Filename" META_OBJECT="View" CATEGORY="default">
+		<TEXT><![CDATA[
+result.txt
+]]></TEXT>
+	</SCRIPT>
+	<METAMODELS_INFO_CACHE>
+		<METAMODEL_IMPORT CLAUSE="ui.*" RELATED_METAS="Action,UIApplication,View,NamedElement"/>
+		<METAMODEL_CONTAINER_QNAME CQNAME="ui" RELATED_METAS="Action,UIApplication,View,NamedElement"/>
+	</METAMODELS_INFO_CACHE>
+</PACKAGE>

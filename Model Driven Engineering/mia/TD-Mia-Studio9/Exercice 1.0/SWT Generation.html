@@ -1,0 +1,36 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="default.css" title="default">
+<link rel="stylesheet" type="text/css" href="../default.css" title="default">
+<TITLE>Generateur Couche Presentation Java/SWT</TITLE>
+</HEAD>
+<BODY>
+<H1>Exercice 1.0</H1>
+<HR>
+<STRONG>Generer une classe Java héritant de <I>org.eclipse.swt.widgets.Shell</I> pour chaque instance de <I>View</I> du modèle</STRONG><BR><BR>
+<UL>
+<LI>Créer un File Template attaché à <I>View</I>
+<LI>Générer la déclaration Java de la classe, en choisissant un package Java donné (ex : "com.mia.formation.generation.ui" )
+<LI>Générer un nom de fichier correspondant de la forme "xxx/name.java" (ex : com/mia/formation/generation/ui/ClientView.java
+<LI>Creer un Scenario attaché à <I>View</I> qui appelle le File Template
+<LI>Tester à travers la création d'un runconfig
+</UL>
+<HR>
+
+<p><strong>Exemple de fichier généré pour une intance de <I>View</I>:</strong><table class="code"><tr><td><code><pre class="jsccJAVA">
+package com.mia.formation.generation.ui;
+
+import org.eclipse.swt.widgets.Shell;
+
+public class ClientView extends Shell {
+}
+
+</pre></code></td></tr></table></p>
+
+<p><strong>Avec comme nom de fichier :</strong><table class="code"><tr><td><code><pre>
+com/mia/formation/generation/ui/ClientView.java
+</pre></code></td></tr></table></p>
+
+</BODY>
+</HTML>

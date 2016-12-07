@@ -1,0 +1,21 @@
+<!ELEMENT	project	(fileHeader?, element*)>
+<!ATTLIST	project
+				name			CDATA	#REQUIRED
+				documentation	CDATA	#IMPLIED
+				number			CDATA	#IMPLIED
+				>
+
+				
+<!ELEMENT fileHeader	EMPTY>
+<!ATTLIST fileHeader	
+				version				CDATA	#REQUIRED
+				date				CDATA	#IMPLIED
+				timestamp			CDATA	#IMPLIED
+				toolName			CDATA	#IMPLIED
+				toolVersion			CDATA	#IMPLIED
+				>
+<!ELEMENT	element	EMPTY>
+<!ATTLIST	element
+				type		CDATA	#REQUIRED
+				filename	CDATA	#REQUIRED
+				>

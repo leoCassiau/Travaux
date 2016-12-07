@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ Copyright :
+ This is a property of Mia-Software company.
+ See website for more informations : www.mia-software.com
+
+ $Id: plugin.xml,v 1.2 2008-12-31 15:26:30 fgiquel Exp $
+-->
+
+<plugin>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml14.foundation/data_types.ecore" 
+       class = "com.mia.uml14.foundation.data_types.Data_typesPackage"
+       genModel = "model/UML14_migration.genmodel" /> 
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml14.foundation/core.ecore" 
+       class = "com.mia.uml14.foundation.core.CorePackage"
+       genModel = "model/UML14_migration.genmodel" /> 
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml14.behavioral_elements/common_behavior.ecore" 
+       class = "com.mia.uml14.behavioral_elements.common_behavior.Common_behaviorPackage"
+       genModel = "model/UML14_migration.genmodel" /> 
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml14.behavioral_elements/use_cases.ecore" 
+       class = "com.mia.uml14.behavioral_elements.use_cases.Use_casesPackage"
+       genModel = "model/UML14_migration.genmodel" /> 
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml14.behavioral_elements/state_machines.ecore" 
+       class = "com.mia.uml14.behavioral_elements.state_machines.State_machinesPackage"
+       genModel = "model/UML14_migration.genmodel" /> 
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml14.behavioral_elements/collaborations.ecore" 
+       class = "com.mia.uml14.behavioral_elements.collaborations.CollaborationsPackage"
+       genModel = "model/UML14_migration.genmodel" /> 
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml14.behavioral_elements/activity_graphs.ecore" 
+       class = "com.mia.uml14.behavioral_elements.activity_graphs.Activity_graphsPackage"
+       genModel = "model/UML14_migration.genmodel" /> 
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml14.model_management.ecore" 
+       class = "com.mia.uml14.model_management.Model_managementPackage"
+       genModel = "model/UML14_migration.genmodel" /> 
+  </extension>
+  <extension
+        id="UML14.XMI"
+        name="UML14.XMI"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML14.io.xmi.Uml14XmiExtensionPoint"
+           id="UML14.XMI"
+           isDefault="true"
+           kind="FILE"
+           name="UML 1.4 - XMI">
+        <fileExtension
+              description="XMI files (*.xmi)"
+              extension="xmi"
+              isDefault="true">
+        </fileExtension>
+        <fileExtension
+              description="XML files (*.xml)"
+              extension="xml"
+              isDefault="false">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        id="UML14.ROSE"
+        name="UML14.ROSE"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML14.io.rose.RoseExtensionPoint"
+           id="UML14.ROSE"
+           isDefault="false"
+           kind="FILE"
+           name="UML 1.4 - Rational Rose">
+        <fileExtension
+              description="Rose files (*.mdl)"
+              extension="mdl"
+              isDefault="true">
+        </fileExtension>
+        <fileExtension
+              description="Petals (*.ptl)"
+              extension="ptl"
+              isDefault="false">
+        </fileExtension>
+        <fileExtension
+              description="Categories (*.cat)"
+              extension="cat"
+              isDefault="false">
+        </fileExtension>
+        <fileExtension
+              description="Properties (*.pty)"
+              extension="pty"
+              isDefault="false">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        id="UML14.POSEIDON"
+        name="UML14.POSEIDON"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML14.io.poseidon.PoseidonExtensionPoint"
+           id="UML14.POSEIDON"
+           isDefault="false"
+           kind="FILE"
+           name="UML 1.4 - Poseidon">
+        <fileExtension
+              description="Poseidon 2.x projects (*.zuml)"
+              extension="zuml"
+              isDefault="true">
+        </fileExtension>
+        <fileExtension
+              description="Poseidon 1.x projects (*.zargo)"
+              extension="zargo"
+              isDefault="true">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        id="UML14.MAGICDRAW"
+        name="UML14.MAGICDRAW"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML14.io.magicdraw.in.MagicDrawExtensionPoint"
+           id="UML14.MAGICDRAW"
+           isDefault="false"
+           kind="FILE"
+           name="UML 1.4 - XMI MagicDraw">
+        <fileExtension
+              description="MagicDraw Models (*.xml)"
+              extension="xml"
+              isDefault="true">
+        </fileExtension>
+        <fileExtension
+              description="MagicDraw zip Models (*.xml.zip)"
+              extension="zip"
+              isDefault="false">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        id="UML14.TOGETHER"
+        name="UML14.TOGETHER"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML14.io.together.TogetherExtensionPoint"
+           id="UML14.TOGETHER"
+           isDefault="false"
+           kind="FILE"
+           name="UML 1.4 - XMI Together">
+        <fileExtension
+              description="XML files (*.xml)"
+              extension="xml"
+              isDefault="true">
+        </fileExtension>
+        <fileExtension
+              description="XMI files (*.xmi)"
+              extension="xmi"
+              isDefault="false">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        id="UML14.XDE"
+        name="UML14.XDE"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML14.io.xde.XdeExtensionPoint"
+           id="UML14.XDE"
+           isDefault="false"
+           kind="FILE"
+           name="UML 1.4 - XMI Rational XDE">
+        <fileExtension
+              description="XDE Models (*.xml)"
+              extension="xml"
+              isDefault="true">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        point="org.eclipse.pde.core.javadoc">
+     <javadoc
+           archive="false"
+           path="doc">
+        <plugin
+              id="UML14">
+        </plugin>
+     </javadoc>
+  </extension>
+  <extension
+        point="org.eclipse.emf.ecore.extension_parser">
+     <parser
+           class="metamodel.UML14.io.xmi.UML14ResourceFactory"
+           type="uml14">
+     </parser>
+  </extension>
+   <extension
+         point="com.mia.studio.common.metamodel_properties">
+         <!-- [4400] for metamodel compatibility with older releases -->
+      <metamodelId>
+         UML14
+      </metamodelId>
+      <properties>
+         <epackagesOrganization
+               keepEmptyRootEPackagesFromEcore="true">
+         </epackagesOrganization>
+      </properties>
+   </extension>
+</plugin>

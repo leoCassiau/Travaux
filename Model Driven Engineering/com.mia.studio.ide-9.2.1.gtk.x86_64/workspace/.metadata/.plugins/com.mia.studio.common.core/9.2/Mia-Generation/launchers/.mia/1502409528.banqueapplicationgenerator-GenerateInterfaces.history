@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <launcher name="banqueapplicationgenerator-GenerateInterfaces">
+    <source directory="file:/comptes/E115761C/Documents/Model%20Driven%20Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace">
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/controler/IBanqueControler.java"
+        status="new" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/view/IBanqueView.java"
+        status="new" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/controler/IClientControler.java"
+        status="new" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/view/IClientView.java"
+        status="new" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/controler/ICompteControler.java"
+        status="new" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/view/ICompteView.java"
+        status="new" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/controler/IOperationControler.java"
+        status="new" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/view/IOperationView.java"
+        status="new" fileEncoding="UTF-8"/>
+    </source>
+  </launcher>
+</history>

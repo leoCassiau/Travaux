@@ -1,0 +1,12 @@
+<!ELEMENT	scenario			(element)*>
+<!ATTLIST	scenario
+				name			CDATA 	#REQUIRED
+				count			CDATA 	#REQUIRED>
+				
+<!ELEMENT	parameter			EMPTY>
+<!ATTLIST	parameter
+				kind			CDATA 	#REQUIRED
+				modelID			CDATA 	#REQUIRED
+				modelFormat		CDATA 	#REQUIRED
+				modelFilename	CDATA	#REQUIRED>
+				

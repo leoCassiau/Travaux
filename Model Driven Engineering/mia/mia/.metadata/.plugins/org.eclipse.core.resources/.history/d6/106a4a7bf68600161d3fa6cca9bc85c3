@@ -1,0 +1,11 @@
+package com.mia.formation.generation.ui;
+
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.widgets.Button;
+
+public class BanqueView extends Shell {
+	private Button btnafficherClient;
+	private Button btnafficherCompte;
+	private Button btnquitter;
+
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.mia.studio.model.feature"
+      label="%featureName"
+      version="9.2.0.201609011445"
+      provider-name="Mia-Software"
+      plugin="com.mia.studio.model.branding">
+
+   <description url="www.mia-software.com">
+      %description
+   </description>
+
+   <copyright url="www.mia-software.com">
+      Licensed Material - Property of Mia-Software
+(C) Copyright Mia-Software 2015 - All Rights Reserved.
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.emf.ecore.xmi"/>
+      <import plugin="org.eclipse.emf.ecore" version="2.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import feature="org.eclipse.uml2" version="3.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="com.mia.studio.uml14.metamodel"
+         download-size="2251"
+         install-size="17872"
+         version="9.1.1.201609011445"/>
+
+   <plugin
+         id="com.mia.studio.uml1x.poseidon"
+         download-size="5"
+         install-size="9"
+         version="8.1.11.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.uml1x.rose"
+         download-size="221"
+         install-size="496"
+         version="9.0.3.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.uml14.umlmia.metamodel"
+         download-size="2122"
+         install-size="17347"
+         version="9.2.1.201609011445"/>
+
+   <plugin
+         id="com.mia.studio.uml2x.connectors"
+         download-size="15"
+         install-size="31"
+         version="8.1.11.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.uml13.metamodel"
+         download-size="2276"
+         install-size="18347"
+         version="9.1.1.201609011445"/>
+
+   <plugin
+         id="com.mia.studio.generation.discovery.metamodel"
+         download-size="132"
+         install-size="291"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.model.branding"
+         download-size="5"
+         install-size="5"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.uml2.moo2uml"
+         download-size="62"
+         install-size="132"
+         version="9.1.1.201609011445"
+         unpack="false"/>
+
+</feature>

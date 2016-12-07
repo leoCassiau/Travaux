@@ -1,0 +1,9 @@
+package com.mia.formation.generation.ui;
+
+import org.eclipse.swt.widgets.Shell;
+
+public class CompteView extends Shell {
+	private Button btnafficherOperation;
+	private Button btnquitter;
+
+}

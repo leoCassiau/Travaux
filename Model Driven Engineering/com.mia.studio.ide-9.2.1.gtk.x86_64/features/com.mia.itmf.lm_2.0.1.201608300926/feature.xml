@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.mia.itmf.lm"
+      label="%featureName"
+      version="2.0.1.201608300926"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <discovery label="Mia-Software web site" url="http://www.mia-software.com"/>
+   </url>
+
+   <plugin
+         id="com.mia.itmf.common.ui"
+         download-size="24"
+         install-size="42"
+         version="2.0.1.201608300926"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.itmf.lm.ui"
+         download-size="50"
+         install-size="84"
+         version="2.0.1.201608300926"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.itmf.lm.core"
+         download-size="59"
+         install-size="102"
+         version="2.0.1.201608300926"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.itmf.lm.core.win32.x86"
+         os="win32"
+         arch="x86"
+         download-size="741"
+         install-size="1712"
+         version="2.0.1.201608300926"
+         fragment="true"/>
+
+   <plugin
+         id="com.mia.itmf.lm.core.win32.x86_64"
+         os="win32"
+         arch="x86_64"
+         download-size="912"
+         install-size="2458"
+         version="2.0.1.201608300926"
+         fragment="true"/>
+
+</feature>

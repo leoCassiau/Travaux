@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2010 Mia-Software.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    http://www.eclipse.org/legal/epl-v10.html
+   
+    Contributors:
+       Nicolas Bros (Mia-Software) - initial API and implementation
+       Grégoire Dupé (Mia-Software) - Bug 471096 - MetaclassInstance features have to be moved to an EMF dedicated plug-in
+ -->
+<feature
+      id="org.eclipse.modisco.infrastructure.feature"
+      label="MoDisco Infrastructure (Incubation)"
+      version="1.0.0.201606010002-MIA"
+      provider-name="%providerName"
+      plugin="org.eclipse.gmt.modisco.infra.common.core">
+
+   <description url="http://www.eclipse.org/MoDisco/">
+      %description
+   </description>
+
+   <copyright>
+      Copyright (c) 2008 Mia-Software.
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.modisco.infra.browser.feature"
+         version="1.0.0.201606010002-MIA"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.common.core"
+         download-size="154"
+         install-size="341"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.tool.metricsvisualizationbuilder"
+         download-size="45"
+         install-size="149"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.browser"
+         download-size="343"
+         install-size="745"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.browser.custom"
+         download-size="72"
+         install-size="196"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.browser.custom.core"
+         download-size="18"
+         install-size="34"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.browser.custom.editor"
+         download-size="114"
+         install-size="248"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.browser.custom.ui"
+         download-size="32"
+         install-size="55"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.query"
+         download-size="62"
+         install-size="183"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.query.core"
+         download-size="86"
+         install-size="185"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.query.edit"
+         download-size="27"
+         install-size="49"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.query.editor"
+         download-size="71"
+         install-size="139"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.query.jxpath"
+         download-size="22"
+         install-size="39"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.query.ui"
+         download-size="108"
+         install-size="220"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.jxpath"
+         download-size="308"
+         install-size="642"
+         version="1.3.0.v200911051830"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.common.ui"
+         download-size="75"
+         install-size="136"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.facet"
+         download-size="50"
+         install-size="152"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.facet.core"
+         download-size="32"
+         install-size="63"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.facet.edit"
+         download-size="25"
+         install-size="47"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.facet.editor"
+         download-size="73"
+         install-size="147"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.facet.ui"
+         download-size="17"
+         install-size="27"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gmt.modisco.infra.browser.uicore"
+         download-size="139"
+         install-size="282"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.modisco.infra.discovery"
+         download-size="50"
+         install-size="113"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.modisco.infra.discovery.ui"
+         download-size="175"
+         install-size="365"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.modisco.workflow"
+         download-size="52"
+         install-size="116"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.modisco.workflow.core"
+         download-size="23"
+         install-size="43"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.modisco.workflow.ui"
+         download-size="66"
+         install-size="126"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.modisco.util.atl.core"
+         download-size="9"
+         install-size="15"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.modisco.infra.discovery.core"
+         download-size="44"
+         install-size="97"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.modisco.doc"
+         download-size="312"
+         install-size="379"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.modisco.infrastructure.doc"
+         download-size="2421"
+         install-size="2655"
+         version="1.0.0.201606010002-MIA"/>
+
+   <plugin
+         id="org.eclipse.modisco.util.emf.core"
+         download-size="16"
+         install-size="26"
+         version="1.0.0.201606010002-MIA"
+         unpack="false"/>
+
+</feature>

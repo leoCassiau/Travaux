@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PACKAGE SYSTEM "package.dtd">
+<PACKAGE NAME="InterfacesAndModelGenerator" METAMODEL="MVC" NUMBER="17"
+>
+	<fileHeader version="6" toolName="Mia-Generation" toolVersion="9.2.1"/>
+	<SCENARIO NAME="GenerateModel" VISIBILITY="public" META_OBJECT="Model" CATEGORY="default">
+		<SERVICE_CALL NAME="current" PACKAGE="System" META_OBJECT="Model"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="InterfacesAndModelGenerator" META_OBJECT="Model" CATEGORY="default" NAME="IModel" PARAM_COUNT="0"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="InterfacesAndModelGenerator" META_OBJECT="Model" CATEGORY="default" NAME="ModelImpl" PARAM_COUNT="0"/>
+	</SCENARIO>
+	<SCENARIO NAME="GenerateInterfaces" VISIBILITY="public" META_OBJECT="View" CATEGORY="default">
+		<SERVICE_CALL NAME="current" PACKAGE="System" META_OBJECT="View"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="InterfacesAndModelGenerator" META_OBJECT="View" CATEGORY="default" NAME="IControler" PARAM_COUNT="0"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="InterfacesAndModelGenerator" META_OBJECT="View" CATEGORY="default" NAME="IView" PARAM_COUNT="0"/>
+	</SCENARIO>
+	<SCRIPT NAME="fonctionControler" META_OBJECT="Action" CATEGORY="default">
+		<TEXT><![CDATA[
+	public void [[current.name]]() {
+		// Start of user code for [[current.name]]
+		// End of user code for [[current.name]]
+	}
+	
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="fonctionView" META_OBJECT="Action" CATEGORY="default">
+		<TEXT><![CDATA[
+	public void [[current.name]]() {
+		this.controler.[[current.name]]();
+	}
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="signature" META_OBJECT="Action" CATEGORY="default">
+		<TEXT><![CDATA[
+public void [[current.name]]();
+
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="GettersSetters" META_OBJECT="Model" CATEGORY="default">
+		<TEXT><![CDATA[
+private List<com.mia.banque.model.I[[current.name@¤] list[[current.name]];
+
+	public List<com.mia.banque.model.I[[current.name@¤] get[[current.name]]s() {
+		if (this.list[[current.name]] == null) {
+			this.list[[current.name]] = new ArrayList<com.mia.banque.model.I[[current.name@¤]();
+		}
+		return this.list[[current.name]];
+	}
+	
+	public void set[[current.name]]s(List<com.mia.banque.model.I[[current.name@¤] newValue) {
+		this.list[[current.name]] = newValue;
+	}
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="IGettersSetters" META_OBJECT="Model" CATEGORY="default">
+		<TEXT><![CDATA[
+	public List<[[interface@¤] get[[current.name]]s();
+	
+	public void set[[current.name]]s(List<[[interface@¤] newValue);
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="IModel" META_OBJECT="Model" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+package com.mia.banque.model;
+
+import java.util.List;
+
+public interface I[[name]] {
+
+[[properties.IGettersSetters]]
+[[ownedElements.IGettersSetters]]
+}
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="IModel$Filename" META_OBJECT="Model" CATEGORY="default">
+		<TEXT><![CDATA[
+com.mia.banque.application/src/com/mia/banque/model/I[[name]].java
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="ModelImpl" META_OBJECT="Model" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+package com.mia.banque.model.impl;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class [[name]] implements com.mia.banque.model.I[[name]] {
+
+[[properties.GettersSetters]]
+[[ownedElements.GettersSetters]]
+
+}
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="ModelImpl$Filename" META_OBJECT="Model" CATEGORY="default">
+		<TEXT><![CDATA[
+com.mia.banque.application/src/com/mia/banque/model/impl/[[name]].java
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="declareList" META_OBJECT="Model" CATEGORY="default">
+		<TEXT><![CDATA[
+	public List [[list]];
+]]></TEXT>
+	</SCRIPT>
+	<TEXT_MACRO NAME="interface" META_OBJECT="Model" CATEGORY="default" RETURN_TYPE_KIND="primitive" RETURN_TYPE_NAME="String">
+		<TEXT><![CDATA[
+return "I" + current.getName();
+]]></TEXT>
+	</TEXT_MACRO>
+	<SCRIPT NAME="GettersSetters" META_OBJECT="ModelProperty" CATEGORY="default">
+		<TEXT><![CDATA[
+	private String [[current.name]];
+
+	public String get[[current.name]]() {
+		return this.[[current.name]];
+	}
+	
+	public void set[[current.name]](String newValue) {
+		this.[[current.name]] = newValue;
+	}
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="IGettersSetters" META_OBJECT="ModelProperty" CATEGORY="default">
+		<TEXT><![CDATA[
+	public String get[[current.name]]();
+
+	public void set[[current.name]](String newValue);
+
+
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="IControler" META_OBJECT="View" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+package com.mia.banque.ui.controler;
+
+public interface I[[current.model.name]]Controler {
+	
+	public void initView();
+
+	[[actions.signature]]
+}
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="IControler$Filename" META_OBJECT="View" CATEGORY="default">
+		<TEXT><![CDATA[
+com.mia.banque.application/src/com/mia/banque/ui/controler/I[[model.name]]Controler.java
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="IView" META_OBJECT="View" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+package com.mia.banque.ui.view;
+
+public interface I[[name]] {
+	
+	[[actions.signature]]
+}
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="IView$Filename" META_OBJECT="View" CATEGORY="default">
+		<TEXT><![CDATA[
+com.mia.banque.application/src/com/mia/banque/ui/view/I[[name]].java
+]]></TEXT>
+	</SCRIPT>
+	<METAMODELS_INFO_CACHE>
+		<METAMODEL_IMPORT CLAUSE="com.mia.formation.mvc.*" RELATED_METAS="Action,Model,ModelProperty,UIApplication,View,NamedElement"/>
+		<METAMODEL_CONTAINER_QNAME CQNAME="mvc" RELATED_METAS="Action,Model,ModelProperty,UIApplication,View,NamedElement"/>
+	</METAMODELS_INFO_CACHE>
+</PACKAGE>

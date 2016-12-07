@@ -1,0 +1,102 @@
+
+
+#################################
+######### Experiments 1 #########
+#################################
+
+Solution without constraint :
+ 
+
+###### Memory Management #######
+machine-1: 2 (8)
+machine-2: 2 1 (16)
+machine-5: 2 2 (8)
+machine-7: 2 2 2 (16)
+machine-9: 4 1 2 (16)
+machine-8: 1 2 2 (16)
+machine-6: 2 1 2 (8)
+machine-0: 2 (16)
+machine-4: 4 (32)
+machine-3: 1 (8)
+Occupation rate: 30%
+
+######## Cpu Management ########
+machine-1: 2 (8)
+machine-2: 2 1 (8)
+machine-5: 2 1 (8)
+machine-7: 1 1 1 (16)
+machine-9: 1 1 1 (8)
+machine-8: 1 1 1 (8)
+machine-6: 1 1 1 (8)
+machine-0: 3 (8)
+machine-4: 3 (4)
+machine-3: 3 (4)
+Occupation rate: 41%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-1 (2/8,2/8)  : [vm16(2,2)]
+machine-2 (3/8,3/16)  : [vm4(2,2), vm0(1,1)]
+machine-5 (3/8,4/8)  : [vm1(2,2), vm2(1,2)]
+machine-7 (3/16,6/16)  : [vm14(1,2), vm13(1,2), vm3(1,2)]
+machine-9 (3/8,7/16)  : [vm15(1,4), vm12(1,1), vm5(1,2)]
+machine-8 (3/8,5/16)  : [vm17(1,1), vm11(1,2), vm7(1,2)]
+machine-6 (3/8,5/8)  : [vm18(1,2), vm10(1,1), vm8(1,2)]
+machine-0 (3/8,2/16)  : [vm6(3,2)]
+machine-4 (3/4,4/32)  : [vm9(3,4)]
+machine-3 (3/4,1/8)  : [vm19(3,1)]
+
+ Machine Energy :  - 162 - 168 - 168 - 159 - 168 - 168 - 168 - 168 - 187 - 187
+ Energy : 1703
+
+
+Welcome to the constraint world ...
+
+
+#################################
+######### Loops 1 ###############
+#################################
+
+###### Memory Management #######
+machine-3: 4 4 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 (8)
+machine-4: (32)
+machine-0: (16)
+machine-6: (8)
+machine-8: (16)
+machine-9: (16)
+machine-5: (8)
+machine-2: (16)
+machine-1: (8)
+machine-7: (16)
+Occupation rate: 48%
+
+######## Cpu Management ########
+machine-3: 3 1 3 2 2 2 1 1 1 1 1 1 1 1 1 3 1 1 1 1 (4)
+machine-4: (4)
+machine-0: (8)
+machine-6: (8)
+machine-8: (8)
+machine-9: (8)
+machine-5: (8)
+machine-2: (8)
+machine-1: (8)
+machine-7: (16)
+Occupation rate: 72%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-3 (29/4,39/8)  : [vm9(3,4), vm15(1,4), vm6(3,2), vm16(2,2), vm4(2,2), vm1(2,2), vm18(1,2), vm14(1,2), vm13(1,2), vm11(1,2), vm8(1,2), vm7(1,2), vm5(1,2), vm3(1,2), vm2(1,2), vm19(3,1), vm17(1,1), vm12(1,1), vm10(1,1), vm0(1,1)]
+machine-4 (0/4,0/32)  : []
+machine-0 (0/8,0/16)  : []
+machine-6 (0/8,0/8)  : []
+machine-8 (0/8,0/16)  : []
+machine-9 (0/8,0/16)  : []
+machine-5 (0/8,0/8)  : []
+machine-2 (0/8,0/16)  : []
+machine-1 (0/8,0/8)  : []
+machine-7 (0/16,0/16)  : []
+
+ Machine Energy :  - 0 - 0 - 200 - 200 - 200 - 200 - 200 - 200 - 200 - 200
+ Energy : 1600
+
+Computation time: 219
+Solving times: [219]
+Mean: 219

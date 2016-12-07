@@ -1,0 +1,30 @@
+package com.mia.formation.generation.ui;
+
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.widgets.Button;
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt;
+
+public class BanqueView extends Shell {
+		private Button btnafficherClient;
+	private Button btnafficherCompte;
+	private Button btnquitter;
+
+
+	/**
+	 * Create the shell.
+	 * @param display
+	 */
+	public BanqueView(Display display) {
+		super(display, SWT.SHELL_TRIM);
+		createContents();
+	}
+	
+	/**
+	 * Create contents of the shell.
+	 */
+	protected void createContents() {
+		setText("BanqueView");
+		setSize(450, 300);
+	}
+}

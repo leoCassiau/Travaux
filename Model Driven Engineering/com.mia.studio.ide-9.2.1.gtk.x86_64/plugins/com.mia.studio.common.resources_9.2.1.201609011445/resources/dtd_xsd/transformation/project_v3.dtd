@@ -1,0 +1,12 @@
+<!ELEMENT	project			(element)*>
+<!ATTLIST	project
+				name			CDATA 	#REQUIRED
+				documentation	CDATA	#REQUIRED
+				count			CDATA 	#IMPLIED
+				version			CDATA	#REQUIRED>
+				
+<!ELEMENT	element			EMPTY>
+<!ATTLIST	element
+				kind			CDATA 	#REQUIRED
+				filename		CDATA	#REQUIRED>
+				

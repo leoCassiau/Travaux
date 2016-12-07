@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:UIApplication xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ui="http://ui/1.0">
+  <pages name="BanqueView" description="Caisse d'épargne">
+    <actions name="afficherClient" nextPage="//@pages.1"/>
+    <actions name="afficherCompte" nextPage="//@pages.2"/>
+    <actions name="quitter"/>
+  </pages>
+  <pages name="ClientView" description="Vue du client">
+    <actions name="afficherCompte" nextPage="//@pages.2"/>
+    <actions name="quitter"/>
+  </pages>
+  <pages name="CompteView" description="Vue du compte">
+    <actions name="afficherOperation" nextPage="//@pages.3"/>
+    <actions name="quitter"/>
+  </pages>
+  <pages name="OperationView" description="Vue des opérations">
+    <actions name="quitter"/>
+  </pages>
+</ui:UIApplication>

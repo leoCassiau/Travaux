@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PACKAGE SYSTEM "package.dtd">
+<PACKAGE NAME="SWTImplGenerator" METAMODEL="MVC" NUMBER="2"
+>
+	<fileHeader version="6" toolName="Mia-Generation" toolVersion="9.2.1"/>
+	<SCENARIO NAME="GenerateImpl" VISIBILITY="public" META_OBJECT="Model" CATEGORY="default">
+		<SERVICE_CALL NAME="current" PACKAGE="System" META_OBJECT="Model"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="InterfacesAndModelGenerator" META_OBJECT="Model" CATEGORY="default" NAME="Interfaces" PARAM_COUNT="0"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="InterfacesAndModelGenerator" META_OBJECT="Model" CATEGORY="default" NAME="Impl" PARAM_COUNT="0"/>
+	</SCENARIO>
+	<SCRIPT NAME="Controler" META_OBJECT="Model" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+package com.mia.banque.ui.controler.swt;
+
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.events.SelectionAdapter;
+import org.eclipse.swt.events.SelectionEvent;
+import org.eclipse.swt.layout.GridData;
+import org.eclipse.swt.layout.GridLayout;
+import org.eclipse.swt.widgets.Button;
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Label;
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.widgets.Text;
+import org.eclipse.swt.widgets.List;
+import org.eclipse.swt.widgets.Group;
+
+import com.mia.banque.ui.controler.I[[model.name]]Controler;
+import com.mia.banque.ui.view.I[[name]];
+import com.mia.banque.ui.view.swt.[[name]];
+import com.mia.banque.model.I[[model.name]];
+
+public class [[model.name]]Controler implements I[[model.name]]Controler {
+
+	private [[name]] view;
+	private I[[model.name]] model;
+
+	public [[model.name]]Controler(com.mia.banque.model.I[[model.name]] model) {
+		this.model = model;
+	}
+	
+	public void initView() {
+		Display display = Display.getDefault();
+		
+		
+		this.view = new [[model.name]]View(display, this.model, this);
+		this.view.open();
+		this.view.layout();
+		
+		while (!this.view.isDisposed()) {
+			if (!display.readAndDispatch()) {
+				display.sleep();
+			}
+		}
+
+	}
+	
+[[actions.fonctions]]
+}
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="Controler$Filename" META_OBJECT="Model" CATEGORY="default">
+		<TEXT><![CDATA[
+com.mia.banque.application/src/com/mia/banque/ui/controler/swt/[[model.name]]Controler.java
+]]></TEXT>
+	</SCRIPT>
+	<METAMODELS_INFO_CACHE>
+		<METAMODEL_IMPORT CLAUSE="com.mia.formation.mvc.*" RELATED_METAS="Action,Model,ModelProperty,UIApplication,View,NamedElement"/>
+		<METAMODEL_CONTAINER_QNAME CQNAME="mvc" RELATED_METAS="Action,Model,ModelProperty,UIApplication,View,NamedElement"/>
+	</METAMODELS_INFO_CACHE>
+</PACKAGE>

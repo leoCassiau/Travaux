@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Export-Package: com.mia.uml13.behavioralelements.activitygraphs,com.mi
+ a.uml13.behavioralelements.activitygraphs.impl,com.mia.uml13.behavior
+ alelements.activitygraphs.util,com.mia.uml13.behavioralelements.colla
+ borations,com.mia.uml13.behavioralelements.collaborations.impl,com.mi
+ a.uml13.behavioralelements.collaborations.util,com.mia.uml13.behavior
+ alelements.commonbehavior,com.mia.uml13.behavioralelements.commonbeha
+ vior.impl,com.mia.uml13.behavioralelements.commonbehavior.util,com.mi
+ a.uml13.behavioralelements.statemachines,com.mia.uml13.behavioralelem
+ ents.statemachines.impl,com.mia.uml13.behavioralelements.statemachine
+ s.util,com.mia.uml13.behavioralelements.usecases,com.mia.uml13.behavi
+ oralelements.usecases.impl,com.mia.uml13.behavioralelements.usecases.
+ util,com.mia.uml13.diagramming,com.mia.uml13.diagramming.impl,com.mia
+ .uml13.diagramming.util,com.mia.uml13.foundation.core,com.mia.uml13.f
+ oundation.core.impl,com.mia.uml13.foundation.core.util,com.mia.uml13.
+ foundation.datatypes,com.mia.uml13.foundation.datatypes.impl,com.mia.
+ uml13.foundation.datatypes.util,com.mia.uml13.foundation.extensionmec
+ hanisms,com.mia.uml13.foundation.extensionmechanisms.impl,com.mia.uml
+ 13.foundation.extensionmechanisms.util,com.mia.uml13.modelmanagement,
+ com.mia.uml13.modelmanagement.impl,com.mia.uml13.modelmanagement.util
+ ,metamodel.UML13.io.enterprisearchitect,metamodel.UML13.io.poseidon,m
+ etamodel.UML13.io.rose,metamodel.UML13.io.staruml,metamodel.UML13.io.
+ xmi,metamodel.UML13.model;x-friends:=UML14
+Bundle-ClassPath: uml13.jar
+Built-By: jslave
+Eclipse-BundleShape: dir
+Bundle-Name: Meta model UML 1.3
+Bundle-Localization: plugin
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.6.0",org.ec
+ lipse.emf.ecore;bundle-version="2.6.0";visibility:=reexport,com.mia.s
+ tudio.uml1x.poseidon;bundle-version="8.1.0",com.mia.studio.uml1x.rose
+ ;bundle-version="8.1.0",com.mia.studio.common;bundle-version="7.3.0",
+ com.mia.studio.common.resources;bundle-version="7.3.0",com.mia.studio
+ .kernel;bundle-version="7.3.0"
+Bundle-Vendor: Mia-Software
+Eclipse-LazyStart: false
+Bundle-Version: 9.1.1.201609011445
+Build-Jdk: 1.6.0_45
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.mia.studio.uml13.metamodel;singleton:=true
+Archiver-Version: Plexus Archiver
+

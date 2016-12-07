@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:m2="http://maven.apache.org/POM/4.0.0"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+   <parent>
+      <groupId>com.mia.studio</groupId>
+      <artifactId>plugins</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+   </parent>
+   <groupId>com.mia.studio</groupId>
+   <artifactId>com.mia.studio.feature</artifactId>
+   <version>9.2.1-SNAPSHOT</version>
+   <packaging>eclipse-feature</packaging>
+   <properties/>
+   <build>
+      <plugins/>
+   </build>
+</project>

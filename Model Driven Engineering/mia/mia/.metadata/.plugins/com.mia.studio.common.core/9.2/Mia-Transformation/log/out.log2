@@ -1,0 +1,8 @@
+[Transformation License information] 30/09/16 11:55 Previous used configuration : Architect Enterprise.
+Connecting to license manager...
+[Transformation License information] 30/09/16 11:55 Connected to license manager : BLM
+[Transformation License information] 30/09/16 11:55 Testing availability for feature named "MIA_TRANS_ARCHITECT" : available
+[Transformation License information] 30/09/16 11:55 Retrieving licenses information from : /media/D1/MIA/Installateurs/Mia-Studio9.2.1/packages/com.mia.studio.ide-9.2.1.gtk.x86_64/licenses/license.dat
+[Transformation License information] 30/09/16 11:55 Obtained feature : MIA_TRANS_ARCHITECT
+[Transformation License information] 30/09/16 11:55 Feature provided by : /media/D1/MIA/Installateurs/Mia-Studio9.2.1/packages/com.mia.studio.ide-9.2.1.gtk.x86_64/licenses/license.dat
+[Transformation License information] 30/09/16 11:55 Current configuration : ARCHITECT ENTERPRISE

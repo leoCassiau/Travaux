@@ -1,0 +1,21 @@
+<!ELEMENT	profile	(fileHeader?, profileElement*)>
+<!ATTLIST	profile
+				name			CDATA	#REQUIRED
+				documentation	CDATA	#IMPLIED
+				>
+
+				
+<!ELEMENT fileHeader	EMPTY>
+<!ATTLIST fileHeader	
+				version				CDATA	#REQUIRED
+				date				CDATA	#IMPLIED
+				timestamp			CDATA	#IMPLIED
+				toolName			CDATA	#IMPLIED
+				toolVersion			CDATA	#IMPLIED
+				>
+<!ELEMENT	profileElement	EMPTY>
+<!ATTLIST	profileElement
+				meta		CDATA	#REQUIRED
+				name		CDATA	#REQUIRED
+				parent		CDATA	#IMPLIED
+				>

@@ -1,0 +1,9 @@
+[Generation License information] 07/10/16 10:11 Previous used configuration : Architect Enterprise.
+Connecting to license manager...
+[Generation License information] 07/10/16 10:11 Connected to license manager : BLM
+[Generation License information] 07/10/16 10:11 Testing availability for feature named "MIA_GEN_ARCHITECT" : available
+[Generation License information] 07/10/16 10:11 Retrieving licenses information from : /media/D1/MIA/Installateurs/Mia-Studio9.2.1/packages/com.mia.studio.ide-9.2.1.gtk.x86_64/licenses/license.dat
+[Generation License information] 07/10/16 10:11 Obtained feature : MIA_GEN_ARCHITECT
+[Generation License information] 07/10/16 10:11 Feature provided by : /media/D1/MIA/Installateurs/Mia-Studio9.2.1/packages/com.mia.studio.ide-9.2.1.gtk.x86_64/licenses/license.dat
+[Generation License information] 07/10/16 10:11 Current configuration : ARCHITECT ENTERPRISE
+[Mia-Studio Log information] Log messages will be archived into /comptes/E104667T/mia/.metadata/.plugins/com.mia.studio.common.core/9.2/Mia-Generation/log

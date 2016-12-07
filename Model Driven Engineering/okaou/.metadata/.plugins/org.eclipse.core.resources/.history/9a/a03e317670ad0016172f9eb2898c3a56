@@ -1,0 +1,13 @@
+package model;
+
+import java.util.List;
+
+public interface IClient {
+	Nom getNom();
+
+setNom(Nom newValue);Prenom getPrenom();
+
+setPrenom(Prenom newValue);Adresse getAdresse();
+
+setAdresse(Adresse newValue);
+}

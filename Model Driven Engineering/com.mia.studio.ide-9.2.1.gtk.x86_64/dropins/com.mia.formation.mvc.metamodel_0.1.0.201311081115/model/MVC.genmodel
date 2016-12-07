@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/com.mia.formation.mvc.metamodel/src" modelPluginID="com.mia.formation.mvc.metamodel"
+    modelName="MVC" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="7.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>MVC.ecore</foreignModel>
+  <genPackages prefix="Mvc" basePackage="com.mia.formation" disposableProviderFactory="true"
+      ecorePackage="MVC.ecore#/">
+    <genClasses ecoreClass="MVC.ecore#//UIApplication">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MVC.ecore#//UIApplication/pages"/>
+    </genClasses>
+    <genClasses ecoreClass="MVC.ecore#//View">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MVC.ecore#//View/actions"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MVC.ecore#//View/description"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference MVC.ecore#//View/model"/>
+    </genClasses>
+    <genClasses ecoreClass="MVC.ecore#//NamedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MVC.ecore#//NamedElement/name"/>
+    </genClasses>
+    <genClasses ecoreClass="MVC.ecore#//Action">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference MVC.ecore#//Action/nextPage"/>
+    </genClasses>
+    <genClasses ecoreClass="MVC.ecore#//Model">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MVC.ecore#//Model/properties"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MVC.ecore#//Model/ownedElements"/>
+    </genClasses>
+    <genClasses ecoreClass="MVC.ecore#//ModelProperty">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference MVC.ecore#//ModelProperty/model"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

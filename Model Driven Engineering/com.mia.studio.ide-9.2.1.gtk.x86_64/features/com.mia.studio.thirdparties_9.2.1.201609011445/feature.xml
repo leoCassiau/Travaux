@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.mia.studio.thirdparties"
+      label="%featureName"
+      version="9.2.1.201609011445"
+      provider-name="Mia-Software"
+      plugin="com.mia.studio.thirdparties.branding">
+
+   <description url="www.mia-software.com">
+      %description
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Licensed Material - Property of Mia-Software
+(C) Copyright Mia-Software 2015 - All Rights Reserved.
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.emf.facet.sdk.feature"
+         version="1.1.0.201605302148-MIA"/>
+
+   <includes
+         id="org.eclipse.modisco.infrastructure.feature"
+         version="1.0.0.201606010002-MIA"/>
+
+   <includes
+         id="org.eclipse.modisco.infra.omg.feature"
+         version="1.0.0.201606010002-MIA"/>
+
+   <includes
+         id="org.eclipse.emf.facet.sdk.source"
+         version="1.1.0.201605302148-MIA"/>
+
+   <includes
+         id="org.eclipse.modisco.infra.omg.source"
+         version="1.0.0.201606010002-MIA"/>
+
+   <includes
+         id="org.eclipse.modisco.infrastructure.source"
+         version="1.0.0.201606010002-MIA"/>
+
+   <includes
+         id="com.mia.itmf.lm"
+         version="2.0.1.201608300926"/>
+
+   <includes
+         id="org.eclipse.modisco.xml.feature"
+         version="1.0.0.201606010002-MIA"/>
+
+   <includes
+         id="com.mia.itmf.modelmanager"
+         version="2.0.1.201608300926"/>
+
+   <plugin
+         id="com.mia.itmf.common.ui"
+         download-size="24"
+         install-size="42"
+         version="2.0.1.201608300926"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.thirdparties.branding"
+         download-size="5"
+         install-size="5"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.itmf.util.swt.ui"
+         download-size="51"
+         install-size="90"
+         version="2.0.1.201608300926"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.itmf.util.jface.ui"
+         download-size="42"
+         install-size="82"
+         version="2.0.1.201608300926"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.itmf.util.eclipse.ui"
+         download-size="26"
+         install-size="45"
+         version="2.0.1.201608300926"
+         unpack="false"/>
+
+</feature>

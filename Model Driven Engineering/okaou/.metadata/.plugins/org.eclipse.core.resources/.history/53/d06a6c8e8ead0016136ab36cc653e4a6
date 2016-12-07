@@ -1,0 +1,30 @@
+package com.mia.banque.model.impl;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class Compte implements com.mia.banquemodel.ICompte {
+
+	private String Numero;
+
+	public String getNumero() {
+		return this.Numero;
+	}
+	
+	public void setNumero(String newValue) {
+		this.Numero = newValue;
+	}
+private List<model.IOperation> listOperation;
+
+	public List<model.IOperation> getOperations() {
+		if (this.listOperation == null) {
+			this.listOperation = new ArrayList<model.IOperation>();
+		}
+		return this.listOperation;
+	}
+	
+	public void setOperations(List<model.IOperation> newValue) {
+		this.listOperation = newValue;
+	}
+
+}

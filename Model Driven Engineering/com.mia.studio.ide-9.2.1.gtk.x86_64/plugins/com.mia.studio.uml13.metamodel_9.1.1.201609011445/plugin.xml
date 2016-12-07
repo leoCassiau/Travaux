@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ Copyright :
+ This is a property of Mia-Software company.
+ See website for more informations : www.mia-software.com
+
+ $Id: plugin.xml,v 1.5 2009-12-01 08:33:36 fgiquel Exp $
+-->
+
+<plugin>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml13.foundation/core.ecore" 
+       class = "com.mia.uml13.foundation.core.CorePackage"
+       genModel = "model/UML13.genmodel" /> 
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml13.foundation/datatypes.ecore" 
+       class = "com.mia.uml13.foundation.datatypes.DatatypesPackage"
+       genModel = "model/UML13.genmodel" /> 
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml13.foundation/extensionmechanisms.ecore" 
+       class = "com.mia.uml13.foundation.extensionmechanisms.ExtensionmechanismsPackage"
+       genModel = "model/UML13.genmodel" /> 
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml13.behavioralelements/usecases.ecore" 
+       class = "com.mia.uml13.behavioralelements.usecases.UsecasesPackage"
+       genModel = "model/UML13.genmodel" /> 
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml13.behavioralelements/statemachines.ecore" 
+       class = "com.mia.uml13.behavioralelements.statemachines.StatemachinesPackage"
+       genModel = "model/UML13.genmodel" /> 
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml13.behavioralelements/collaborations.ecore" 
+       class = "com.mia.uml13.behavioralelements.collaborations.CollaborationsPackage"
+       genModel = "model/UML13.genmodel" /> 
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml13.behavioralelements/commonbehavior.ecore" 
+       class = "com.mia.uml13.behavioralelements.commonbehavior.CommonbehaviorPackage"
+       genModel = "model/UML13.genmodel" /> 
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml13.behavioralelements/activitygraphs.ecore" 
+       class = "com.mia.uml13.behavioralelements.activitygraphs.ActivitygraphsPackage"
+       genModel = "model/UML13.genmodel" /> 
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml13.modelmanagement.ecore" 
+       class = "com.mia.uml13.modelmanagement.ModelmanagementPackage"
+       genModel = "model/UML13.genmodel" /> 
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///uml13.diagramming.ecore" 
+       class = "com.mia.uml13.diagramming.DiagrammingPackage"
+       genModel = "model/UML13.genmodel" /> 
+  </extension>
+  <extension
+        id="UML13.XMI"
+        name="UML13.XMI"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML13.io.xmi.Uml13XmiExtensionPoint"
+           id="UML13.XMI"
+           isDefault="true"
+           kind="FILE"
+           name="UML 1.3 - XMI">
+        <fileExtension
+              description="XMI files (*.xmi)"
+              extension="xmi"
+              isDefault="true">
+        </fileExtension>
+        <fileExtension
+              description="XML files (*.xml)"
+              extension="xml"
+              isDefault="true">
+        </fileExtension>
+     </parser>
+  </extension>
+    <extension
+        id="UML13.XMI10"
+        name="UML13.XMI10"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML13.io.xmi.xmi10.Uml13XmiExtensionPoint"
+           id="UML13.XMI10"
+           isDefault="false"
+           kind="FILE"
+           name="UML 1.3 - XMI 1.0">
+        <fileExtension
+              description="XMI files (*.xmi)"
+              extension="xmi"
+              isDefault="true">
+        </fileExtension>
+        <fileExtension
+              description="XML files (*.xml)"
+              extension="xml"
+              isDefault="true">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        id="UML13.ROSE"
+        name="UML13.ROSE"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML13.io.rose.RoseExtensionPoint"
+           id="UML13.ROSE"
+           isDefault="false"
+           kind="FILE"
+           name="UML 1.3 - Rational Rose">
+        <fileExtension
+              description="Models (*.mdl)"
+              extension="mdl"
+              isDefault="true">
+        </fileExtension>
+        <fileExtension
+              description="Petals (*.ptl)"
+              extension="ptl"
+              isDefault="false">
+        </fileExtension>
+        <fileExtension
+              description="Categories (*.cat)"
+              extension="cat"
+              isDefault="false">
+        </fileExtension>
+        <fileExtension
+              description="Properties (*.pty)"
+              extension="pty"
+              isDefault="false">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        id="UML13.POSEIDON"
+        name="UML13.POSEIDON"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML13.io.poseidon.PoseidonExtensionPoint"
+           id="UML13.POSEIDON"
+           isDefault="false"
+           kind="FILE"
+           name="UML 1.3 - Poseidon/ArgoUML">
+        <fileExtension
+              description="Poseidon 1.x projects (*.zargo)"
+              extension="zargo"
+              isDefault="true">
+        </fileExtension>
+        <fileExtension
+              description="ArgoUML projects (*.argo)"
+              extension="argo"
+              isDefault="true">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        id="UML13.EA"
+        name="UML13.EA"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML13.io.enterprisearchitect.EnterpriseArchitectExtensionPoint"
+           id="UML13.EA"
+           isDefault="false"
+           kind="FILE"
+           name="UML 1.3 - Enterprise Architect">
+        <fileExtension
+              description="XMI files (*.xmi)"
+              extension="xmi"
+              isDefault="true">
+        </fileExtension>
+        <fileExtension
+              description="XML files (*.xml)"
+              extension="xml"
+              isDefault="false">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        id="UML13.STARUMLXMI"
+        name="UML13.STARUMLXMI"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML13.io.staruml.StarUmlExtensionPoint"
+           id="UML13.STARUMLXMI"
+           isDefault="false"
+           kind="FILE"
+           name="UML 1.3 - StarUML XMI">
+        <fileExtension
+              description="XMI files (*.xmi)"
+              extension="xmi"
+              isDefault="true">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        point="org.eclipse.pde.core.javadoc">
+     <javadoc
+           archive="false"
+           path="UML13">
+        <plugin
+              id="doc">
+        </plugin>
+     </javadoc>
+  </extension>
+  <extension
+        point="org.eclipse.emf.ecore.extension_parser">
+     <parser
+           class="metamodel.UML13.io.xmi.UML13ResourceFactory"
+           type="uml13">
+     </parser>
+  </extension>
+   <extension
+         point="com.mia.studio.common.metamodel_properties">
+         <!-- [4400] for metamodel compatibility with older releases -->
+      <metamodelId>
+         UML13
+      </metamodelId>
+      <properties>
+         <epackagesOrganization
+               keepEmptyRootEPackagesFromEcore="true">
+         </epackagesOrganization>
+      </properties>
+   </extension>
+</plugin>

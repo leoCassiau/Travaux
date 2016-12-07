@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+repositories/http\:__download.eclipse.org_modeling_mdt_modisco_updates_release/count=1
+repositories/http\:__download.eclipse.org_modeling_mdt_modisco_updates_release/enabled=true
+repositories/http\:__download.eclipse.org_modeling_mdt_modisco_updates_release/isSystem=false
+repositories/http\:__download.eclipse.org_modeling_mdt_modisco_updates_release/nickname=Modisco
+repositories/http\:__download.eclipse.org_modeling_mdt_modisco_updates_release/uri=http\://download.eclipse.org/modeling/mdt/modisco/updates/release/
+repositories/http\:__download.eclipse.org_releases_mars/count=1
+repositories/http\:__download.eclipse.org_releases_mars/enabled=true
+repositories/http\:__download.eclipse.org_releases_mars/isSystem=false
+repositories/http\:__download.eclipse.org_releases_mars/nickname=Mars
+repositories/http\:__download.eclipse.org_releases_mars/uri=http\://download.eclipse.org/releases/mars/

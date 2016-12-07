@@ -1,0 +1,203 @@
+﻿<component_checksums>
+<base>
+<symbol name="NAME" value="Systeme" />
+<symbol name="TYPE" value="0" />
+<symbol name="PARAM" />
+<symbol name="CONSTRAINTS" />
+<symbol name="SEES" />
+<symbol name="INCLUDES" />
+<symbol name="IMPORTS" />
+<symbol name="PROMOTES" />
+<symbol name="EXTENDS" />
+<symbol name="USES" />
+<symbol name="SETS" value="bebc2e426955b0fcaffb8fd22421dc25" />
+<symbol name="CONCRETE_VAR" />
+<symbol name="ABSTRACT_VAR" value="889211e3a5aa9de877f295455d26d48d" />
+<symbol name="CONCRETE_CONST" />
+<symbol name="ABSTRACT_CONST" />
+<symbol name="PROPERTIES" />
+<symbol name="INVARIANT" value="3c123dc3f0d7ff6973b63c9d02cc6db6" />
+<symbol name="VARIANT" />
+<symbol name="ASSERTIONS" />
+<symbol name="VALUES" />
+<operations>
+<operation>
+<symbol name="NAME" value="INITIALISATION" />
+<symbol name="COMPONENT" value="Systeme" />
+<symbol name="PRECONDITION" />
+<symbol name="BODY" value="e09fbe291dfdd11f2539029de148a96b" />
+<called>
+</called>
+<refined>
+</refined>
+</operation>
+
+<operation>
+<symbol name="NAME" value="ajouterService" />
+<symbol name="COMPONENT" value="Systeme" />
+<symbol name="PRECONDITION" value="d4fe8c4ee78e603697c4b0d86a72746d" />
+<symbol name="BODY" value="81b76bc3ee060f1302bca87329d0568a" />
+<called>
+</called>
+<refined>
+</refined>
+</operation>
+
+<operation>
+<symbol name="NAME" value="souscrire" />
+<symbol name="COMPONENT" value="Systeme" />
+<symbol name="PRECONDITION" value="4e178c69a6fd284e7f232c85045646e7" />
+<symbol name="BODY" value="180141270e24b1695eb85a111ecc9cd6" />
+<called>
+</called>
+<refined>
+</refined>
+</operation>
+
+<operation>
+<symbol name="NAME" value="suspendre" />
+<symbol name="COMPONENT" value="Systeme" />
+<symbol name="PRECONDITION" value="149f41702412e1644bd0f08db78ca346" />
+<symbol name="BODY" value="cb06ee1e7beec2b8dfc0070f2ac46418" />
+<called>
+</called>
+<refined>
+</refined>
+</operation>
+
+<operation>
+<symbol name="NAME" value="activerService" />
+<symbol name="COMPONENT" value="Systeme" />
+<symbol name="PRECONDITION" value="cdd354e57d137a08c9bb3839875175e3" />
+<symbol name="BODY" value="94e4b9285859938a9ba5dfb47b08d56b" />
+<called>
+</called>
+<refined>
+</refined>
+</operation>
+
+<operation>
+<symbol name="NAME" value="interrompreService" />
+<symbol name="COMPONENT" value="Systeme" />
+<symbol name="PRECONDITION" value="86f8f7e4e346f8dc25638641bf47bde7" />
+<symbol name="BODY" value="1532f74bb82892abacfe5a93f305a4b1" />
+<called>
+</called>
+<refined>
+</refined>
+</operation>
+
+<operation>
+<symbol name="NAME" value="ajouterProcessus" />
+<symbol name="COMPONENT" value="Systeme" />
+<symbol name="PRECONDITION" value="3a00d43b778068da59069db900e45ace" />
+<symbol name="BODY" value="983d2db3c85cf0cdc4afe28bcc0ac00b" />
+<called>
+</called>
+<refined>
+</refined>
+</operation>
+
+<operation>
+<symbol name="NAME" value="supprimerProcessus" />
+<symbol name="COMPONENT" value="Systeme" />
+<symbol name="PRECONDITION" value="c3d7fb8998c2e8bd4098a3f7d0f5af95" />
+<symbol name="BODY" value="5885c0f1a85fd5235d7406784da3c8be" />
+<called>
+</called>
+<refined>
+</refined>
+</operation>
+
+<operation>
+<symbol name="NAME" value="modifierProfil" />
+<symbol name="COMPONENT" value="Systeme" />
+<symbol name="PRECONDITION" value="22390a4ae5c2514230a7038f4145c680" />
+<symbol name="BODY" value="fcbbc7b887079b8ac4cd03d30a9533e4" />
+<called>
+</called>
+<refined>
+</refined>
+</operation>
+
+<operation>
+<symbol name="NAME" value="estActif" />
+<symbol name="COMPONENT" value="Systeme" />
+<symbol name="PRECONDITION" value="a6652bc2fd6d65bc64f980b8ac8a52fc" />
+<symbol name="BODY" value="4c9b46df6c25ebc3f3727778bda0303b" />
+<called>
+</called>
+<refined>
+</refined>
+</operation>
+
+<operation>
+<symbol name="NAME" value="mettreExclusifService" />
+<symbol name="COMPONENT" value="Systeme" />
+<symbol name="PRECONDITION" value="2223f1715721167fff6f069bf2cb8b30" />
+<symbol name="BODY" value="8d586800f53860377e7bf89e530c4682" />
+<called>
+</called>
+<refined>
+</refined>
+</operation>
+
+<operation>
+<symbol name="NAME" value="mettreNonExclusifService" />
+<symbol name="COMPONENT" value="Systeme" />
+<symbol name="PRECONDITION" value="2223f1715721167fff6f069bf2cb8b30" />
+<symbol name="BODY" value="7c233fdd62e04f533989cf451c066d8a" />
+<called>
+</called>
+<refined>
+</refined>
+</operation>
+
+<operation>
+<symbol name="NAME" value="mettreContraint" />
+<symbol name="COMPONENT" value="Systeme" />
+<symbol name="PRECONDITION" value="2223f1715721167fff6f069bf2cb8b30" />
+<symbol name="BODY" value="5ebc70a722910422e603579c622346c8" />
+<called>
+</called>
+<refined>
+</refined>
+</operation>
+
+<operation>
+<symbol name="NAME" value="mettreNonContraint" />
+<symbol name="COMPONENT" value="Systeme" />
+<symbol name="PRECONDITION" value="2223f1715721167fff6f069bf2cb8b30" />
+<symbol name="BODY" value="d5234c5ea770b2c9d4f8bad7ca2f7775" />
+<called>
+</called>
+<refined>
+</refined>
+</operation>
+
+<operation>
+<symbol name="NAME" value="supprimerProfilAutorise" />
+<symbol name="COMPONENT" value="Systeme" />
+<symbol name="PRECONDITION" value="7c1c504f6d4a245470ca2ef9b8cc62c1" />
+<symbol name="BODY" value="7efe0f48f6d1a7a0a650fb1feaf5d37f" />
+<called>
+</called>
+<refined>
+</refined>
+</operation>
+
+</operations>
+</base>
+<seen>
+</seen>
+<used>
+</used>
+<included>
+</included>
+<imported>
+</imported>
+<extended>
+</extended>
+<refined>
+</refined>
+</component_checksums>

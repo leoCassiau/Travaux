@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.eef.sdk.feature"
+      label="%featureName"
+      version="1.7.2.201610191444"
+      provider-name="%featureProvider">
+
+   <description url="%descriptionUrl">
+      %description
+   </description>
+
+   <copyright url="%copyrightUrl">
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.eef"
+         download-size="207"
+         install-size="642"
+         version="1.7.2.201610191444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.eef.edit"
+         download-size="145"
+         install-size="321"
+         version="1.7.2.201610191444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.eef.core"
+         download-size="86"
+         install-size="175"
+         version="1.7.2.201610191444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.eef.documentation"
+         download-size="761"
+         install-size="913"
+         version="1.7.2.201610191444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.eef.ide"
+         download-size="20"
+         install-size="34"
+         version="1.7.2.201610191444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.eef.ide.ui"
+         download-size="151"
+         install-size="318"
+         version="1.7.2.201610191444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.eef.properties.ui"
+         download-size="96"
+         install-size="199"
+         version="2.0.0.201610191444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.eef.properties.ui.legacy"
+         download-size="59"
+         install-size="120"
+         version="1.7.2.201610191444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.eef.common"
+         download-size="22"
+         install-size="33"
+         version="1.7.2.201610191444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.eef.common.ui"
+         download-size="13"
+         install-size="21"
+         version="1.7.2.201610191444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.eef.ide.ui.properties"
+         download-size="14"
+         install-size="22"
+         version="1.7.2.201610191444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.eef.documentation.javadoc"
+         download-size="1715"
+         install-size="12795"
+         version="1.7.2.201610191444"/>
+
+</feature>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <launcher name="banqueapplicationgenerator-Generation (2)">
+    <source directory="file:/comptes/E115761C/Documents/Model%20Driven%20Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace">
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/model/IBanque.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/model/impl/Banque.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/model/IClient.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/model/impl/Client.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/model/ICompte.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/model/impl/Compte.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/model/IOperation.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/model/impl/Operation.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+    </source>
+  </launcher>
+</history>

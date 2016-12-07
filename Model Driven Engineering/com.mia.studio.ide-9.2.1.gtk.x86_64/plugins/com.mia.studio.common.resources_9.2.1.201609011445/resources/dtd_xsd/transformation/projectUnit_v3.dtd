@@ -1,0 +1,129 @@
+<!ELEMENT	scenario			(models?, scenarioElements?)>
+<!ATTLIST	scenario
+				name			CDATA 	#REQUIRED
+				documentation	CDATA	#REQUIRED
+				count			CDATA 	#IMPLIED
+				version			CDATA	#REQUIRED>
+				
+<!ELEMENT	ruleSet			(models?, metamodels_imports_cache?, options?, imports?, services?, rootRule)>
+<!ATTLIST	ruleSet
+				name			CDATA 	#REQUIRED
+				documentation	CDATA	#REQUIRED
+				count			CDATA 	#IMPLIED
+				version			CDATA	#REQUIRED>
+				
+<!ELEMENT	serviceSet			(metamodels?, metamodels_imports_cache?, imports?, services?)>
+<!ATTLIST	serviceSet
+				name			CDATA 	#REQUIRED
+				documentation	CDATA	#REQUIRED
+				count			CDATA 	#IMPLIED
+				version			CDATA	#REQUIRED>
+				
+<!ELEMENT	models 			(model)*>
+<!ELEMENT	model			EMPTY>
+<!ATTLIST	model 
+				metamodel		CDATA 	#REQUIRED
+				modelID			CDATA 	#REQUIRED
+				direction		CDATA 	#REQUIRED>
+				
+<!ELEMENT	scenarioElements 			(loadModel|writeModel|scenarioRuleSetCall)*>
+
+<!ELEMENT	loadModel			EMPTY>
+<!ATTLIST	loadModel
+				modelID			CDATA 	#REQUIRED>
+
+<!ELEMENT	writeModel			EMPTY>
+<!ATTLIST	writeModel
+				modelID			CDATA 	#REQUIRED>
+
+
+<!ELEMENT	scenarioRuleSetCall	(modelMapping?)>
+<!ATTLIST	scenarioRuleSetCall
+				name			CDATA 	#REQUIRED>
+
+<!ELEMENT	options 		(option)*>
+<!ELEMENT	option			EMPTY>
+<!ATTLIST	option
+				name			CDATA 	#REQUIRED
+				value			CDATA	#REQUIRED>
+
+<!ELEMENT	imports			(import)*>
+<!ELEMENT	import			EMPTY>
+<!ATTLIST	import			
+				name			CDATA 	#REQUIRED
+				documentation	CDATA	#REQUIRED>
+
+<!ELEMENT	services		(service)*>
+<!ELEMENT	service			(parameter)*>
+<!ATTLIST	service			
+				kind			CDATA 	#REQUIRED
+				name			CDATA 	#REQUIRED
+				visibility		CDATA 	#REQUIRED
+				documentation	CDATA	#REQUIRED
+				returnTypeKind	CDATA 	#REQUIRED
+				returnTypeName	CDATA 	#REQUIRED
+				body			CDATA 	#REQUIRED
+				enabled			CDATA	#REQUIRED>
+				
+<!ELEMENT	parameter		EMPTY>
+<!ATTLIST	parameter
+				name			CDATA 	#REQUIRED
+				kind			CDATA	#REQUIRED
+				typeName		CDATA	#REQUIRED>
+				
+<!ELEMENT	rootRule			(context?, rules?)>
+
+<!ELEMENT	context				(variable)*>
+
+<!ELEMENT	variable		EMPTY>
+<!ATTLIST	variable
+				name			CDATA 	#REQUIRED
+				visibility		CDATA 	#REQUIRED
+				kind			CDATA	#REQUIRED
+				typeName		CDATA	#REQUIRED>
+
+<!ELEMENT	rules				(rule|call)*>
+
+<!ELEMENT	rule				(context?, query, action, rules?)>
+<!ATTLIST	rule
+				name			CDATA 	#REQUIRED
+				documentation	CDATA	#REQUIRED
+				enabled			CDATA	#REQUIRED>
+				
+<!ELEMENT	query				(services)>
+<!ATTLIST	query
+				kind			CDATA	#REQUIRED>
+				
+<!ELEMENT	action				(services)>
+<!ATTLIST	action
+				kind			CDATA	#REQUIRED>
+
+<!ELEMENT	call				(modelMapping?, contextMapping?)>
+<!ATTLIST	call
+				name			CDATA 	#REQUIRED
+				documentation	CDATA	#REQUIRED
+				enabled			CDATA	#REQUIRED>
+
+<!ELEMENT	modelMapping		(modelMap)*>
+<!ELEMENT	modelMap			EMPTY>
+<!ATTLIST	modelMap
+				name			CDATA 	#REQUIRED>
+
+<!ELEMENT	contextMapping		(contextMap)*>
+<!ELEMENT	contextMap			EMPTY>
+<!ATTLIST	contextMap
+				modelID			CDATA 	#REQUIRED>
+				
+<!ELEMENT	metamodels			(metamodel)*>
+<!ELEMENT	metamodel			EMPTY>
+<!ATTLIST	metamodel			
+				name			CDATA 	#REQUIRED>
+
+<!ELEMENT metamodels_imports_cache	(metamodel_import)*>
+
+<!ELEMENT metamodel_import	EMPTY>
+<!ATTLIST metamodel_import	
+				clause				CDATA	#REQUIRED
+				related_metas		CDATA	#IMPLIED
+				>
+				

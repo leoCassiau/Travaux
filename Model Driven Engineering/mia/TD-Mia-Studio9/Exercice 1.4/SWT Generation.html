@@ -1,0 +1,36 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="default.css" title="default">
+<link rel="stylesheet" type="text/css" href="../default.css" title="default">
+<TITLE>Generateur Couche Presentation Java/SWT</TITLE>
+</HEAD>
+<BODY>
+<H1>Exercice 1.4</H1>
+<HR>
+<STRONG>(Optionnel) Tester l'appli avec le code minimal de lancement</STRONG><BR><BR>
+<UL>
+<LI>Inserer dans une classe utilitaire Java le code ci-dessous pour instancier et tester la classe BanqueView generee
+</UL>
+<HR>
+
+<p><strong>Exemple :</strong><table class="code"><tr><td><code><pre class="jsccJAVA">
+	public static void main(String[] args) {
+		Display display = Display.getDefault();
+		
+		
+		BanqueView banqueView = new BanqueView(display);
+		banqueView.open();
+		banqueView.layout();
+		
+		while (!banqueView.isDisposed()) {
+			if (!display.readAndDispatch()) {
+				display.sleep();
+			}
+		}
+
+	}
+</pre></code></td></tr></table></p>
+
+</BODY>
+</HTML>

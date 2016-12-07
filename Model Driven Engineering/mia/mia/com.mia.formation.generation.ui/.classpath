@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/media/D1/MIA/Installateurs/Mia-Studio9.2.1/packages/com.mia.studio.ide-9.2.1.gtk.x86_64/plugins/org.eclipse.swt.gtk.linux.x86_64_3.104.2.v20160212-1350.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

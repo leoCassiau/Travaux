@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.mia.studio.samples.feature"
+      label="%featureName"
+      version="9.2.0.201609011445"
+      provider-name="Mia-Software"
+      plugin="com.mia.studio.samples.branding">
+
+   <description url="http://www.example.com/description">
+      %description
+   </description>
+
+   <copyright url="http://www.mia-software.com">
+      Licensed Material - Property of Mia-Software
+(C) Copyright Mia-Software 2013 - All Rights Reserved.
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <plugin
+         id="com.mia.studio.scripts.ecore.utils"
+         download-size="102"
+         install-size="202"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.scripts.uml2.html"
+         download-size="115"
+         install-size="224"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.scripts.uml2.java"
+         download-size="1652"
+         install-size="5636"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.scripts.uml2.utils"
+         download-size="350"
+         install-size="676"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.samples.branding"
+         download-size="5"
+         install-size="5"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.common.examples"
+         download-size="4207"
+         install-size="4426"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.transformation.scripts.common.utils"
+         download-size="110"
+         install-size="216"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.transformation.scripts.uml2.utils"
+         download-size="109"
+         install-size="230"
+         version="9.1.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.rules.uml2_.ecore"
+         download-size="53"
+         install-size="95"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+</feature>

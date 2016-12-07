@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.mia.studio.generation.core.launch">
+<stringAttribute key="applicableType" value="View"/>
+<booleanAttribute key="applyToSubtypes" value="false"/>
+<stringAttribute key="bundleSymbolicName" value="banqueapplicationgenerator"/>
+<booleanAttribute key="emptyGenerationDirectory" value="false"/>
+<booleanAttribute key="exportUnusedScripts" value="false"/>
+<booleanAttribute key="exportUsedScripts" value="false"/>
+<booleanAttribute key="generateBeforeWriting" value="false"/>
+<booleanAttribute key="generateIntoFile" value="false"/>
+<booleanAttribute key="generateOnScreen" value="true"/>
+<booleanAttribute key="generateTraces" value="true"/>
+<stringAttribute key="lineSeparator" value="System default"/>
+<stringAttribute key="metamodel" value="MVC"/>
+<stringAttribute key="modelManagerSelectedURI" value="platform:/resource/BanqueApplicationGenerator/plugin.xml"/>
+<stringAttribute key="outputDirectory" value="file:/comptes/E115761C/Documents/Model%20Driven%20Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace"/>
+<booleanAttribute key="outputDirectoryAsSource" value="true"/>
+<listAttribute key="outputDirectoryHistory">
+<listEntry value="file:/comptes/E115761C/Documents/Model%20Driven%20Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace"/>
+</listAttribute>
+<booleanAttribute key="overwriteOnlyWhenModified" value="false"/>
+<stringAttribute key="packageName" value="PACKET"/>
+<booleanAttribute key="proposeDependencies" value="false"/>
+<booleanAttribute key="refreshGenerationDirectory" value="true"/>
+<booleanAttribute key="refreshModelBeforeGeneration" value="false"/>
+<booleanAttribute key="refreshModelBeforeGenerationAllowed" value="true"/>
+<stringAttribute key="scenarioMetaObject" value="View"/>
+<stringAttribute key="scenarioName" value="scenar"/>
+<booleanAttribute key="selectionWithModelManager" value="true"/>
+<stringAttribute key="sourceDirectory" value="file:/comptes/E115761C/Documents/Model%20Driven%20Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace"/>
+<listAttribute key="sourceDirectoryHistory">
+<listEntry value="file:/comptes/E115761C/Documents/Model%20Driven%20Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace"/>
+</listAttribute>
+<stringAttribute key="unusedScriptsExportLocation" value="file:/comptes/E115761C/Documents/Model%20Driven%20Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/"/>
+<listAttribute key="unusedScriptsExportLocationHistory">
+<listEntry value="file:/comptes/E115761C/Documents/Model%20Driven%20Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/"/>
+</listAttribute>
+<stringAttribute key="usedScriptsExportLocation" value="file:/comptes/E115761C/Documents/Model%20Driven%20Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/"/>
+<listAttribute key="usedScriptsExportLocationHistory">
+<listEntry value="file:/comptes/E115761C/Documents/Model%20Driven%20Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/"/>
+</listAttribute>
+<booleanAttribute key="workspaceOnly" value="false"/>
+</launchConfiguration>

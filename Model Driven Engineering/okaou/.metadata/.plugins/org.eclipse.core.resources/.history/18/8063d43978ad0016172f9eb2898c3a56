@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PACKAGE SYSTEM "package.dtd">
+<PACKAGE NAME="PACKET" METAMODEL="MVC" NUMBER="13"
+>
+	<fileHeader version="6" toolName="Mia-Generation" toolVersion="9.2.1"/>
+	<SCENARIO NAME="Generation" VISIBILITY="public" META_OBJECT="Model" CATEGORY="default">
+		<SERVICE_CALL NAME="current" PACKAGE="System" META_OBJECT="Model"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="PACKET" META_OBJECT="Model" CATEGORY="default" NAME="Interfaces" PARAM_COUNT="0"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="PACKET" META_OBJECT="Model" CATEGORY="default" NAME="Impl" PARAM_COUNT="0"/>
+	</SCENARIO>
+	<SCENARIO NAME="Controler" VISIBILITY="public" META_OBJECT="View" CATEGORY="default">
+		<SERVICE_CALL NAME="current" PACKAGE="System" META_OBJECT="View"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="PACKET" META_OBJECT="View" CATEGORY="default" NAME="InterfaceControl" PARAM_COUNT="0"/>
+	</SCENARIO>
+	<SCRIPT NAME="ecrire" META_OBJECT="Action" CATEGORY="default">
+		<TEXT><![CDATA[
+	public void [[current.name]]();
+
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="Impl" META_OBJECT="Model" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+package model.impl;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class [[name]] implements model.I[[name]] {
+
+[[properties.corp]]
+[[ownedElements.corp]]
+
+}
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="Impl$Filename" META_OBJECT="Model" CATEGORY="default">
+		<TEXT><![CDATA[
+com.mia.banque.application/src/model/impl/[[name]].java
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="Interfaces" META_OBJECT="Model" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+package model;
+
+import java.util.List;
+
+public interface I[[name]] {
+
+[[properties.getSet]]
+[[ownedElements.getSet]]
+}
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="Interfaces$Filename" META_OBJECT="Model" CATEGORY="default">
+		<TEXT><![CDATA[
+com.mia.banque.application/src/model/I[[name]].java
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="corp" META_OBJECT="Model" CATEGORY="default">
+		<TEXT><![CDATA[
+private List<model.I[[current.name@¤] list[[current.name]];
+
+	public List<model.I[[current.name@¤] get[[current.name]]s() {
+		if (this.list[[current.name]] == null) {
+			this.list[[current.name]] = new ArrayList<model.I[[current.name@¤]();
+		}
+		return this.list[[current.name]];
+	}
+	
+	public void set[[current.name]]s(List<model.I[[current.name@¤] newValue) {
+		this.list[[current.name]] = newValue;
+	}
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="getSet" META_OBJECT="Model" CATEGORY="default">
+		<TEXT><![CDATA[
+	public List<I[[current.name@¤] get[[current.name]]s();
+	
+	public void set[[current.name]]s(List<I[[current.name@¤] newValue);
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="corp" META_OBJECT="ModelProperty" CATEGORY="default">
+		<TEXT><![CDATA[
+	private String [[current.name]];
+
+	public String get[[current.name]]() {
+		return this.[[current.name]];
+	}
+	
+	public void set[[current.name]](String newValue) {
+		this.[[current.name]] = newValue;
+	}
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="getSet" META_OBJECT="ModelProperty" CATEGORY="default">
+		<TEXT><![CDATA[
+	public String get[[current.name]]();
+
+	public void set[[current.name]](String newValue);
+
+
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="Control" META_OBJECT="View" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+generated text
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="Control$Filename" META_OBJECT="View" CATEGORY="default">
+		<TEXT><![CDATA[
+result.txt
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="InterfaceControl" META_OBJECT="View" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+package ui.controler;
+
+public interface I[[current.model.name]]Controler {
+	
+	public void initView();
+
+[[actions.ecrire]]
+}
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="InterfaceControl$Filename" META_OBJECT="View" CATEGORY="default">
+		<TEXT><![CDATA[
+com.mia.banque.application/src/ui/controler/I[[model.name]]Controler.java
+]]></TEXT>
+	</SCRIPT>
+	<METAMODELS_INFO_CACHE>
+		<METAMODEL_IMPORT CLAUSE="com.mia.formation.mvc.*" RELATED_METAS="Action,Model,ModelProperty,UIApplication,View,NamedElement"/>
+		<METAMODEL_CONTAINER_QNAME CQNAME="mvc" RELATED_METAS="Action,Model,ModelProperty,UIApplication,View,NamedElement"/>
+	</METAMODELS_INFO_CACHE>
+</PACKAGE>

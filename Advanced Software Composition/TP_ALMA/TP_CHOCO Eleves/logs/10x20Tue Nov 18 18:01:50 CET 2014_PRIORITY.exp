@@ -1,0 +1,46 @@
+
+
+#################################
+######### Experiments 1 #########
+#################################
+
+Solution without constraint :
+ 
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-2 (4/4,2/8)  : [vm11(3,1,0,8), vm2(1,1,0,1)]
+machine-4 (4/4,3/16)  : [vm9(3,1,0,8), vm3(1,2,0,1)]
+machine-3 (4/8,5/8)  : [vm7(3,1,0,3), vm4(1,4,0,1)]
+machine-5 (4/8,4/8)  : [vm5(3,2,0,10), vm6(1,2,0,3)]
+machine-6 (4/8,6/8)  : [vm1(3,2,0,4), vm13(1,4,0,6)]
+machine-7 (4/8,5/32)  : [vm0(3,1,0,8), vm19(1,4,0,7)]
+machine-8 (4/8,8/32)  : [vm18(2,4,0,6), vm8(2,4,0,6)]
+machine-0 (4/16,5/16)  : [vm17(2,4,0,9), vm10(2,1,0,9)]
+machine-1 (4/16,5/32)  : [vm16(2,1,0,8), vm12(2,4,0,9)]
+machine-9 (4/16,6/32)  : [vm15(2,2,0,8), vm14(2,4,0,2)]
+
+
+
+Welcome to the constraint world ... 
+
+
+#################################
+######### Loops 1 ###############
+#################################
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-2 (3/4,1/8)  : [vm11(3,1,1,8)]
+machine-4 (3/4,1/16)  : [vm9(3,1,1,8)]
+machine-3 (0/8,0/8)  : []
+machine-5 (3/8,2/8)  : [vm5(3,2,1,10)]
+machine-6 (0/8,0/8)  : []
+machine-7 (4/8,5/32)  : [vm0(3,1,1,8), vm19(1,4,1,7)]
+machine-8 (0/8,0/32)  : []
+machine-0 (4/16,5/16)  : [vm17(2,4,1,9), vm10(2,1,1,9)]
+machine-1 (4/16,5/32)  : [vm16(2,1,1,8), vm12(2,4,1,9)]
+machine-9 (2/16,2/32)  : [vm15(2,2,1,8)]
+
+
+Computation time: 581
+Solving times: [581]
+Mean: 581

@@ -1,0 +1,9 @@
+package ui.controler;
+
+public interface ICompteControler {
+	
+	public void initView();
+
+	public void CompteView;
+
+}

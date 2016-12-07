@@ -1,0 +1,57 @@
+
+
+#################################
+######### Experiments 1 #########
+#################################
+
+Solution without constraint :
+ 
+
+###### Memory Management #######
+machine-0: 2 1 (32)
+machine-1: 2 1 (8)
+machine-3: 2 2 (32)
+machine-7: 4 1 (8)
+machine-2: 1 1 (8)
+machine-4: 4 4 (32)
+machine-6: 1 2 (32)
+machine-8: 4 2 (8)
+machine-9: 1 4 (8)
+machine-5: 1 4 (16)
+Occupation rate: 34%
+
+######## Cpu Management ########
+machine-0: 3 1 (4)
+machine-1: 3 1 (4)
+machine-3: 3 1 (4)
+machine-7: 3 1 (4)
+machine-2: 3 1 (8)
+machine-4: 3 1 (8)
+machine-6: 3 1 (8)
+machine-8: 2 2 (16)
+machine-9: 2 2 (16)
+machine-5: 3 2 (16)
+Occupation rate: 63%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-0 (4/4,3/32) 313 : [vm19(3,2), vm3(1,1)]
+machine-1 (4/4,3/8) 190 : [vm9(3,2), vm10(1,1)]
+machine-3 (4/4,4/32) 313 : [vm8(3,2), vm12(1,2)]
+machine-7 (4/4,5/8) 190 : [vm7(3,4), vm13(1,1)]
+machine-2 (4/8,2/8) 190 : [vm6(3,1), vm15(1,1)]
+machine-4 (4/8,8/32) 313 : [vm4(3,4), vm16(1,4)]
+machine-6 (4/8,3/32) 313 : [vm2(3,1), vm17(1,2)]
+machine-8 (4/16,6/8) 190 : [vm18(2,4), vm5(2,2)]
+machine-9 (4/16,5/8) 190 : [vm14(2,1), vm11(2,4)]
+machine-5 (5/16,5/16) 231 : [vm1(3,1), vm0(2,4)]
+
+ Machine Energy :  - 317 - 194 - 317 - 194 - 194 - 317 - 317 - 194 - 194 - 236
+ Energy : 2474
+
+
+Welcome to the constraint world ...
+
+
+#################################
+######### Loops 1 ###############
+#################################

@@ -1,0 +1,54 @@
+
+
+#################################
+######### Experiments 1 #########
+#################################
+
+Solution without constraint :
+ 
+
+###### Memory Management #######
+machine-1: 2 (32)
+machine-0: 4 (16)
+Occupation rate: 15%
+
+######## Cpu Management ########
+machine-1: 2 (4)
+machine-0: 3 (4)
+Occupation rate: 62%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-1 (2/4,2/32)  : [vm0(2,2)]
+machine-0 (3/4,4/16)  : [vm1(3,4)]
+
+ Machine Energy :  - 175 - 187
+ Energy : 362
+
+
+Welcome to the constraint world ...
+
+
+#################################
+######### Loops 1 ###############
+#################################
+
+###### Memory Management #######
+machine-0: 4 2 (16)
+machine-1: (32)
+Occupation rate: 18%
+
+######## Cpu Management ########
+machine-0: 3 2 (4)
+machine-1: (4)
+Occupation rate: 62%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-0 (5/4,6/16)  : [vm1(3,4), vm0(2,2)]
+machine-1 (0/4,0/32)  : []
+
+ Machine Energy :  - 175 - 175
+ Energy : 350
+
+Computation time: 169
+Solving times: [169]
+Mean: 169

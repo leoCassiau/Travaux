@@ -1,0 +1,9 @@
+package ui.controler;
+
+public interface IBanqueControler {
+	
+	public void initView();
+
+	public void BanqueView;
+
+}

@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Export-Package: com.mia.umlmia.behavioralelements.activitygraphs,com.m
+ ia.umlmia.behavioralelements.activitygraphs.impl,com.mia.umlmia.behav
+ ioralelements.activitygraphs.util,com.mia.umlmia.behavioralelements.c
+ ollaborations,com.mia.umlmia.behavioralelements.collaborations.impl,c
+ om.mia.umlmia.behavioralelements.collaborations.util,com.mia.umlmia.b
+ ehavioralelements.commonbehavior,com.mia.umlmia.behavioralelements.co
+ mmonbehavior.impl,com.mia.umlmia.behavioralelements.commonbehavior.ut
+ il,com.mia.umlmia.behavioralelements.statemachines,com.mia.umlmia.beh
+ avioralelements.statemachines.impl,com.mia.umlmia.behavioralelements.
+ statemachines.util,com.mia.umlmia.behavioralelements.usecases,com.mia
+ .umlmia.behavioralelements.usecases.impl,com.mia.umlmia.behavioralele
+ ments.usecases.util,com.mia.umlmia.enumerations,com.mia.umlmia.enumer
+ ations.impl,com.mia.umlmia.foundation.core,com.mia.umlmia.foundation.
+ core.impl,com.mia.umlmia.foundation.core.util,com.mia.umlmia.foundati
+ on.datatypes,com.mia.umlmia.foundation.datatypes.impl,com.mia.umlmia.
+ foundation.datatypes.util,com.mia.umlmia.foundation.extensionmechanis
+ ms,com.mia.umlmia.foundation.extensionmechanisms.impl,com.mia.umlmia.
+ foundation.extensionmechanisms.util,com.mia.umlmia.generalmechanisms,
+ com.mia.umlmia.generalmechanisms.impl,com.mia.umlmia.generalmechanism
+ s.util,com.mia.umlmia.properties,com.mia.umlmia.properties.impl,com.m
+ ia.umlmia.properties.util,metamodel.UML,metamodel.UML.io,metamodel.UM
+ L.io.xmi,metamodel.UML.model,metamodel.UML.model.internal
+Bundle-ClassPath: umlmia.jar
+Built-By: jslave
+Eclipse-BundleShape: dir
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: com.mia.studio.uml1x.poseidon;bundle-version="8.1.0",c
+ om.mia.studio.uml1x.rose;bundle-version="8.1.0",com.mia.studio.common
+ ;bundle-version="7.3.0",com.mia.studio.kernel;bundle-version="7.3.0",
+ com.mia.studio.uml14.metamodel;bundle-version="7.3.0",com.mia.studio.
+ uml13.metamodel;bundle-version="7.3.0",org.eclipse.core.runtime;bundl
+ e-version="3.5.0"
+Bundle-Vendor: %providerName
+Eclipse-LazyStart: true
+Bundle-Version: 9.2.1.201609011445
+Build-Jdk: 1.6.0_45
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.mia.studio.uml14.umlmia.metamodel;singleton:=
+ true
+Archiver-Version: Plexus Archiver
+

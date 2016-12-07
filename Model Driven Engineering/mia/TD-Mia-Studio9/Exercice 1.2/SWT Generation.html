@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="default.css" title="default">
+<link rel="stylesheet" type="text/css" href="../default.css" title="default">
+<TITLE>Generateur Couche Presentation Java/SWT</TITLE>
+</HEAD>
+<BODY>
+<H1>Exercice 1.2</H1>
+<HR>
+<STRONG>Rajouter le code minimal d'initialisation du shell</STRONG><BR><BR>
+<UL>
+<LI>Mettre en place la generation du constructeur tel qu'indiquée ci-dessous
+<LI>Mettre en place la generation de la methode <I>createContents</I>, cette methode doit exploiter le champ <I>description</I> de la vue courante comme titre de la fenêtre.
+<LI>Tester avec la runconfig
+</UL>
+<HR>
+
+<p><strong>Exemple :</strong><table class="code"><tr><td><code><pre class="jsccJAVA">
+package com.mia.formation.generation.ui;
+
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.widgets.Button;
+
+public class ClientView extends Shell {
+
+	private Button btnQuitter;
+	private Button btnAfficherCompte;
+
+	/**
+	 * Create the shell.
+	 * @param display
+	 */
+	public ClientView(Display display) {
+		super(display, SWT.SHELL_TRIM);
+		createContents();
+	}
+
+	/**
+	 * Create contents of the shell.
+	 */
+	protected void createContents() {
+		setText("ClientView");
+		setSize(450, 300);
+
+	}
+
+
+}
+</pre></code></td></tr></table></p>
+
+</BODY>
+</HTML>

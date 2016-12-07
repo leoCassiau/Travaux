@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dart:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dart="http://www.obeo.fr/dsl/2014/dart">
+  <packages>
+    <assets xsi:type="dart:Folder" name="lib">
+      <assets xsi:type="dart:Folder" name="components">
+        <assets xsi:type="dart:HTML" name="agenda.html" uses="//@packages.0/@assets.2/@assets.2/@assets.2 //@packages.0/@assets.2/@assets.0/@assets.0"/>
+        <assets xsi:type="dart:Component" name="Agenda" documentation="" extends="//@packages.0/@assets.0/@assets.0/@assets.2" template="//@packages.0/@assets.0/@assets.0/@assets.0" selector="agenda"/>
+        <assets xsi:type="dart:Class" name="AgendaComponent">
+          <methods name="addItem">
+            <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.1"/>
+            <parameters name="newItem" type="//@packages.0/@assets.0/@assets.2/@assets.0"/>
+          </methods>
+          <methods name="deleteItem">
+            <parameters name="itemToDelete" type="//@packages.0/@assets.0/@assets.2/@assets.0"/>
+          </methods>
+          <methods name="getItems">
+            <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.5"/>
+          </methods>
+        </assets>
+        <assets xsi:type="dart:HTML" name="call.html" uses="//@packages.0/@assets.2/@assets.2/@assets.1 //@packages.0/@assets.2/@assets.2/@assets.2"/>
+        <assets xsi:type="dart:Class" name="CallComponent">
+          <fields name="model" type="//@packages.0/@assets.0/@assets.2/@assets.1"/>
+          <fields name="isOnline">
+            <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.1"/>
+          </fields>
+          <methods name="attach"/>
+        </assets>
+        <assets xsi:type="dart:Component" name="Call" extends="//@packages.0/@assets.0/@assets.0/@assets.4" publishAs="" template="//@packages.0/@assets.0/@assets.0/@assets.3" selector="call"/>
+        <assets xsi:type="dart:HTML" name="create_call.html" uses="//@packages.0/@assets.2/@assets.2/@assets.2"/>
+        <assets xsi:type="dart:Class" name="CreateCallComponent">
+          <fields name="call" type="//@packages.0/@assets.0/@assets.2/@assets.1"/>
+          <methods name="create"/>
+        </assets>
+        <assets xsi:type="dart:Component" name="CreateCall" extends="//@packages.0/@assets.0/@assets.0/@assets.7" template="//@packages.0/@assets.0/@assets.0/@assets.6" selector="create-call"/>
+      </assets>
+      <assets xsi:type="dart:Folder" name="decorators">
+        <assets xsi:type="dart:Decorator" name="Toggle">
+          <fields name="open">
+            <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.1"/>
+          </fields>
+          <methods name="attach"/>
+        </assets>
+      </assets>
+      <assets xsi:type="dart:Folder" name="models">
+        <assets xsi:type="dart:Class" name="AgendaItem">
+          <fields name="description">
+            <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.8"/>
+          </fields>
+          <fields name="done">
+            <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.1"/>
+          </fields>
+          <fields name="priority">
+            <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.4"/>
+          </fields>
+        </assets>
+        <assets xsi:type="dart:Class" name="Call">
+          <fields name="id">
+            <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.8"/>
+          </fields>
+          <fields name="name">
+            <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.8"/>
+          </fields>
+        </assets>
+        <assets xsi:type="dart:Class" name="User">
+          <fields name="name">
+            <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.8"/>
+          </fields>
+          <fields name="isOnline">
+            <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.1"/>
+          </fields>
+        </assets>
+      </assets>
+      <assets xsi:type="dart:Folder" name="services">
+        <assets xsi:type="dart:Class" name="CallSerializer">
+          <methods name="serialize">
+            <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.8"/>
+            <parameters name="call" value="" type="//@packages.0/@assets.0/@assets.2/@assets.1"/>
+            <parameters name="id">
+              <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.8"/>
+            </parameters>
+          </methods>
+          <methods name="deserialize" type="//@packages.0/@assets.0/@assets.2/@assets.1">
+            <parameters name="content">
+              <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.8"/>
+            </parameters>
+          </methods>
+        </assets>
+        <assets xsi:type="dart:Class" name="CallStorage">
+          <methods name="store">
+            <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.8"/>
+            <parameters name="call" type="//@packages.0/@assets.0/@assets.2/@assets.1"/>
+          </methods>
+        </assets>
+        <assets xsi:type="dart:Class" name="Messages">
+          <methods name="alert">
+            <parameters name="message">
+              <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.8"/>
+            </parameters>
+          </methods>
+        </assets>
+        <assets xsi:type="dart:Class" name="UserRepository">
+          <methods name="all">
+            <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.5"/>
+          </methods>
+        </assets>
+      </assets>
+    </assets>
+    <assets xsi:type="dart:Folder" name="test">
+      <assets xsi:type="dart:Folder" name="unit"/>
+    </assets>
+    <assets xsi:type="dart:Folder" name="web">
+      <assets xsi:type="dart:Folder" name="api">
+        <assets name="users.json"/>
+      </assets>
+      <assets xsi:type="dart:Folder" name="css">
+        <assets xsi:type="dart:Stylesheet" name="app.css" partial="false"/>
+        <assets xsi:type="dart:Stylesheet" name="app.scss" partial="false"/>
+      </assets>
+      <assets xsi:type="dart:Folder" name="images">
+        <assets name="banner.png"/>
+        <assets name="logo.png"/>
+        <assets name="user.png"/>
+        <assets name="icons.png"/>
+      </assets>
+      <assets xsi:type="dart:HTML" name="app.html" uses="//@packages.0/@assets.2/@assets.2/@assets.1 //@packages.0/@assets.2/@assets.2/@assets.0 //@packages.0/@assets.2/@assets.1/@assets.0"/>
+    </assets>
+    <assets name="AUTHORS.md"/>
+    <assets name="LICENSE.md"/>
+    <assets name="README.md"/>
+  </packages>
+</dart:Project>

@@ -1,0 +1,9 @@
+package com.mia.formation.generation.ui;
+
+import org.eclipse.swt.widgets.Shell;
+
+public class ClientView extends Shell {
+	private Button btnafficherCompte;
+	private Button btnquitter;
+
+}

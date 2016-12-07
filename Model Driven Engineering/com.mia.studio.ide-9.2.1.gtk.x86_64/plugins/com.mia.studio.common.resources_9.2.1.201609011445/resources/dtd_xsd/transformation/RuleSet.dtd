@@ -1,0 +1,31 @@
+<!ELEMENT	RuleSet			(Header, (Rule | Action)*)>
+<!ATTLIST	RuleSet	
+				name			CDATA 	#REQUIRED
+				documentation	CDATA	#REQUIRED>
+<!ELEMENT	Header 			(options)>
+<!ATTLIST	Header
+				sourceName		CDATA	#REQUIRED
+				sourceShortcut	CDATA	#REQUIRED
+				targetName		CDATA	#REQUIRED
+				targetShortcut	CDATA	#REQUIRED>
+<!ELEMENT	options			(Option)*>
+<!ELEMENT	Option			EMPTY>
+<!ATTLIST	Option
+				name			CDATA 	#REQUIRED
+				value			CDATA	#REQUIRED>
+<!ELEMENT	Rule 			EMPTY>
+<!ATTLIST	Rule
+				name			CDATA 	#REQUIRED
+				documentation	CDATA	#REQUIRED
+				source			CDATA	#REQUIRED>
+<!ELEMENT	Action			(parameters)>
+<!ATTLIST	Action
+				name			CDATA 	#REQUIRED
+				documentation	CDATA	#REQUIRED
+				returnType		CDATA	#REQUIRED
+				body			CDATA	#REQUIRED>
+<!ELEMENT	parameters		(ActionParameter)*>
+<!ELEMENT	ActionParameter	EMPTY>
+<!ATTLIST	ActionParameter
+				name			CDATA 	#REQUIRED
+				type			CDATA	#REQUIRED>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.mia.studio.generation.core.launch">
+<stringAttribute key="applicableType" value="View"/>
+<booleanAttribute key="applyToSubtypes" value="false"/>
+<stringAttribute key="bundleSymbolicName" value="org.formation.generation"/>
+<booleanAttribute key="emptyGenerationDirectory" value="false"/>
+<booleanAttribute key="exportUnusedScripts" value="false"/>
+<booleanAttribute key="exportUsedScripts" value="false"/>
+<booleanAttribute key="generateBeforeWriting" value="false"/>
+<booleanAttribute key="generateIntoFile" value="true"/>
+<booleanAttribute key="generateOnScreen" value="false"/>
+<booleanAttribute key="generateTraces" value="true"/>
+<stringAttribute key="lineSeparator" value="System default"/>
+<stringAttribute key="metamodel" value="UI"/>
+<stringAttribute key="modelManagerSelectedURI" value="platform:/resource/org.formation.generation/models/Banque.ui"/>
+<stringAttribute key="outputDirectory" value="platform:/resource/com.mia.formation.generation.ui/src"/>
+<booleanAttribute key="outputDirectoryAsSource" value="true"/>
+<listAttribute key="outputDirectoryHistory">
+<listEntry value="platform:/resource/com.mia.formation.generation.ui/src"/>
+<listEntry value="file:/comptes/E104667T/mia"/>
+</listAttribute>
+<booleanAttribute key="overwriteOnlyWhenModified" value="false"/>
+<stringAttribute key="packageName" value="org.formation.generation.swt"/>
+<booleanAttribute key="proposeDependencies" value="false"/>
+<booleanAttribute key="refreshGenerationDirectory" value="true"/>
+<booleanAttribute key="refreshModelBeforeGeneration" value="false"/>
+<booleanAttribute key="refreshModelBeforeGenerationAllowed" value="true"/>
+<stringAttribute key="scenarioMetaObject" value="View"/>
+<stringAttribute key="scenarioName" value="sc"/>
+<booleanAttribute key="selectionWithModelManager" value="true"/>
+<stringAttribute key="sourceDirectory" value="file:/comptes/E104667T/mia"/>
+<listAttribute key="sourceDirectoryHistory">
+<listEntry value="file:/comptes/E104667T/mia"/>
+</listAttribute>
+<stringAttribute key="unusedScriptsExportLocation" value="file:/media/D1/MIA/Installateurs/Mia-Studio9.2.1/packages/com.mia.studio.ide-9.2.1.gtk.x86_64/"/>
+<listAttribute key="unusedScriptsExportLocationHistory">
+<listEntry value="file:/media/D1/MIA/Installateurs/Mia-Studio9.2.1/packages/com.mia.studio.ide-9.2.1.gtk.x86_64/"/>
+</listAttribute>
+<stringAttribute key="usedScriptsExportLocation" value="file:/media/D1/MIA/Installateurs/Mia-Studio9.2.1/packages/com.mia.studio.ide-9.2.1.gtk.x86_64/"/>
+<listAttribute key="usedScriptsExportLocationHistory">
+<listEntry value="file:/media/D1/MIA/Installateurs/Mia-Studio9.2.1/packages/com.mia.studio.ide-9.2.1.gtk.x86_64/"/>
+</listAttribute>
+<booleanAttribute key="workspaceOnly" value="false"/>
+</launchConfiguration>

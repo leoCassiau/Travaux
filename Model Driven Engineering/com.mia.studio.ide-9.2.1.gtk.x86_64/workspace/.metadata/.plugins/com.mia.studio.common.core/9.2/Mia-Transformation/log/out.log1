@@ -1,0 +1,8 @@
+[Transformation License information] 28/11/16 15:47 Previous used configuration : Architect Enterprise.
+Connecting to license manager...
+[Transformation License information] 28/11/16 15:47 Connected to license manager : BLM
+[Transformation License information] 28/11/16 15:47 Testing availability for feature named "MIA_TRANS_ARCHITECT" : available
+[Transformation License information] 28/11/16 15:47 Retrieving licenses information from : /comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/licenses/license.dat
+[Transformation License information] 28/11/16 15:47 Obtained feature : MIA_TRANS_ARCHITECT
+[Transformation License information] 28/11/16 15:47 Feature provided by : /comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/licenses/license.dat
+[Transformation License information] 28/11/16 15:47 Current configuration : ARCHITECT ENTERPRISE

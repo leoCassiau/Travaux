@@ -1,0 +1,68 @@
+<!ELEMENT	TRACE	(fileHeader?, Step.subSteps)>
+				
+<!ELEMENT fileHeader	EMPTY>
+<!ATTLIST fileHeader	
+				version				CDATA	#REQUIRED
+				date				CDATA	#IMPLIED
+				timestamp			CDATA	#IMPLIED
+				toolName			CDATA	#IMPLIED
+				toolVersion			CDATA	#IMPLIED
+				>
+				
+<!ELEMENT	ScenarioStep	(Step.subSteps)*>
+
+<!ELEMENT	GenerationDescriptionStep	(Step.subSteps)*>
+
+<!ELEMENT	GenerationUnitStep	(Step.subSteps)*>
+
+<!ELEMENT	TextStep	(Action, Object, Step.subSteps, Statistics?, TextStep.body)>
+
+<!ELEMENT	TextStep.body	(CDATA)>
+
+<!ELEMENT	FileTemplateStep	(Action, Object, Step.subSteps, Statistics?, TextStep.body)>
+
+<!ELEMENT	MacroStep	(Action, Object, Step.subSteps, Statistics?, MacroStep.result)>
+
+<!ELEMENT	MacroStep.result	(JavaObject)>
+
+<!ELEMENT	ServiceStep	(Action, Object, Step.subSteps, Statistics?, ServiceStep.returnedObjects)>
+
+<!ELEMENT	ServiceStep.returnedObjects	(Object|JavaObject)*>
+
+<!ELEMENT	Step.subSteps	(ScenarioStep|GenerationDescriptionStep|GenerationUnitStep|TextStep|FileTemplateStep|MacroStep|ServiceStep)*>
+
+<!ELEMENT	Parameters	(Parameter)*>
+
+<!ELEMENT	Action	(EMPTY)>
+<!ATTLIST	Action
+				name	CDATA	#REQUIRED
+				>
+
+<!ELEMENT	Object	(EMPTY)>
+<!ATTLIST	Object
+				name	CDATA	#REQUIRED
+				meta	CDATA	#REQUIRED
+				>
+
+<!ELEMENT	JavaObject	(EMPTY)>
+<!ATTLIST	JavaObject
+				toString	CDATA	#REQUIRED
+				class		CDATA	#REQUIRED
+				>
+				
+<!ELEMENT	Parameter	(EMPTY)>
+<!ATTLIST	Parameter
+				name		CDATA	#REQUIRED
+				toString	CDATA	#REQUIRED
+				class		CDATA	#REQUIRED
+				>
+				
+<!ELEMENT	Statistics	(EMPTY)>
+<!ATTLIST	Statistics
+				localTime			CDATA	#REQUIRED
+				localPercentage		CDATA	#REQUIRED
+				globalNbCalls		CDATA	#REQUIRED
+				globalTime			CDATA	#REQUIRED
+				globalPercentage	CDATA	#REQUIRED
+				>
+

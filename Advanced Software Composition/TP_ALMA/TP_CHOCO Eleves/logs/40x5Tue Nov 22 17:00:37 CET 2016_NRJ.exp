@@ -1,0 +1,282 @@
+
+
+#################################
+######### Experiments 1 #########
+#################################
+
+Solution without constraint :
+ 
+
+###### Memory Management #######
+machine-25: (32)
+machine-31: (16)
+machine-32: (8)
+machine-35: (32)
+machine-36: (8)
+machine-38: (16)
+machine-39: (16)
+machine-3: (8)
+machine-13: (16)
+machine-15: (8)
+machine-19: (32)
+machine-23: (8)
+machine-24: (8)
+machine-26: (16)
+machine-28: (16)
+machine-30: (32)
+machine-37: (32)
+machine-0: (8)
+machine-1: (8)
+machine-2: (16)
+machine-6: (32)
+machine-7: (8)
+machine-8: (8)
+machine-12: (16)
+machine-14: (16)
+machine-16: (32)
+machine-17: (16)
+machine-18: (32)
+machine-20: (16)
+machine-21: (32)
+machine-22: (32)
+machine-27: (8)
+machine-29: (8)
+machine-33: (32)
+machine-34: (8)
+machine-11: 1 (32)
+machine-10: 4 (8)
+machine-9: 1 (8)
+machine-5: 1 (32)
+machine-4: 2 (8)
+Occupation rate: 2%
+
+######## Cpu Management ########
+machine-25: (4)
+machine-31: (4)
+machine-32: (4)
+machine-35: (4)
+machine-36: (4)
+machine-38: (4)
+machine-39: (4)
+machine-3: (8)
+machine-13: (8)
+machine-15: (8)
+machine-19: (8)
+machine-23: (8)
+machine-24: (8)
+machine-26: (8)
+machine-28: (8)
+machine-30: (8)
+machine-37: (8)
+machine-0: (16)
+machine-1: (16)
+machine-2: (16)
+machine-6: (16)
+machine-7: (16)
+machine-8: (16)
+machine-12: (16)
+machine-14: (16)
+machine-16: (16)
+machine-17: (16)
+machine-18: (16)
+machine-20: (16)
+machine-21: (16)
+machine-22: (16)
+machine-27: (16)
+machine-29: (16)
+machine-33: (16)
+machine-34: (16)
+machine-11: 1 (4)
+machine-10: 1 (4)
+machine-9: 1 (4)
+machine-5: 2 (4)
+machine-4: 3 (4)
+Occupation rate: 5%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-25 (0/4,0/32)  : []
+machine-31 (0/4,0/16)  : []
+machine-32 (0/4,0/8)  : []
+machine-35 (0/4,0/32)  : []
+machine-36 (0/4,0/8)  : []
+machine-38 (0/4,0/16)  : []
+machine-39 (0/4,0/16)  : []
+machine-3 (0/8,0/8)  : []
+machine-13 (0/8,0/16)  : []
+machine-15 (0/8,0/8)  : []
+machine-19 (0/8,0/32)  : []
+machine-23 (0/8,0/8)  : []
+machine-24 (0/8,0/8)  : []
+machine-26 (0/8,0/16)  : []
+machine-28 (0/8,0/16)  : []
+machine-30 (0/8,0/32)  : []
+machine-37 (0/8,0/32)  : []
+machine-0 (0/16,0/8)  : []
+machine-1 (0/16,0/8)  : []
+machine-2 (0/16,0/16)  : []
+machine-6 (0/16,0/32)  : []
+machine-7 (0/16,0/8)  : []
+machine-8 (0/16,0/8)  : []
+machine-12 (0/16,0/16)  : []
+machine-14 (0/16,0/16)  : []
+machine-16 (0/16,0/32)  : []
+machine-17 (0/16,0/16)  : []
+machine-18 (0/16,0/32)  : []
+machine-20 (0/16,0/16)  : []
+machine-21 (0/16,0/32)  : []
+machine-22 (0/16,0/32)  : []
+machine-27 (0/16,0/8)  : []
+machine-29 (0/16,0/8)  : []
+machine-33 (0/16,0/32)  : []
+machine-34 (0/16,0/8)  : []
+machine-11 (1/4,1/32)  : [vm2(1,1)]
+machine-10 (1/4,4/8)  : [vm3(1,4)]
+machine-9 (1/4,1/8)  : [vm4(1,1)]
+machine-5 (2/4,1/32)  : [vm1(2,1)]
+machine-4 (3/4,2/8)  : [vm0(3,2)]
+
+ Machine Energy :  - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 162 - 162 - 162 - 175 - 187
+ Energy : 848
+
+
+Welcome to the constraint world ...
+
+
+#################################
+######### Loops 1 ###############
+#################################
+
+###### Memory Management #######
+machine-4: 4 2 1 1 1 (8)
+machine-5: (32)
+machine-9: (8)
+machine-10: (8)
+machine-11: (32)
+machine-39: (16)
+machine-38: (16)
+machine-36: (8)
+machine-35: (32)
+machine-32: (8)
+machine-31: (16)
+machine-25: (32)
+machine-37: (32)
+machine-30: (32)
+machine-28: (16)
+machine-26: (16)
+machine-24: (8)
+machine-23: (8)
+machine-19: (32)
+machine-15: (8)
+machine-13: (16)
+machine-3: (8)
+machine-34: (8)
+machine-33: (32)
+machine-29: (8)
+machine-27: (8)
+machine-22: (32)
+machine-21: (32)
+machine-20: (16)
+machine-18: (32)
+machine-17: (16)
+machine-16: (32)
+machine-14: (16)
+machine-12: (16)
+machine-8: (8)
+machine-7: (8)
+machine-6: (32)
+machine-2: (16)
+machine-1: (8)
+machine-0: (8)
+Occupation rate: 2%
+
+######## Cpu Management ########
+machine-4: 1 3 2 1 1 (4)
+machine-5: (4)
+machine-9: (4)
+machine-10: (4)
+machine-11: (4)
+machine-39: (4)
+machine-38: (4)
+machine-36: (4)
+machine-35: (4)
+machine-32: (4)
+machine-31: (4)
+machine-25: (4)
+machine-37: (8)
+machine-30: (8)
+machine-28: (8)
+machine-26: (8)
+machine-24: (8)
+machine-23: (8)
+machine-19: (8)
+machine-15: (8)
+machine-13: (8)
+machine-3: (8)
+machine-34: (16)
+machine-33: (16)
+machine-29: (16)
+machine-27: (16)
+machine-22: (16)
+machine-21: (16)
+machine-20: (16)
+machine-18: (16)
+machine-17: (16)
+machine-16: (16)
+machine-14: (16)
+machine-12: (16)
+machine-8: (16)
+machine-7: (16)
+machine-6: (16)
+machine-2: (16)
+machine-1: (16)
+machine-0: (16)
+Occupation rate: 5%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-4 (8/4,9/8)  : [vm3(1,4), vm0(3,2), vm1(2,1), vm4(1,1), vm2(1,1)]
+machine-5 (0/4,0/32)  : []
+machine-9 (0/4,0/8)  : []
+machine-10 (0/4,0/8)  : []
+machine-11 (0/4,0/32)  : []
+machine-39 (0/4,0/16)  : []
+machine-38 (0/4,0/16)  : []
+machine-36 (0/4,0/8)  : []
+machine-35 (0/4,0/32)  : []
+machine-32 (0/4,0/8)  : []
+machine-31 (0/4,0/16)  : []
+machine-25 (0/4,0/32)  : []
+machine-37 (0/8,0/32)  : []
+machine-30 (0/8,0/32)  : []
+machine-28 (0/8,0/16)  : []
+machine-26 (0/8,0/16)  : []
+machine-24 (0/8,0/8)  : []
+machine-23 (0/8,0/8)  : []
+machine-19 (0/8,0/32)  : []
+machine-15 (0/8,0/8)  : []
+machine-13 (0/8,0/16)  : []
+machine-3 (0/8,0/8)  : []
+machine-34 (0/16,0/8)  : []
+machine-33 (0/16,0/32)  : []
+machine-29 (0/16,0/8)  : []
+machine-27 (0/16,0/8)  : []
+machine-22 (0/16,0/32)  : []
+machine-21 (0/16,0/32)  : []
+machine-20 (0/16,0/16)  : []
+machine-18 (0/16,0/32)  : []
+machine-17 (0/16,0/16)  : []
+machine-16 (0/16,0/32)  : []
+machine-14 (0/16,0/16)  : []
+machine-12 (0/16,0/16)  : []
+machine-8 (0/16,0/8)  : []
+machine-7 (0/16,0/8)  : []
+machine-6 (0/16,0/32)  : []
+machine-2 (0/16,0/16)  : []
+machine-1 (0/16,0/8)  : []
+machine-0 (0/16,0/8)  : []
+
+ Machine Energy :  - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 200 - 200 - 200 - 200
+ Energy : 800
+
+Computation time: 292
+Solving times: [292]
+Mean: 292

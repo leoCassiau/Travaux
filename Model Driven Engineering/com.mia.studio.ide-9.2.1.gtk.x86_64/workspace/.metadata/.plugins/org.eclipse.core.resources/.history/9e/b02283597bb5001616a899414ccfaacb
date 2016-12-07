@@ -1,0 +1,86 @@
+package interfacesandmodelgenerator.h400272391;
+
+//CHECKSTYLE:OFF
+import com.mia.formation.mvc.*;
+import com.mia.metamodel.*;
+import com.mia.openapi.*;
+import com.mia.openapi.refactoring.model.*;
+import com.mia.openapi.reflect.*;
+import com.mia.resource.*;
+import java.io.*;
+import java.util.*;
+import org.eclipse.emf.common.util.*;
+import org.eclipse.emf.ecore.*;
+import org.eclipse.emf.ecore.util.*;
+
+@SuppressWarnings({"unused","serial","rawtypes","static-method",})
+public class mvc_Model__interface_N935146379 //NOPMD
+	extends com.mia.studio.generation.compilation.AbstractCompiledAction // NOPMD 
+	implements com.mia.studio.kernel.compiler.CompiledAction { // NOPMD
+
+	public mvc_Model__interface_N935146379 () { // NOPMD
+		super();
+		java.util.List list = null; // NOPMD
+	}
+
+
+	@SuppressWarnings({"unchecked","nls"})
+	private static <T> T  __check_arg__(// NOPMD
+		final java.lang.Class<T> expectedClass, final java.lang.Object argument) {
+		T result = null; // NOPMD
+		if (java.lang.Integer.class.equals(expectedClass) // NOPMD 
+			&& argument instanceof java.lang.Double) {
+			final int value = ((java.lang.Double) argument).intValue(); // NOPMD
+			result = (T) java.lang.Integer.valueOf(value); // NOPMD 
+		} else if (java.lang.Float.class.equals(expectedClass) // NOPMD 
+			&& argument instanceof java.lang.Double) {
+			final float value = ((java.lang.Double) argument).floatValue(); // NOPMD 
+			result = (T) java.lang.Float.valueOf(value); // NOPMD 
+		} else {
+			try {			
+				result = expectedClass.cast(argument); // NOPMD
+			} catch(Throwable ex) { // NOPMD
+				throw new IllegalArgumentException( // NOPMD
+						java.lang.String.format( // NOPMD
+								"Bad parameter type in call to %s. Found '%s' when expected '%s'."  // NOPMD
+								, "interface"  // NOPMD
+								, argument.getClass().getName(),  // NOPMD
+								expectedClass.getName()));
+			}
+		}
+		return result;
+	}
+
+
+	public java.lang.Object // NOPMD
+	evaluate(java.lang.Object[] _action_parameters) { // NOPMD 
+		return runAction(_action_parameters);
+	}
+
+	public java.lang.Object // NOPMD
+	runAction(java.lang.Object[] _action_parameters) {  // NOPMD
+		if (_action_parameters.length != 3)  // NOPMD
+			throw new IllegalArgumentException("Wrong number of parameters in call to ''interface''");  //$NON-NLS-1$
+
+		final com.mia.formation.mvc.Model current  = // NOPMD
+			 __check_arg__(com.mia.formation.mvc.Model.class, _action_parameters[0]);  // NOPMD
+		final com.mia.openapi.gen.Context context  = // NOPMD
+			 __check_arg__(com.mia.openapi.gen.Context.class, _action_parameters[1]);  // NOPMD
+		final com.mia.openapi.gen.GenerationServicesManager manager  = // NOPMD
+			 __check_arg__(com.mia.openapi.gen.GenerationServicesManager.class, _action_parameters[2]);  // NOPMD
+
+		return __invoke_user_code__(current, context, manager);
+	}
+
+	public String __invoke_user_code__(// NOPMD
+		final com.mia.formation.mvc.Model current // NOPMD
+		, final com.mia.openapi.gen.Context context // NOPMD
+		, final com.mia.openapi.gen.GenerationServicesManager manager // NOPMD
+	) //CHECKSTYLE:ON
+{
+
+return null;
+
+}
+// CHECKSTYLE:OFF
+}

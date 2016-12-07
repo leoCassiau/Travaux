@@ -1,0 +1,6 @@
+package com.mia.formation.generation.ui;
+
+import org.eclipse.swt.widgets.Shell;
+
+public class BanqueView extends Shell {
+}

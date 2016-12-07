@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id: plugin.xml,v 1.3 2008-12-31 15:27:19 fgiquel Exp $
+-->
+
+<plugin>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///umlmia.behavioralelements/activitygraphs.ecore" 
+       class = "com.mia.umlmia.behavioralelements.activitygraphs.ActivitygraphsPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///umlmia.behavioralelements/collaborations.ecore" 
+       class = "com.mia.umlmia.behavioralelements.collaborations.CollaborationsPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///umlmia.behavioralelements/commonbehavior.ecore" 
+       class = "com.mia.umlmia.behavioralelements.commonbehavior.CommonbehaviorPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///umlmia.behavioralelements/statemachines.ecore" 
+       class = "com.mia.umlmia.behavioralelements.statemachines.StatemachinesPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///umlmia.behavioralelements/usecases.ecore" 
+       class = "com.mia.umlmia.behavioralelements.usecases.UsecasesPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///foundation/core.ecore" 
+       class = "com.mia.umlmia.foundation.core.CorePackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///foundation/datatypes.ecore" 
+       class = "com.mia.umlmia.foundation.datatypes.DatatypesPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///foundation/extensionmechanisms.ecore" 
+       class = "com.mia.umlmia.foundation.extensionmechanisms.ExtensionmechanismsPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///umlmia.generalmechanisms.ecore" 
+       class = "com.mia.umlmia.generalmechanisms.GeneralmechanismsPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///umlmia.properties.ecore" 
+       class = "com.mia.umlmia.properties.PropertiesPackage" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <package 
+       uri = "http:///umlmia.enumerations.ecore" 
+       class = "com.mia.umlmia.enumerations.EnumerationsPackage" />
+  </extension>
+  <extension
+        point="com.mia.studio.plugins.common.metamodel_properties">
+     <metamodelId>
+        UMLMIA
+     </metamodelId>
+     <properties>
+        <profileResolver
+              class="metamodel.UML.UMLProfileResolver">
+        </profileResolver>
+     </properties>
+  </extension>
+  <extension
+        id="UML.XMI"
+        name="UML.XMI"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML.io.xmi.UMLMIAXmiExtensionPoint"
+           id="UML.XMI"
+           isDefault="true"
+           kind="FILE"
+           name="XMI (XMI)">
+        <fileExtension
+              description="XMI files (*.xmi)"
+              extension="xmi"
+              isDefault="true">
+        </fileExtension>
+        <fileExtension
+              description="XML files (*.xml)"
+              extension="xml"
+              isDefault="false">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        id="UML.ROSE"
+        name="UML.ROSE"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML.io.rose.RoseExtensionPoint"
+           id="UML.ROSE"
+           isDefault="false"
+           kind="FILE"
+           name="Rational Rose (MDL)">
+        <fileExtension
+              description="Models (*.mdl)"
+              extension="mdl"
+              isDefault="true">
+        </fileExtension>
+        <fileExtension
+              description="Petals (*.ptl)"
+              extension="ptl"
+              isDefault="false">
+        </fileExtension>
+        <fileExtension
+              description="Categories (*.cat)"
+              extension="cat"
+              isDefault="false">
+        </fileExtension>
+        <fileExtension
+              description="Properties (*.pty)"
+              extension="pty"
+              isDefault="false">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        id="UML.XDE"
+        name="UML.XDE"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML.io.xde.XDEExtensionPoint"
+           id="UML.XDE"
+           isDefault="false"
+           kind="FILE"
+           name="XMI Rational XDE">
+        <fileExtension
+              description="XDE Models (*.xml)"
+              extension="xml"
+              isDefault="true">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        id="UML.MAGICDRAW"
+        name="UML.MAGICDRAW"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML.io.magicdraw.MagicDrawExtensionPoint"
+           id="UML.MAGICDRAW"
+           isDefault="false"
+           kind="FILE"
+           name="XMI MagicDraw">
+        <fileExtension
+              description="MagicDraw Models (*.xml)"
+              extension="xml"
+              isDefault="true">
+        </fileExtension>
+        <fileExtension
+              description="MagicDraw zip Models (*.xml.zip)"
+              extension="zip"
+              isDefault="false">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        id="UML.TOGETHER"
+        name="UML.TOGETHER"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML.io.together.TogetherExtensionPoint"
+           id="UML.TOGETHER"
+           isDefault="false"
+           kind="FILE"
+           name="XMI Together">
+        <fileExtension
+              description="XML files (*.xml)"
+              extension="xml"
+              isDefault="true">
+        </fileExtension>
+        <fileExtension
+              description="XMI files (*.xmi)"
+              extension="xmi"
+              isDefault="false">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        id="UML.POSEIDON"
+        name="UML.POSEIDON"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML.io.poseidon.PoseidonExtensionPoint"
+           id="UML.POSEIDON"
+           isDefault="false"
+           kind="FILE"
+           name="Poseidon/ArgoUML">
+        <fileExtension
+              description="Poseidon 2.x projects (*.zuml)"
+              extension="zuml"
+              isDefault="true">
+        </fileExtension>
+        <fileExtension
+              description="Poseidon 1.x projects (*.zargo)"
+              extension="zargo"
+              isDefault="false">
+        </fileExtension>
+        <fileExtension
+              description="ArgoUML projects (*.argo)"
+              extension="argo"
+              isDefault="false">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        id="UML.EA"
+        name="UML.EA"
+        point="com.mia.studio.plugins.common.resource_factory">
+     <parser
+           class="metamodel.UML.io.enterprisearchitect.EnterpriseArchitectExtensionPoint"
+           id="UML.EA"
+           isDefault="false"
+           kind="FILE"
+           name="Enterprise Architect">
+        <fileExtension
+              description="XMI files (*.xmi)"
+              extension="xmi"
+              isDefault="true">
+        </fileExtension>
+        <fileExtension
+              description="XML files (*.xml)"
+              extension="xml"
+              isDefault="false">
+        </fileExtension>
+     </parser>
+  </extension>
+  <extension
+        id="UML-MIA javadoc"
+        name="UML-MIA javadoc"
+        point="org.eclipse.pde.core.javadoc">
+     <javadoc
+           archive="false"
+           path="doc">
+        <plugin
+              id="UMLMIA">
+        </plugin>
+     </javadoc>
+  </extension>
+  <extension
+        point="org.eclipse.emf.ecore.extension_parser">
+     <parser
+           class="metamodel.UML.io.rose.RoseResourceFactory"
+           type="mdl">
+     </parser>
+     <parser
+           class="metamodel.UML.io.rose.RoseResourceFactory"
+           type="ptl">
+     </parser>
+     <parser
+           class="metamodel.UML.io.rose.RoseResourceFactory"
+           type="cat">
+     </parser>
+     <parser
+           class="metamodel.UML.io.rose.RoseResourceFactory"
+           type="pty">
+     </parser>
+  </extension>
+  <extension
+        point="org.eclipse.emf.ecore.extension_parser">
+     <parser
+           class="metamodel.UML.io.xmi.UMLMIAResourceFactory"
+           type="uml14mia">
+     </parser>
+  </extension>
+   <extension
+         point="com.mia.studio.common.metamodel_properties">
+         <!-- [4400] for metamodel compatibility with older releases -->
+      <metamodelId>
+         UMLMIA
+      </metamodelId>
+      <properties>
+         <epackagesOrganization
+               keepEmptyRootEPackagesFromEcore="true">
+         </epackagesOrganization>
+      </properties>
+   </extension>
+
+</plugin>

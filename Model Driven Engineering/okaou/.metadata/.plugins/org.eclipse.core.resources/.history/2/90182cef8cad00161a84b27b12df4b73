@@ -1,0 +1,8 @@
+package ui.view;
+
+public interface ICompteView {
+	
+	public void afficherOperation();
+	public void quitter();
+
+}

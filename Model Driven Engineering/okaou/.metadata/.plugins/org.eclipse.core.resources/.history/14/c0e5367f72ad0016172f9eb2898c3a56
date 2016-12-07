@@ -1,0 +1,9 @@
+package com.mia.banque.model.impl;
+
+import java.util.List;
+
+public class Operation implements com.mia.banque.model.IOperation {
+
+
+
+}

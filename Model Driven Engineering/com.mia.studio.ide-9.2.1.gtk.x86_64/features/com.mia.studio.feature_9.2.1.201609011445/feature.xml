@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.mia.studio.feature"
+      label="%featureName"
+      version="9.2.1.201609011445"
+      provider-name="Mia-Software"
+      plugin="com.mia.studio.branding">
+
+   <description url="www.mia-software.com">
+      %description
+   </description>
+
+   <copyright url="www.mia-software.com">
+      Licensed Material - Property of Mia-Software
+(C) Copyright Mia-Software 2015 - All Rights Reserved.
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.core.runtime" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.ecore.xmi" version="2.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.codegen" version="2.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.codegen.ecore" version="2.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.common.ui" version="2.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.jdt.core"/>
+      <import plugin="org.eclipse.jdt.launching"/>
+      <import plugin="org.eclipse.jdt.ui"/>
+      <import plugin="org.eclipse.emf.ecore" version="2.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui"/>
+      <import feature="org.eclipse.uml2" version="3.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.transaction"/>
+      <import feature="com.mia.itmf.lm" version="1.5.0.201401161755" match="greaterOrEqual"/>
+      <import feature="com.mia.itmf.modelmanager" version="1.5.1.201401292248"/>
+   </requires>
+
+   <plugin
+         id="com.mia.studio.common"
+         download-size="479"
+         install-size="908"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.engine"
+         download-size="35"
+         install-size="54"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.generation"
+         download-size="920"
+         install-size="2039"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.kernel"
+         download-size="232"
+         install-size="431"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.kernel.ui"
+         download-size="447"
+         install-size="800"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.plugins.common"
+         download-size="5"
+         install-size="16"
+         version="9.1.0.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.generation.ui.doc"
+         download-size="7561"
+         install-size="10520"
+         version="9.2.1.201609011445"/>
+
+   <plugin
+         id="com.mia.studio.common.resources"
+         download-size="674"
+         install-size="812"
+         version="9.2.1.201609011445"/>
+
+   <plugin
+         id="com.mia.studio.generation.discovery.metamodel"
+         download-size="132"
+         install-size="291"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.common.core"
+         download-size="153"
+         install-size="310"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.common.ui.jface"
+         download-size="329"
+         install-size="652"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.common.artefact.metamodel"
+         download-size="27"
+         install-size="50"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.generation.artefact.metamodel"
+         download-size="23"
+         install-size="47"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.generation.core"
+         download-size="175"
+         install-size="383"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.generation.core.compile.application"
+         download-size="20"
+         install-size="36"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.generation.ui.jface"
+         download-size="1332"
+         install-size="2765"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.branding"
+         download-size="102"
+         install-size="370"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.transformation"
+         download-size="821"
+         install-size="1771"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.transformation.artefact.metamodel"
+         download-size="19"
+         install-size="33"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.transformation.core"
+         download-size="117"
+         install-size="251"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.transformation.ui.jface"
+         download-size="1115"
+         install-size="2348"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.transformation.ui.sa"
+         download-size="243"
+         install-size="421"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.transformation.ui.doc"
+         download-size="2310"
+         install-size="4381"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.lm.doc"
+         download-size="302"
+         install-size="371"
+         version="9.1.0.201609011445"/>
+
+   <plugin
+         id="com.mia.studio.transformation.application"
+         download-size="17"
+         install-size="32"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.generation.application"
+         download-size="16"
+         install-size="30"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.common.integration.maven"
+         download-size="51"
+         install-size="63"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.scripts.xml.launch.junitcall"
+         download-size="185"
+         install-size="351"
+         version="9.0.2.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.transformation.core.compile.application"
+         download-size="24"
+         install-size="46"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.studio.empty.metamodel"
+         download-size="11"
+         install-size="15"
+         version="9.2.1.201609011445"
+         unpack="false"/>
+
+</feature>

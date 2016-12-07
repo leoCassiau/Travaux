@@ -1,0 +1,4 @@
+This product includes software developed by
+Mia-Software (http://www.mia-software.com).
+
+The terms and conditions governing Plug-ins and Features developed by Mia-Software (when indicated in "about.html" and "license.html" module files) are described in license_xx.txt file within the installation (/plugins/com.mia.studio.common.resources/resources/licences/)

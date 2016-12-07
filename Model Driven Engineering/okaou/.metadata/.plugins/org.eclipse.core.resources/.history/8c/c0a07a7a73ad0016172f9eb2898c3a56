@@ -1,0 +1,21 @@
+package model.impl;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class Compte implements model.ICompte {
+
+private List<model.IOperation> listOperation;
+
+	public List<model.IOperation> getOperations() {
+		if (this.listOperation == null) {
+			this.listOperation = new ArrayList<model.IOperation>();
+		}
+		return this.listOperation;
+	}
+	
+	public void setOperations(List<model.IOperation> newValue) {
+		this.listOperation = newValue;
+	}
+
+}

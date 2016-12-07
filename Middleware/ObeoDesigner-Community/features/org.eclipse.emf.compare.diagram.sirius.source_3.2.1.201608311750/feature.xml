@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.emf.compare.diagram.sirius.source" version="3.2.1.201608311750" label="%featureName" provider-name="%providerName">
+  <includes id="org.eclipse.emf.compare.diagram.sirius" version="3.2.1.201608311750"/>
+  <description>
+      %description
+   </description>
+  <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.emf.compare.diagram.ide.ui.sirius.source" version="1.0.0.201608311750" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.compare.diagram.sirius.source" version="1.0.0.201608311750" download-size="0" install-size="0" unpack="false"/>
+</feature>

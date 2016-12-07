@@ -1,0 +1,88 @@
+FScript reconfiguration
+-----------------------
+How to change a component in the helloworld example with the FScript console
+
+Config ADL
+----------
+Parent
+--> alma
+--> clientserver
+------> client (will become client2)
+------> server
+
+- launch the Fscript console 
+java -jar fscript-console-2.1.2.jar
+
+- load the helloworld code in FScript
+:classpath_add file:./helloworld.jar
+
+- create a new helloword component (a composite) and put it in the $parent
+var parent = adl-new("helloworld.Parent");
+
+- test some FPath expressions
+$parent/child::*
+$parent/descendant-or-self::*
+$parent/descendant-or-self::*/interface::*
+$parent/descendant-or-self::*/interface::*[not (ends-with(name(.), "controller"))]
+$parent/descendant-or-self::*/attribute::*
+$parent/descendant-or-self::*[stopped(.)]
+$parent/descendant-or-self::*[size(./ancestor::*)>1]
+$parent/descendant-or-self::*/sibling::*
+$parent/child::*/sibling::*
+
+- start it
+start($parent);
+
+- command :run --> Launch a 'Runnable' component interface.
+- execute the Parent server interfaces
+:run $parent/interface::r;
+
+- reconfigure it
+clientserver = $parent/child::clientserver;
+client = $parent/descendant::client;
+server = $parent/descendant::server;
+
+- reconfigure @header attribute (i.e., introspect then change the value)
+value($server/@header);
+set-value($server/@header,"CHEVAL");
+
+- unbind then bindings for removing client from clientserver
+stop($clientServer);
+unbind(bindings-to($client));
+unbind(bindings-to($server));
+
+
+- test some FPath expressions for the temporary config
+$parent/child::*
+$clientserver /child::*
+$parent/descendant-or-self::*/interface::*;
+$parent/descendant-or-self::*[size(./ancestor::*)>1]
+
+- the component "alma" is always runnning
+:run $parent/interface::rbis
+
+- ... but not the interface "r" of the component "server"
+:run $parent/interface::r
+
+- ... even if the component "server" is accesible via controller
+value($server/@header);
+value($server/@count);
+
+- reconfigure clientserver
+client2 = adl-new('helloworld.ClientImpl2');
+set-name($client2,"client2");
+add($clientServer, $client2);
+bind($client2/interface::s, $server/interface::s);
+
+- test some FPath expressions for the final config
+$clientserver /child::*
+$clientserver /child::*/interface::*
+$parent/descendant-or-self::*/interface::*
+
+- if you run the parent component without starting $clientserver, the invocations are pooled until the starting of $clientserver
+:run $parent/interface::r
+start($clientserver);
+:run $parent/interface::r
+
+- quit the interpreter
+:quit

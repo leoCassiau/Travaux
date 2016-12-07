@@ -1,0 +1,642 @@
+
+
+#################################
+######### Experiments 1 #########
+#################################
+
+Solution without constraint :
+ 
+
+###### Memory Management #######
+machine-23: 1 (16)
+machine-19: 1 (8)
+machine-17: 2 (16)
+machine-15: 1 (32)
+machine-14: 4 (32)
+machine-13: 1 (16)
+machine-10: 2 (8)
+machine-5: 4 (8)
+machine-31: 2 2 (16)
+machine-32: 4 2 (16)
+machine-34: 2 4 (32)
+machine-35: 4 4 (16)
+machine-37: 1 1 (16)
+machine-40: 4 2 (16)
+machine-47: 1 4 (8)
+machine-49: 2 2 (32)
+machine-50: 4 2 (32)
+machine-52: 1 2 (16)
+machine-55: 4 1 (8)
+machine-57: 2 1 (16)
+machine-66: 2 1 (16)
+machine-70: 4 2 (8)
+machine-71: 2 2 (32)
+machine-72: 4 2 (32)
+machine-74: 1 2 (32)
+machine-75: 4 4 (32)
+machine-76: 1 4 (32)
+machine-77: 2 1 (8)
+machine-78: 1 2 (32)
+machine-89: 4 1 (32)
+machine-96: 1 4 (8)
+machine-99: 1 1 (8)
+machine-0: 1 2 (16)
+machine-4: 1 4 (32)
+machine-7: 4 4 (16)
+machine-9: 1 4 (16)
+machine-11: 1 4 (16)
+machine-12: 1 4 (32)
+machine-16: 2 4 (8)
+machine-24: 1 4 (8)
+machine-25: 4 4 (16)
+machine-29: 2 2 (32)
+machine-30: 1 2 (8)
+machine-36: 2 1 (32)
+machine-38: 2 2 (32)
+machine-41: 1 2 (32)
+machine-43: 4 1 (16)
+machine-44: 1 2 (8)
+machine-45: 4 4 (16)
+machine-46: 1 4 (8)
+machine-51: 4 2 (8)
+machine-58: 1 1 (8)
+machine-60: 4 4 (16)
+machine-63: 4 2 (32)
+machine-65: 1 1 (32)
+machine-68: 1 4 (16)
+machine-69: 2 1 (8)
+machine-73: 1 4 (16)
+machine-79: 2 2 (16)
+machine-83: 1 2 (32)
+machine-86: 4 2 (16)
+machine-18: 4 1 4 (32)
+machine-8: 4 2 4 (32)
+machine-6: 4 4 2 (32)
+machine-3: 1 1 1 (32)
+machine-2: 1 2 4 (16)
+machine-1: 1 1 4 (32)
+machine-97: 2 1 2 (8)
+machine-90: 2 1 4 (8)
+machine-20: 4 1 (16)
+machine-21: 4 2 (16)
+machine-22: 1 1 (8)
+machine-26: 4 4 (8)
+machine-27: 2 1 (32)
+machine-28: 2 1 (16)
+machine-33: 2 4 (16)
+machine-39: 4 4 (16)
+machine-42: 2 1 (32)
+machine-48: 4 2 (16)
+machine-53: 1 4 (32)
+machine-54: 1 2 (32)
+machine-56: 1 1 (16)
+machine-59: 2 1 (8)
+machine-61: 4 1 (16)
+machine-62: 4 1 (8)
+machine-64: 2 1 (32)
+machine-67: 4 4 (32)
+machine-80: 2 1 (8)
+machine-81: 1 2 (16)
+machine-82: 4 4 (8)
+machine-84: 4 1 (16)
+machine-85: 4 2 (8)
+machine-87: 4 4 (8)
+machine-88: 4 1 (16)
+machine-91: 1 2 (8)
+machine-92: 2 4 (16)
+machine-93: 1 4 (32)
+machine-94: 2 2 (8)
+machine-95: 1 2 (32)
+machine-98: 2 2 (8)
+Occupation rate: 32%
+
+######## Cpu Management ########
+machine-23: 3 (4)
+machine-19: 3 (4)
+machine-17: 3 (4)
+machine-15: 3 (4)
+machine-14: 3 (4)
+machine-13: 3 (4)
+machine-10: 3 (4)
+machine-5: 3 (4)
+machine-31: 3 1 (4)
+machine-32: 3 1 (4)
+machine-34: 3 1 (4)
+machine-35: 3 1 (4)
+machine-37: 3 1 (4)
+machine-40: 3 1 (4)
+machine-47: 3 1 (4)
+machine-49: 3 1 (4)
+machine-50: 3 1 (4)
+machine-52: 3 1 (4)
+machine-55: 3 1 (4)
+machine-57: 3 1 (4)
+machine-66: 3 1 (4)
+machine-70: 3 1 (4)
+machine-71: 3 1 (4)
+machine-72: 3 1 (4)
+machine-74: 3 1 (4)
+machine-75: 3 1 (4)
+machine-76: 3 1 (4)
+machine-77: 3 1 (4)
+machine-78: 3 1 (4)
+machine-89: 3 1 (4)
+machine-96: 3 1 (4)
+machine-99: 3 1 (4)
+machine-0: 3 1 (8)
+machine-4: 3 1 (8)
+machine-7: 3 1 (8)
+machine-9: 3 1 (8)
+machine-11: 3 1 (8)
+machine-12: 3 1 (8)
+machine-16: 3 1 (8)
+machine-24: 3 1 (8)
+machine-25: 3 1 (8)
+machine-29: 3 1 (8)
+machine-30: 3 1 (8)
+machine-36: 3 1 (8)
+machine-38: 3 1 (8)
+machine-41: 3 1 (8)
+machine-43: 3 1 (8)
+machine-44: 3 1 (8)
+machine-45: 3 1 (8)
+machine-46: 3 1 (8)
+machine-51: 3 1 (8)
+machine-58: 3 1 (8)
+machine-60: 3 1 (8)
+machine-63: 3 1 (8)
+machine-65: 3 1 (8)
+machine-68: 3 1 (8)
+machine-69: 3 1 (8)
+machine-73: 3 1 (8)
+machine-79: 3 1 (8)
+machine-83: 3 1 (8)
+machine-86: 3 1 (8)
+machine-18: 2 1 1 (16)
+machine-8: 2 1 1 (16)
+machine-6: 2 1 1 (16)
+machine-3: 2 1 1 (16)
+machine-2: 2 1 1 (16)
+machine-1: 2 1 1 (16)
+machine-97: 2 1 1 (8)
+machine-90: 2 1 1 (8)
+machine-20: 2 2 (16)
+machine-21: 2 2 (16)
+machine-22: 2 2 (16)
+machine-26: 2 2 (16)
+machine-27: 2 2 (16)
+machine-28: 2 2 (16)
+machine-33: 2 2 (16)
+machine-39: 2 2 (16)
+machine-42: 2 2 (16)
+machine-48: 2 2 (16)
+machine-53: 2 2 (16)
+machine-54: 2 2 (16)
+machine-56: 2 2 (16)
+machine-59: 2 2 (16)
+machine-61: 2 2 (16)
+machine-62: 2 2 (16)
+machine-64: 2 2 (16)
+machine-67: 2 2 (16)
+machine-80: 2 2 (16)
+machine-81: 2 2 (16)
+machine-82: 2 2 (16)
+machine-84: 2 2 (16)
+machine-85: 2 2 (16)
+machine-87: 2 2 (16)
+machine-88: 2 2 (16)
+machine-91: 2 2 (16)
+machine-92: 2 2 (16)
+machine-93: 2 2 (16)
+machine-94: 2 2 (16)
+machine-95: 2 2 (16)
+machine-98: 2 2 (16)
+Occupation rate: 54%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-23 (3/4,1/16) 231 : [vm167(3,1)]
+machine-19 (3/4,1/8) 190 : [vm176(3,1)]
+machine-17 (3/4,2/16) 231 : [vm185(3,2)]
+machine-15 (3/4,1/32) 313 : [vm190(3,1)]
+machine-14 (3/4,4/32) 313 : [vm191(3,4)]
+machine-13 (3/4,1/16) 231 : [vm195(3,1)]
+machine-10 (3/4,2/8) 190 : [vm198(3,2)]
+machine-5 (3/4,4/8) 190 : [vm199(3,4)]
+machine-31 (4/4,4/16) 231 : [vm163(3,2), vm2(1,2)]
+machine-32 (4/4,6/16) 231 : [vm160(3,4), vm10(1,2)]
+machine-34 (4/4,6/32) 313 : [vm158(3,2), vm15(1,4)]
+machine-35 (4/4,8/16) 231 : [vm156(3,4), vm23(1,4)]
+machine-37 (4/4,2/16) 231 : [vm152(3,1), vm25(1,1)]
+machine-40 (4/4,6/16) 231 : [vm151(3,4), vm31(1,2)]
+machine-47 (4/4,5/8) 190 : [vm145(3,1), vm36(1,4)]
+machine-49 (4/4,4/32) 313 : [vm144(3,2), vm39(1,2)]
+machine-50 (4/4,6/32) 313 : [vm134(3,4), vm43(1,2)]
+machine-52 (4/4,3/16) 231 : [vm133(3,1), vm44(1,2)]
+machine-55 (4/4,5/8) 190 : [vm121(3,4), vm45(1,1)]
+machine-57 (4/4,3/16) 231 : [vm116(3,2), vm58(1,1)]
+machine-66 (4/4,3/16) 231 : [vm115(3,2), vm63(1,1)]
+machine-70 (4/4,6/8) 190 : [vm113(3,4), vm65(1,2)]
+machine-71 (4/4,4/32) 313 : [vm109(3,2), vm67(1,2)]
+machine-72 (4/4,6/32) 313 : [vm107(3,4), vm70(1,2)]
+machine-74 (4/4,3/32) 313 : [vm101(3,1), vm74(1,2)]
+machine-75 (4/4,8/32) 313 : [vm90(3,4), vm75(1,4)]
+machine-76 (4/4,5/32) 313 : [vm89(3,1), vm77(1,4)]
+machine-77 (4/4,3/8) 190 : [vm86(3,2), vm81(1,1)]
+machine-78 (4/4,3/32) 313 : [vm85(3,1), vm91(1,2)]
+machine-89 (4/4,5/32) 313 : [vm84(3,4), vm93(1,1)]
+machine-96 (4/4,5/8) 190 : [vm83(3,1), vm94(1,4)]
+machine-99 (4/4,2/8) 190 : [vm80(3,1), vm95(1,1)]
+machine-0 (4/8,3/16) 231 : [vm78(3,1), vm96(1,2)]
+machine-4 (4/8,5/32) 313 : [vm76(3,1), vm97(1,4)]
+machine-7 (4/8,8/16) 231 : [vm72(3,4), vm99(1,4)]
+machine-9 (4/8,5/16) 231 : [vm69(3,1), vm102(1,4)]
+machine-11 (4/8,5/16) 231 : [vm68(3,1), vm103(1,4)]
+machine-12 (4/8,5/32) 313 : [vm64(3,1), vm104(1,4)]
+machine-16 (4/8,6/8) 190 : [vm62(3,2), vm105(1,4)]
+machine-24 (4/8,5/8) 190 : [vm60(3,1), vm106(1,4)]
+machine-25 (4/8,8/16) 231 : [vm59(3,4), vm108(1,4)]
+machine-29 (4/8,4/32) 313 : [vm52(3,2), vm110(1,2)]
+machine-30 (4/8,3/8) 190 : [vm51(3,1), vm111(1,2)]
+machine-36 (4/8,3/32) 313 : [vm50(3,2), vm117(1,1)]
+machine-38 (4/8,4/32) 313 : [vm49(3,2), vm118(1,2)]
+machine-41 (4/8,3/32) 313 : [vm47(3,1), vm122(1,2)]
+machine-43 (4/8,5/16) 231 : [vm41(3,4), vm123(1,1)]
+machine-44 (4/8,3/8) 190 : [vm29(3,1), vm127(1,2)]
+machine-45 (4/8,8/16) 231 : [vm28(3,4), vm128(1,4)]
+machine-46 (4/8,5/8) 190 : [vm27(3,1), vm129(1,4)]
+machine-51 (4/8,6/8) 190 : [vm26(3,4), vm131(1,2)]
+machine-58 (4/8,2/8) 190 : [vm24(3,1), vm132(1,1)]
+machine-60 (4/8,8/16) 231 : [vm21(3,4), vm136(1,4)]
+machine-63 (4/8,6/32) 313 : [vm17(3,4), vm137(1,2)]
+machine-65 (4/8,2/32) 313 : [vm14(3,1), vm140(1,1)]
+machine-68 (4/8,5/16) 231 : [vm9(3,1), vm142(1,4)]
+machine-69 (4/8,3/8) 190 : [vm8(3,2), vm143(1,1)]
+machine-73 (4/8,5/16) 231 : [vm6(3,1), vm146(1,4)]
+machine-79 (4/8,4/16) 231 : [vm3(3,2), vm149(1,2)]
+machine-83 (4/8,3/32) 313 : [vm1(3,1), vm153(1,2)]
+machine-86 (4/8,6/16) 231 : [vm0(3,4), vm154(1,2)]
+machine-18 (4/16,9/32) 313 : [vm178(2,4), vm197(1,1), vm159(1,4)]
+machine-8 (4/16,10/32) 313 : [vm180(2,4), vm196(1,2), vm165(1,4)]
+machine-6 (4/16,10/32) 313 : [vm181(2,4), vm194(1,4), vm168(1,2)]
+machine-3 (4/16,3/32) 313 : [vm183(2,1), vm193(1,1), vm170(1,1)]
+machine-2 (4/16,7/16) 231 : [vm187(2,1), vm186(1,2), vm172(1,4)]
+machine-1 (4/16,6/32) 313 : [vm188(2,1), vm184(1,1), vm173(1,4)]
+machine-97 (4/8,5/8) 190 : [vm189(2,2), vm182(1,1), vm174(1,2)]
+machine-90 (4/8,7/8) 190 : [vm192(2,2), vm179(1,1), vm175(1,4)]
+machine-20 (4/16,5/16) 231 : [vm177(2,4), vm4(2,1)]
+machine-21 (4/16,6/16) 231 : [vm171(2,4), vm5(2,2)]
+machine-22 (4/16,2/8) 190 : [vm169(2,1), vm7(2,1)]
+machine-26 (4/16,8/8) 190 : [vm166(2,4), vm11(2,4)]
+machine-27 (4/16,3/32) 313 : [vm164(2,2), vm12(2,1)]
+machine-28 (4/16,3/16) 231 : [vm162(2,2), vm13(2,1)]
+machine-33 (4/16,6/16) 231 : [vm161(2,2), vm16(2,4)]
+machine-39 (4/16,8/16) 231 : [vm157(2,4), vm18(2,4)]
+machine-42 (4/16,3/32) 313 : [vm155(2,2), vm19(2,1)]
+machine-48 (4/16,6/16) 231 : [vm150(2,4), vm20(2,2)]
+machine-53 (4/16,5/32) 313 : [vm148(2,1), vm22(2,4)]
+machine-54 (4/16,3/32) 313 : [vm147(2,1), vm30(2,2)]
+machine-56 (4/16,2/16) 231 : [vm141(2,1), vm32(2,1)]
+machine-59 (4/16,3/8) 190 : [vm139(2,2), vm33(2,1)]
+machine-61 (4/16,5/16) 231 : [vm138(2,4), vm34(2,1)]
+machine-62 (4/16,5/8) 190 : [vm135(2,4), vm35(2,1)]
+machine-64 (4/16,3/32) 313 : [vm130(2,2), vm37(2,1)]
+machine-67 (4/16,8/32) 313 : [vm126(2,4), vm38(2,4)]
+machine-80 (4/16,3/8) 190 : [vm125(2,2), vm40(2,1)]
+machine-81 (4/16,3/16) 231 : [vm124(2,1), vm42(2,2)]
+machine-82 (4/16,8/8) 190 : [vm120(2,4), vm46(2,4)]
+machine-84 (4/16,5/16) 231 : [vm119(2,4), vm48(2,1)]
+machine-85 (4/16,6/8) 190 : [vm114(2,4), vm53(2,2)]
+machine-87 (4/16,8/8) 190 : [vm112(2,4), vm54(2,4)]
+machine-88 (4/16,5/16) 231 : [vm100(2,4), vm55(2,1)]
+machine-91 (4/16,3/8) 190 : [vm98(2,1), vm56(2,2)]
+machine-92 (4/16,6/16) 231 : [vm92(2,2), vm57(2,4)]
+machine-93 (4/16,5/32) 313 : [vm88(2,1), vm61(2,4)]
+machine-94 (4/16,4/8) 190 : [vm87(2,2), vm66(2,2)]
+machine-95 (4/16,3/32) 313 : [vm82(2,1), vm71(2,2)]
+machine-98 (4/16,4/8) 190 : [vm79(2,2), vm73(2,2)]
+
+ Machine Energy :  - 234 - 193 - 234 - 316 - 316 - 234 - 193 - 193 - 235 - 235 - 317 - 235 - 235 - 235 - 194 - 317 - 317 - 235 - 194 - 235 - 235 - 194 - 317 - 317 - 317 - 317 - 317 - 194 - 317 - 317 - 194 - 194 - 235 - 317 - 235 - 235 - 235 - 317 - 194 - 194 - 235 - 317 - 194 - 317 - 317 - 317 - 235 - 194 - 235 - 194 - 194 - 194 - 235 - 317 - 317 - 235 - 194 - 235 - 235 - 317 - 235 - 317 - 317 - 317 - 317 - 235 - 317 - 194 - 194 - 235 - 235 - 194 - 194 - 317 - 235 - 235 - 235 - 317 - 235 - 317 - 317 - 235 - 194 - 235 - 194 - 317 - 317 - 194 - 235 - 194 - 235 - 194 - 194 - 235 - 194 - 235 - 317 - 194 - 317 - 194
+ Energy : 25050
+
+
+Welcome to the constraint world ...
+
+
+#################################
+######### Loops 1 ###############
+#################################
+
+###### Memory Management #######
+machine-99: (8)
+machine-96: (8)
+machine-89: (32)
+machine-78: (32)
+machine-77: (8)
+machine-76: (32)
+machine-75: (32)
+machine-74: (32)
+machine-72: (32)
+machine-71: (32)
+machine-70: (8)
+machine-66: (16)
+machine-57: (16)
+machine-55: (8)
+machine-52: (16)
+machine-50: (32)
+machine-49: (32)
+machine-47: (8)
+machine-40: (16)
+machine-37: (16)
+machine-35: (16)
+machine-34: (32)
+machine-32: (16)
+machine-31: (16)
+machine-5: (8)
+machine-10: (8)
+machine-13: (16)
+machine-14: (32)
+machine-15: (32)
+machine-17: (16)
+machine-19: (8)
+machine-23: (16)
+machine-90: (8)
+machine-97: (8)
+machine-86: (16)
+machine-83: (32)
+machine-79: (16)
+machine-73: (16)
+machine-69: (8)
+machine-68: (16)
+machine-65: (32)
+machine-63: (32)
+machine-60: (16)
+machine-58: (8)
+machine-51: (8)
+machine-46: (8)
+machine-45: (16)
+machine-44: (8)
+machine-43: (16)
+machine-41: (32)
+machine-38: (32)
+machine-36: (32)
+machine-30: (8)
+machine-29: (32)
+machine-25: (16)
+machine-24: (8)
+machine-16: (8)
+machine-12: (32)
+machine-11: (16)
+machine-9: (16)
+machine-7: (16)
+machine-4: (32)
+machine-0: (16)
+machine-98: (8)
+machine-95: (32)
+machine-94: (8)
+machine-93: (32)
+machine-92: (16)
+machine-91: (8)
+machine-88: (16)
+machine-87: (8)
+machine-85: (8)
+machine-84: (16)
+machine-82: (8)
+machine-81: (16)
+machine-80: 4 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 (8)
+machine-67: 4 4 4 4 4 (32)
+machine-64: 4 4 4 4 4 (32)
+machine-62: 4 2 2 (8)
+machine-61: 4 4 4 2 (16)
+machine-59: 4 2 (8)
+machine-56: 4 4 4 2 (16)
+machine-54: 4 4 4 4 4 (32)
+machine-53: 4 4 4 4 4 (32)
+machine-48: 4 4 4 2 (16)
+machine-42: 4 4 4 4 4 (32)
+machine-39: 4 4 4 2 (16)
+machine-33: 4 4 4 2 (16)
+machine-28: 4 4 4 2 (16)
+machine-27: 4 4 4 4 4 (32)
+machine-26: 4 2 (8)
+machine-22: 4 2 (8)
+machine-21: 4 4 4 2 (16)
+machine-20: 4 4 4 2 (16)
+machine-1: 4 4 4 4 4 4 4 (32)
+machine-2: 4 4 4 2 (16)
+machine-3: 2 2 2 2 2 2 2 2 (32)
+machine-6: 2 2 2 2 2 2 2 2 (32)
+machine-8: 2 2 2 2 2 2 2 (32)
+machine-18: 2 2 2 2 2 2 2 (32)
+Occupation rate: 31%
+
+######## Cpu Management ########
+machine-99: (4)
+machine-96: (4)
+machine-89: (4)
+machine-78: (4)
+machine-77: (4)
+machine-76: (4)
+machine-75: (4)
+machine-74: (4)
+machine-72: (4)
+machine-71: (4)
+machine-70: (4)
+machine-66: (4)
+machine-57: (4)
+machine-55: (4)
+machine-52: (4)
+machine-50: (4)
+machine-49: (4)
+machine-47: (4)
+machine-40: (4)
+machine-37: (4)
+machine-35: (4)
+machine-34: (4)
+machine-32: (4)
+machine-31: (4)
+machine-5: (4)
+machine-10: (4)
+machine-13: (4)
+machine-14: (4)
+machine-15: (4)
+machine-17: (4)
+machine-19: (4)
+machine-23: (4)
+machine-90: (8)
+machine-97: (8)
+machine-86: (8)
+machine-83: (8)
+machine-79: (8)
+machine-73: (8)
+machine-69: (8)
+machine-68: (8)
+machine-65: (8)
+machine-63: (8)
+machine-60: (8)
+machine-58: (8)
+machine-51: (8)
+machine-46: (8)
+machine-45: (8)
+machine-44: (8)
+machine-43: (8)
+machine-41: (8)
+machine-38: (8)
+machine-36: (8)
+machine-30: (8)
+machine-29: (8)
+machine-25: (8)
+machine-24: (8)
+machine-16: (8)
+machine-12: (8)
+machine-11: (8)
+machine-9: (8)
+machine-7: (8)
+machine-4: (8)
+machine-0: (8)
+machine-98: (16)
+machine-95: (16)
+machine-94: (16)
+machine-93: (16)
+machine-92: (16)
+machine-91: (16)
+machine-88: (16)
+machine-87: (16)
+machine-85: (16)
+machine-84: (16)
+machine-82: (16)
+machine-81: (16)
+machine-80: 3 3 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 (16)
+machine-67: 3 3 3 3 3 (16)
+machine-64: 3 3 3 3 3 (16)
+machine-62: 3 3 1 (16)
+machine-61: 3 3 3 3 (16)
+machine-59: 3 3 (16)
+machine-56: 3 3 3 3 (16)
+machine-54: 2 2 2 2 2 (16)
+machine-53: 2 2 2 2 2 (16)
+machine-48: 2 2 2 3 (16)
+machine-42: 2 2 2 2 2 (16)
+machine-39: 2 2 2 3 (16)
+machine-33: 2 2 2 3 (16)
+machine-28: 2 1 1 3 (16)
+machine-27: 1 1 1 1 1 (16)
+machine-26: 1 3 (16)
+machine-22: 1 3 (16)
+machine-21: 1 1 1 3 (16)
+machine-20: 1 1 1 3 (16)
+machine-1: 1 1 1 1 1 1 1 (16)
+machine-2: 1 1 1 3 (16)
+machine-3: 3 2 2 2 2 2 2 2 (16)
+machine-6: 2 2 2 2 2 2 2 2 (16)
+machine-8: 2 2 2 2 1 1 1 (16)
+machine-18: 2 2 1 1 1 1 1 (16)
+Occupation rate: 24%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-99 (0/4,0/8) 190 : []
+machine-96 (0/4,0/8) 190 : []
+machine-89 (0/4,0/32) 313 : []
+machine-78 (0/4,0/32) 313 : []
+machine-77 (0/4,0/8) 190 : []
+machine-76 (0/4,0/32) 313 : []
+machine-75 (0/4,0/32) 313 : []
+machine-74 (0/4,0/32) 313 : []
+machine-72 (0/4,0/32) 313 : []
+machine-71 (0/4,0/32) 313 : []
+machine-70 (0/4,0/8) 190 : []
+machine-66 (0/4,0/16) 231 : []
+machine-57 (0/4,0/16) 231 : []
+machine-55 (0/4,0/8) 190 : []
+machine-52 (0/4,0/16) 231 : []
+machine-50 (0/4,0/32) 313 : []
+machine-49 (0/4,0/32) 313 : []
+machine-47 (0/4,0/8) 190 : []
+machine-40 (0/4,0/16) 231 : []
+machine-37 (0/4,0/16) 231 : []
+machine-35 (0/4,0/16) 231 : []
+machine-34 (0/4,0/32) 313 : []
+machine-32 (0/4,0/16) 231 : []
+machine-31 (0/4,0/16) 231 : []
+machine-5 (0/4,0/8) 190 : []
+machine-10 (0/4,0/8) 190 : []
+machine-13 (0/4,0/16) 231 : []
+machine-14 (0/4,0/32) 313 : []
+machine-15 (0/4,0/32) 313 : []
+machine-17 (0/4,0/16) 231 : []
+machine-19 (0/4,0/8) 190 : []
+machine-23 (0/4,0/16) 231 : []
+machine-90 (0/8,0/8) 190 : []
+machine-97 (0/8,0/8) 190 : []
+machine-86 (0/8,0/16) 231 : []
+machine-83 (0/8,0/32) 313 : []
+machine-79 (0/8,0/16) 231 : []
+machine-73 (0/8,0/16) 231 : []
+machine-69 (0/8,0/8) 190 : []
+machine-68 (0/8,0/16) 231 : []
+machine-65 (0/8,0/32) 313 : []
+machine-63 (0/8,0/32) 313 : []
+machine-60 (0/8,0/16) 231 : []
+machine-58 (0/8,0/8) 190 : []
+machine-51 (0/8,0/8) 190 : []
+machine-46 (0/8,0/8) 190 : []
+machine-45 (0/8,0/16) 231 : []
+machine-44 (0/8,0/8) 190 : []
+machine-43 (0/8,0/16) 231 : []
+machine-41 (0/8,0/32) 313 : []
+machine-38 (0/8,0/32) 313 : []
+machine-36 (0/8,0/32) 313 : []
+machine-30 (0/8,0/8) 190 : []
+machine-29 (0/8,0/32) 313 : []
+machine-25 (0/8,0/16) 231 : []
+machine-24 (0/8,0/8) 190 : []
+machine-16 (0/8,0/8) 190 : []
+machine-12 (0/8,0/32) 313 : []
+machine-11 (0/8,0/16) 231 : []
+machine-9 (0/8,0/16) 231 : []
+machine-7 (0/8,0/16) 231 : []
+machine-4 (0/8,0/32) 313 : []
+machine-0 (0/8,0/16) 231 : []
+machine-98 (0/16,0/8) 190 : []
+machine-95 (0/16,0/32) 313 : []
+machine-94 (0/16,0/8) 190 : []
+machine-93 (0/16,0/32) 313 : []
+machine-92 (0/16,0/16) 231 : []
+machine-91 (0/16,0/8) 190 : []
+machine-88 (0/16,0/16) 231 : []
+machine-87 (0/16,0/8) 190 : []
+machine-85 (0/16,0/8) 190 : []
+machine-84 (0/16,0/16) 231 : []
+machine-82 (0/16,0/8) 190 : []
+machine-81 (0/16,0/16) 231 : []
+machine-80 (170/16,109/8) 190 : [vm199(3,4), vm198(3,2), vm127(1,2), vm122(1,2), vm118(1,2), vm111(1,2), vm110(1,2), vm96(1,2), vm91(1,2), vm74(1,2), vm70(1,2), vm67(1,2), vm65(1,2), vm44(1,2), vm43(1,2), vm39(1,2), vm31(1,2), vm10(1,2), vm2(1,2), vm195(3,1), vm190(3,1), vm176(3,1), vm167(3,1), vm152(3,1), vm145(3,1), vm133(3,1), vm101(3,1), vm89(3,1), vm85(3,1), vm83(3,1), vm80(3,1), vm78(3,1), vm76(3,1), vm69(3,1), vm68(3,1), vm64(3,1), vm60(3,1), vm51(3,1), vm47(3,1), vm29(3,1), vm27(3,1), vm24(3,1), vm14(3,1), vm9(3,1), vm6(3,1), vm1(3,1), vm188(2,1), vm187(2,1), vm183(2,1), vm169(2,1), vm148(2,1), vm147(2,1), vm141(2,1), vm124(2,1), vm98(2,1), vm88(2,1), vm82(2,1), vm55(2,1), vm48(2,1), vm40(2,1), vm37(2,1), vm35(2,1), vm34(2,1), vm33(2,1), vm32(2,1), vm19(2,1), vm13(2,1), vm12(2,1), vm7(2,1), vm4(2,1), vm197(1,1), vm193(1,1), vm184(1,1), vm182(1,1), vm179(1,1), vm170(1,1), vm143(1,1), vm140(1,1), vm132(1,1), vm123(1,1), vm117(1,1), vm95(1,1), vm93(1,1), vm81(1,1), vm63(1,1), vm58(1,1), vm45(1,1), vm25(1,1)]
+machine-67 (15/16,20/32) 313 : [vm191(3,4), vm160(3,4), vm156(3,4), vm151(3,4), vm134(3,4)]
+machine-64 (15/16,20/32) 313 : [vm121(3,4), vm113(3,4), vm107(3,4), vm90(3,4), vm84(3,4)]
+machine-62 (7/16,8/8) 190 : [vm72(3,4), vm185(3,2), vm131(1,2)]
+machine-61 (12/16,14/16) 231 : [vm59(3,4), vm41(3,4), vm28(3,4), vm163(3,2)]
+machine-59 (6/16,6/8) 190 : [vm26(3,4), vm158(3,2)]
+machine-56 (12/16,14/16) 231 : [vm21(3,4), vm17(3,4), vm0(3,4), vm144(3,2)]
+machine-54 (10/16,20/32) 313 : [vm181(2,4), vm180(2,4), vm178(2,4), vm177(2,4), vm171(2,4)]
+machine-53 (10/16,20/32) 313 : [vm166(2,4), vm157(2,4), vm150(2,4), vm138(2,4), vm135(2,4)]
+machine-48 (9/16,14/16) 231 : [vm126(2,4), vm120(2,4), vm119(2,4), vm116(3,2)]
+machine-42 (10/16,20/32) 313 : [vm114(2,4), vm112(2,4), vm100(2,4), vm61(2,4), vm57(2,4)]
+machine-39 (9/16,14/16) 231 : [vm54(2,4), vm46(2,4), vm38(2,4), vm115(3,2)]
+machine-33 (9/16,14/16) 231 : [vm22(2,4), vm18(2,4), vm16(2,4), vm109(3,2)]
+machine-28 (7/16,14/16) 231 : [vm11(2,4), vm194(1,4), vm175(1,4), vm86(3,2)]
+machine-27 (5/16,20/32) 313 : [vm173(1,4), vm172(1,4), vm165(1,4), vm159(1,4), vm146(1,4)]
+machine-26 (4/16,6/8) 190 : [vm142(1,4), vm62(3,2)]
+machine-22 (4/16,6/8) 190 : [vm136(1,4), vm52(3,2)]
+machine-21 (6/16,14/16) 231 : [vm129(1,4), vm128(1,4), vm108(1,4), vm50(3,2)]
+machine-20 (6/16,14/16) 231 : [vm106(1,4), vm105(1,4), vm104(1,4), vm49(3,2)]
+machine-1 (7/16,28/32) 313 : [vm103(1,4), vm102(1,4), vm99(1,4), vm97(1,4), vm94(1,4), vm77(1,4), vm75(1,4)]
+machine-2 (6/16,14/16) 231 : [vm36(1,4), vm23(1,4), vm15(1,4), vm8(3,2)]
+machine-3 (17/16,16/32) 313 : [vm3(3,2), vm192(2,2), vm189(2,2), vm164(2,2), vm162(2,2), vm161(2,2), vm155(2,2), vm139(2,2)]
+machine-6 (16/16,16/32) 313 : [vm130(2,2), vm125(2,2), vm92(2,2), vm87(2,2), vm79(2,2), vm73(2,2), vm71(2,2), vm66(2,2)]
+machine-8 (11/16,14/32) 313 : [vm56(2,2), vm53(2,2), vm42(2,2), vm20(2,2), vm196(1,2), vm174(1,2), vm154(1,2)]
+machine-18 (9/16,14/32) 313 : [vm30(2,2), vm5(2,2), vm186(1,2), vm168(1,2), vm153(1,2), vm149(1,2), vm137(1,2)]
+
+ Machine Energy :  - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 360 - 328 - 328 - 197 - 243 - 196 - 243 - 323 - 323 - 240 - 323 - 240 - 240 - 238 - 318 - 194 - 194 - 237 - 237 - 320 - 237 - 330 - 329 - 324 - 322
+ Energy : 6864
+
+Computation time: 20365
+Solving times: [20365]
+Mean: 20365

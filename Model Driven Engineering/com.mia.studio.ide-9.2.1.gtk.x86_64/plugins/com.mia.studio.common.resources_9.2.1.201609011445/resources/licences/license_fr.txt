@@ -1,0 +1,166 @@
+PREAMBULE
+Le Licencié déclare accepter pleinement et sans réserve les conditions de la présente licence d’utilisation.
+Le Licencié a fait appel au Concédant en tant que professionnel de l’informatique et titulaire des droits de propriété intellectuelle nécessaires au présent contrat.
+Avant acceptation, le Concédant se réserve le droit de retirer à tout moment cette présente offre, sans préavis, pour des raisons économiques ou juridiques, de restructuration de la société Mia-Software, ou d’obsolescence technologique.
+Au sens du présent contrat, le terme Progiciel désigne l’ensemble des Progiciels indiqués dans les Conditions Particulières annexées aux présentes.
+Le Concédant propose à toute personne intéressée la possibilité d’évaluer gratuitement, sous conditions, le Progiciel désigné dans les Conditions Particulières. Toutefois, le Licencié peut préférer souscrire immédiatement une licence définitive (licence flottante ou licence site) selon les modalités définies ci-dessous. En ce cas, le Licencié le fera à ses risques et périls. Notamment, le Licencié ne pourra reprocher au Concédant un quelconque défaut d’information sur le Progiciel ci-dessous désigné dès lors qu’une évaluation gratuite de ce produit aurait permis au Licencié de prendre pleinement connaissance du grief éventuellement allégué.
+
+Article 1er - OBJET DU CONTRAT 
+Le présent contrat a pour objet la concession par le Concédant au Licencié d'un droit d'utilisation non exclusif et non cessible, sur le Progiciel dont les caractéristiques et les spécifications figurent dans les Conditions Particulières.
+Les autres modalités de la présente concession sont définies ci-dessous.
+
+Article 2 – LIVRAISON ET INSTALLATION 
+Le Progiciel visé au contrat sera livré conformément à ce qui est prévu dans les Conditions Particulières.
+La livraison porte sur le seul code-objet du Progiciel. La livraison du Progiciel comprend les programmes objet du Progiciel, livrés sur un support d'information lisible par machine qui reproduit la version originale en cours telle que déposée aux archives de Mia-Software.
+L’installation du Progiciel sera assurée par le Licencié sous sa seule responsabilité.
+Le Licencié fournira gratuitement le temps machine, les personnels, le logiciel système (OS), et plus généralement tous les éléments nécessaires à l’installation du Progiciel.
+Le Concédant ne pourra être tenu responsable des retards dus à l’indisponibilité du personnel ou, plus généralement, à l’insuffisance des moyens nécessaires à l’installation.
+Le nombre de machines et de sites sur lesquels le Progiciel sera installé, ainsi que le nombre d’utilisateurs, dépend du type de licence souscrit et de qui indiqué dans les Conditions Particulières.
+
+Article 3 - DOCUMENTATION 
+Le Concédant remet au Licencié, à son choix en version électronique ou papier, la documentation d'utilisation existante relative au Progiciel sur lequel le droit d'utilisation défini ci-dessus est concédé.
+
+Article 4 – PRISE D’EFFET / DUREE
+Le présent contrat prend effet à compter de la date de prise d’effet définie dans les Conditions Particulières, avec effet rétroactif le cas échéant.
+Le droit d’utilisation concédé sur le Progiciel en vertu de la souscription d’une licence flottante ou d’une licence site sera accordé pour toute la durée des droits d’auteur.
+En cas de souscription d’une licence d’évaluation, le droit d’utilisation sur le Progiciel est provisoire et sera accordé pour la durée indiquée à l’article « Licence d’évaluation ».
+ 
+Article 5 – PROPRIETE INTELLECTUELLE ET DROIT D’UTILISATION
+
+5.1 : DROITS CONCEDES
+Le Concédant conserve, en tant que titulaire des droits, la propriété intellectuelle du Progiciel ainsi que toutes les prérogatives s’y rattachant.
+Par le présent contrat, le Concédant concède au Licencié un droit d’utilisation non exclusif et non cessible sur le Progiciel.
+Tout transfert du Progiciel sur une machine et/ou un site non autorisé(e) par le présent contrat doit faire l’objet d’un accord préalable et écrit du Concédant. L’écrit est ici exigé à titre de validité.
+Le Licencié n’acquerra aucun autre droit de propriété intellectuelle, ni aucun autre droit que ceux conférés par le présent contrat. Le Licencié s’interdit d’effectuer notamment relativement au Progiciel :
+-	Toute reproduction en dehors du cas spécifié par la loi (copie de sauvegarde) 
+-	Toute représentation
+-	Toute analyse du code-source ou du code-objet
+-	Toute décompilation du code-objet
+-	Toute modification, même partielle, du code, traduction, adaptation, arrangement ou correction
+-	Toute commercialisation ou mise à disposition à un tiers, à titre gratuit ou onéreux
+De même, le Licencié s’interdit toute reproduction (à l’exception d’une impression papier s’il dispose d’une version électronique), représentation, commercialisation, ou cession, à titre onéreux ou gratuit, de la documentation utilisateur afférente au Progiciel.
+Le Licencié s'engage à n'utiliser ce Progiciel que pour ses propres besoins. Il s'interdit de fournir le Progiciel sous quelque forme que ce soit ou de le mettre à disposition de quiconque à l'exception de ses employés.
+Le Licencié s'engage à ne pas développer ou commercialiser le Progiciel objet du présent contrat ou des produits susceptibles de le concurrencer.
+Le Licencié ne pourra pas modifier le Progiciel, ni l'adapter sauf autorisation expresse écrite préalable du Concédant. L’écrit est exigé à titre de validité.
+Le Licencié ne pourra corriger les erreurs affectant le Progiciel, les Parties convenant expressément de réserver cette faculté de correction au seul Concédant.
+Le Licencié s’engage à ne changer ni enlever aucune marque ou inscription figurant sur toute reproduction du Progiciel ou support s’y rapportant.
+Le Licencié s’engage à respecter les droits d’auteurs du Concédant et reconnaît être informé des sanctions de la contrefaçon.
+
+5.2 : DESCRIPTION DES DIFFERENTS TYPES DE LICENCE
+Le type de licence souscrit par le Licencié est indiqué dans les Conditions Particulières.
+
+5.2.1 : Licence flottante
+Dans l’hypothèse où le Licencié souscrit une licence flottante sur le Progiciel, le nombre maximum d’utilisateur(s) utilisant le Progiciel simultanément sera limité. Ce nombre sera impérativement indiqué dans les Conditions Particulières sous peine de caducité du présent contrat.
+Les Conditions Particulières indiqueront également le (les) site(s) sur le(s)quel(s) le Progiciel pourra être installé par le Licencié. A défaut de précision, le Licencié pourra installer le Progiciel sur autant de sites situés en France métropolitaine qu’il le désire.
+
+5.2.2 : Licence site
+Dans l’hypothèse où le Licencié souscrit une licence site sur le Progiciel, (les) site(s) sur le(s)quel(s) le Progiciel pourra être installé par le Licencié sera impérativement indiqué dans les Conditions Particulières sous peine de caducité du présent contrat.
+Les Conditions Particulières indiqueront également le (les) machine(s) sur le(s)quelle(s) le Progiciel pourra être installé par le Licencié. A défaut de précision, le Licencié pourra installer le Progiciel sur autant de machines situées sur le(s) site(s) désigné(s) qu’il le désire.
+ 
+5.2.3 : Licence d’évaluation
+Dans l’hypothèse où le Licencié souscrit une licence d’évaluation sur le Progiciel, le Licencié pourra installer gratuitement le Progiciel sur tout site de son choix en France métropolitaine et sur une seule machine seulement.
+Le droit d’utilisation est alors limité de la façon suivante :
+• Model-In-Action (MIA) : Le droit d’utilisation concédé en vertu du présent contrat expire automatiquement, de plein droit et sans sommation, après la génération par le Licencié de 50 scripts.
+• ESSOR : Le droit d’utilisation concédé en vertu du présent contrat expire automatiquement, de plein droit et sans sommation, 30 jours calendaires après l’installation du Progiciel par le Licencié.
+Dès l’expiration de la licence, le Licencié devra avoir irrévocablement effacé le Progiciel de la machine sur laquelle il a été installé et n’en conservera aucune copie sous quelque forme que ce soit, à moins que le Licencié souscrive avant cette issue une licence d’utilisation définitive (licence flottante ou licence site).
+
+5.3 : VERIFICATIONS
+Le Licencié autorise le Concédant à vérifier, moyennant un préavis raisonnable, dans ses locaux, si l’utilisation du Progiciel est conforme aux stipulations du présent contrat. Il l’autorise également à effectuer cette vérification à l’issue du contrat d’évaluation et dans l’hypothèse où un contrat de licence définitive ne serait pas conclu entre les Parties. Dans l’hypothèse où un contrat de licence définitive devait être conclu entre les Parties, le Licencié autorise également le Concédant à effectuer cette vérification à l’issue du présent contrat si celui-ci devait prendre fin de façon anticipée. En cas de difficulté, le Concédant pourra se faire reconnaître le droit d’effectuer sur place une telle vérification sur simple requête auprès du Président du tribunal compétent.
+
+Article 6 – PRIX
+Le Licencié s’engage à s’acquitter envers le Concédant, selon les modalités indiquées ci-dessous, du prix de la licence du Progiciel mentionné dans les Conditions Particulières annexées.
+Le prix est payable net et sans escompte.
+La facture est établie par le Concédant à la réception du bon de commande envoyé par le Licencié. La facture est payable à 30 jours à compter de son émission, sauf stipulation contraire des Conditions Particulières.
+Sans préjudice de tous dommages & intérêts, en cas d’absence de paiement au terme convenu, le Licencié devra au Concédant, par la seule échéance du terme contractuel, de plein droit et sans sommation, une pénalité à compter du premier jour de retard. Ladite pénalité de retard sera calculée ainsi : 1,5 x le taux de l’intérêt légal en vigueur.
+En outre, en cas de non-paiement total ou partiel de la licence d’utilisation sur le Progiciel, ou en cas de non-respect par le Licencié de l’une quelconque de ses obligations contractuelles, le Concédant pourra de plein droit retirer au Licencié le droit d’utiliser le Progiciel après l’envoi d’une lettre recommandée avec accusé de réception restée infructueuse pendant un délai de 15 jours calendaires. Le Licencié devra alors restituer, le cas échéant sous astreinte, le Progiciel, sa documentation, et les copies éventuelles de ceux-ci. Le Licencié sera réinvesti de ses droits après complet paiement du prix ou après régularisation de la situation ayant entraîné la présente sanction.
+Le présent article n’est pas applicable en cas de souscription d’une licence d’évaluation.
+
+Article 7 – GARANTIE / SERVICE DE SUIVI
+7.1 : GENERALITES
+Le Progiciel est réputé conforme à sa Documentation, et ce, à compter de sa livraison.
+Le Licencié reconnaît qu’il n’est pas possible de garantir que le Progiciel satisfera à des exigences de performances ou qu’il fonctionnera sans discontinuité ni bogue.
+Il n’y a aucune garantie contractuelle attachée à la présente licence, autre que celle décrite ci-dessous, et la garantie en cas de contrefaçon.
+
+7.2 : CONTRAT DE MAINTENANCE
+Tout contrat de Licence (hors Licence d’évaluation) est obligatoirement accompagné de la souscription d’un Contrat de Maintenance dont les modalités d’application sont prévues dans « LE CONTRAT DE MAINTENANCE DE PROGICIEL N°      . »
+ 
+Article 8 – GARANTIE EN CAS DE CONTREFACON
+Le Concédant garantira le Licencié contre tout recours et fera son affaire personnelle des revendications contre le Licencié prétendant que le Progiciel concédé est une contrefaçon d’un droit de propriété intellectuelle.
+Le Concédant prendra en charge les dommages & intérêts et tous les frais (y compris d’avocat) que le Licencié aurait à supporter envers le tiers réclamant du fait d’une telle réclamation.
+Cette garantie est expressément subordonnée aux obligations cumulatives suivantes :
+-	Fournir au Concédant dans les meilleurs délais, et dans tous les cas en temps utile, par lettre recommandée avec accusée de réception, toute information et tout document relatifs à une telle réclamation ;
+-	Confier au Concédant le contrôle exclusif sur tout ce qui concerne la défense ou le règlement de la réclamation ;
+-	Abandonner au Concédant le choix de l’avocat ;
+-	Fournir une assistance complète et loyale au Concédant.
+Si l’utilisation du Progiciel est susceptible de motiver une telle réclamation ou est constitutive d’une contrefaçon, le Concédant pourra, à ses frais, et selon son choix :
+-	Obtenir le droit de continuer à utiliser le Progiciel ;
+-	Modifier ou remplacer le Progiciel pour obtenir un Progiciel non contrefaisant ;
+-	Transiger avec la partie adverse ;
+-	Et si aucune de ces options n’est envisageable, mettre fin de plein droit et sans sommation au présent contrat, sans être tenu à aucune conséquence envers le Licencié que celles décrites ci-dessus.
+Dans tous les cas, la responsabilité du Concédant au titre de la contrefaçon est expressément limitée à la somme de 15.000 €uros.
+
+Article 9 – RESPONSABILITE
+Le Concédant s’engage à exécuter ses obligations contractuelles avec tout le soin possible en usage dans la profession.
+Le Licencié reconnaît avoir été pleinement informé des possibilités techniques et des conditions de fonctionnement du Progiciel, lequel est utilisé sous sa seule responsabilité, sa direction et son contrôle exclusif.
+Il appartient au Licencié de prendre toutes les mesures lui permettant de se prémunir contre toutes conséquences dommageables pouvant résulter de son utilisation, notamment par la sauvegarde régulière de ses données.
+Le Concédant ne pourra être tenu responsable des dommages indirects tels que les pertes de profit revendiqués par le Licencié ou ses clients (y compris notamment pour les pertes de données, de chiffre d’affaire, de rendement financier, d’interruption d’utilisation ou de disponibilité des données).
+Si pour une raison quelconque la responsabilité du Concédant se trouvait engagée au titre du présent contrat, elle ne pourra l’être que pour faute prouvée. L'indemnisation éventuelle à sa charge ne pourra excéder la somme de 
+15.000 €uros.
+
+Article 10 – NON-SOLLICITATION DE PERSONNEL
+Chacune des Parties s’engage pendant la durée du contrat augmenté de 6 mois à compter de son expiration, à ne pas prendre à son service, engager ou à faire des offres d’engagements, à un collaborateur de l’autre partie affecté à l’exécution des présentes, sans accord écrit et préalable de l’autre partie.
+Chacune des parties s’engage en cas de défaillance à dédommager l’autre partie en lui versant une indemnité égale à la rémunération brute totale versée à ce collaborateur pendant l’année précédent son départ, ou dans l’hypothèse où ledit collaborateur a moins de 12 mois d’ancienneté, à verser la rémunération brute totale versée à ce collaborateur depuis son arrivée augmentée des frais de formation et de recrutement.
+
+Article 11 – CONFIDENTIALITE
+Chacune des parties s’engage à ne pas divulguer les documents ou renseignements communiqués à l’autre à l’occasion de la négociation ou de l’exécution du contrat et s’engage à faire respecter cette obligation à ses collaborateurs.
+L’obligation de confidentialité prendra fin pour chacune des informations confidentielles à la chute de celle-ci dans le domaine public, à charge pour l’auteur de la divulgation de le prouver.
+ 
+Article 12 – INCESSIBILITE
+Aucun des droits issus du présent contrat ne peut être cédé par le Licencié, en tout ou partie, à titre gratuit ou à titre onéreux.
+Sont assimilés à une cession de contrat pour l’exécution du présent accord : un apport en société, une fusion, une absorption, une cession de fonds de commerce, un changement de majorité dans la répartition du capital, une reprise dans le cadre d’une procédure collective, etc.
+
+Article 13 –  RESILIATION DU CONTRAT
+Le Concédant se réserve la possibilité de rompre de plein droit unilatéralement le présent contrat dès lors que le Licencié n’a pas respecté une quelconque obligation issue du présent contrat après envoi d’une lettre recommandée avec accusé de réception restée infructueuse pendant un délai de 15 jours calendaires ; le tout sans préjudice à l’indemnisation de tous dommages éventuellement subis. Le Licencié devra alors restituer, le cas échéant sous astreinte, le Progiciel, sa documentation, et les copies éventuelles de ceux-ci
+Il en sera de même en cas de redressement judiciaire ou liquidation de biens du Licencié, sous réserve des conditions prévues par l’article L. 621-28 du Code du commerce.
+
+Article 14 – SITE
+Le terme "site" correspond à un seul et même établissement identifié par son numéro SIRET. La notion de site ne peut s'appliquer qu'à l'intérieur d'une même société identifiée par son numéro SIREN.
+
+Article 15 – PARTICIPATION DU LICENCIE 
+Le cas échéant, le Licencié s'engage à coopérer avec le Concédant et à lui fournir toutes les informations qui pourraient lui être nécessaires pour la bonne réalisation de sa mission, ainsi qu'à mettre gratuitement à sa disposition 
+matériel et le personnel nécessaires.
+
+Article 16 – DIVULGATION 
+Le Progiciel fait partie des secrets de fabrication du Concédant et devra être considéré par le Licencié comme une information confidentielle.
+Le Licencié s'interdit de communiquer le Progiciel, les supports magnétiques, programmes ou autres éléments concernant le Progiciel, ainsi que toute reproduction totale ou partielle du Progiciel.
+Le Licencié s'engage également à prendre toutes les mesures nécessaires pour que le Progiciel et sa documentation ne soient pas mis à la disposition de tiers et s'engage à ce que ses collaborateurs ou son personnel respectent ces obligations.
+Le Licencié s'interdit d'utiliser les spécifications du Progiciel pour créer ou permettre la création d'un programme ayant la même destination.
+De convention expresse, le Concédant est autorisé à vérifier à tout moment le respect de ces obligations.
+Dans le cas où le Licencié ne respecterait pas les obligations mentionnées dans cet article, le Concédant se réserve le droit de réclamer au Licencié des dommages & intérêts en réparation des préjudices directs et indirects causés.
+
+Article 17 –  MODIFICATIONS 
+Le Licencié s'engage à n'apporter aucune modification aux éléments remis par le Concédant, sans l'accord préalable et écrit de celui-ci. L’écrit est ici exigé à titre de validité.
+
+Article 18 – PROGRAMME-SOURCE 
+Le code-source du Progiciel visé par le présent contrat a été déposé à l'Agence pour la Protection des Programmes (APP). Le Licencié ne pourra jamais prétendre avoir un droit d’accès à ces sources.
+ 
+Article 19 –  INTEGRALITE DU CONTRAT 
+Le présent contrat et les Conditions Particulières qui lui sont annexées représentent l’intégralité des accords des Parties. Toute modification de ces accords ne pourra s’effectuer que par voie d’avenant. L’écrit est exigé à titre de validité.
+En cas de difficultés d'interprétation de l'un quelconque des titres ou des intertitres placés en tête d'une stipulation, avec l'une quelconque des stipulations, les titres seront déclarés inexistants.
+
+Article 20 – CESSION
+Le Concédant pourra à tout moment céder l’intégralité de ses droits de propriété intellectuelle sur le Progiciel à tout tiers de son choix (ci-après appelé le Cessionnaire). En ce cas, le présent contrat se poursuivra alors entre le Licencié et le Cessionnaire. Le Concédant ne sera plus tenu à aucune obligation envers le Licencié à compter de la date de la cession. Cette date sera de plein droit opposable au Licencié, sauf preuve par ce dernier d’une fraude. Le Licencié dispense par avance le Concédant et le Cessionnaire à effectuer les formalités prévues à l’article 1690 du Code civil.
+
+Article 21 –  LITIGES 
+Tous différends, découlant du présent accord, seront dénoués prioritairement par accord amiable préalable. En cas d’échec de la procédure amiable, le différend sera soumis au Tribunal de commerce de PARIS (FRANCE), exclusivement compétent, même par voie de requête ou de référé.
+
+Article 22 – RENONCIATION 
+Le fait que l'une des parties n'ait pas exigé l'application d'une clause quelconque du présent contrat, que ce soit de façon permanente ou temporaire, ne pourra en aucun cas être considéré comme une renonciation aux droits de cette partie découlant de ladite clause.
+
+Article 23 –  DROIT APPLICABLE / MONNAIE / LANGUE 
+Le présent contrat est soumis au droit français, compris dans son ensemble.
+Le présent contrat a pour monnaie l’€uro.
+Les échanges entre les Parties s’effectueront en français.
+
+Article 24 –  ELECTION DE DOMICILE 
+Les parties élisent domicile, sauf dérogation expresse convenue d'un commun accord, à l’adresse de leur siège social.

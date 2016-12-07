@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Export-Package: com.mia.uml14.behavioral_elements.activity_graphs,com.
+ mia.uml14.behavioral_elements.activity_graphs.impl,com.mia.uml14.beha
+ vioral_elements.activity_graphs.util,com.mia.uml14.behavioral_element
+ s.collaborations,com.mia.uml14.behavioral_elements.collaborations.imp
+ l,com.mia.uml14.behavioral_elements.collaborations.util,com.mia.uml14
+ .behavioral_elements.common_behavior,com.mia.uml14.behavioral_element
+ s.common_behavior.impl,com.mia.uml14.behavioral_elements.common_behav
+ ior.util,com.mia.uml14.behavioral_elements.state_machines,com.mia.uml
+ 14.behavioral_elements.state_machines.impl,com.mia.uml14.behavioral_e
+ lements.state_machines.util,com.mia.uml14.behavioral_elements.use_cas
+ es,com.mia.uml14.behavioral_elements.use_cases.impl,com.mia.uml14.beh
+ avioral_elements.use_cases.util,com.mia.uml14.foundation.core,com.mia
+ .uml14.foundation.core.impl,com.mia.uml14.foundation.core.util,com.mi
+ a.uml14.foundation.data_types,com.mia.uml14.foundation.data_types.imp
+ l,com.mia.uml14.foundation.data_types.util,com.mia.uml14.model_manage
+ ment,com.mia.uml14.model_management.impl,com.mia.uml14.model_manageme
+ nt.util,metamodel.UML14.io,metamodel.UML14.io.magicdraw.in,metamodel.
+ UML14.io.magicdraw.out,metamodel.UML14.io.poseidon,metamodel.UML14.io
+ .rose,metamodel.UML14.io.together,metamodel.UML14.io.xde,metamodel.UM
+ L14.io.xmi,metamodel.UML14.model
+Bundle-ClassPath: uml14.jar
+Built-By: jslave
+Eclipse-BundleShape: dir
+Bundle-Name: Meta model UML 1.4
+Bundle-Localization: plugin
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.6.0",com.mi
+ a.studio.plugins.common;bundle-version="8.1.0",org.eclipse.emf.ecore.
+ xmi;bundle-version="2.5.0",com.mia.studio.uml1x.rose;bundle-version="
+ 8.1.0",com.mia.studio.uml1x.poseidon;bundle-version="8.1.0",com.mia.s
+ tudio.common;bundle-version="7.3.0",com.mia.studio.kernel;bundle-vers
+ ion="7.3.0",com.mia.studio.uml13.metamodel;bundle-version="7.3.0"
+Bundle-Vendor: Mia-Software
+Eclipse-LazyStart: false
+Bundle-Version: 9.1.1.201609011445
+Build-Jdk: 1.6.0_45
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.mia.studio.uml14.metamodel;singleton:=true
+Archiver-Version: Plexus Archiver
+

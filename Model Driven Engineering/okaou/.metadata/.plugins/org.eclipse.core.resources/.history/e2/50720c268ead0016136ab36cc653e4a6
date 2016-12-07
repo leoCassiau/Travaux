@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/com/mia/banque/ui/controler/IBanqueControler.java=UTF-8
+encoding//src/com/mia/banque/ui/controler/IClientControler.java=UTF-8
+encoding//src/com/mia/banque/ui/controler/ICompteControler.java=UTF-8
+encoding//src/com/mia/banque/ui/controler/IOperationControler.java=UTF-8
+encoding//src/com/mia/banque/ui/controler/swt/BanqueControler.java=UTF-8
+encoding//src/com/mia/banque/ui/controler/swt/ClientControler.java=UTF-8
+encoding//src/com/mia/banque/ui/controler/swt/CompteControler.java=UTF-8
+encoding//src/com/mia/banque/ui/view/IBanqueView.java=UTF-8
+encoding//src/com/mia/banque/ui/view/IClientView.java=UTF-8
+encoding//src/com/mia/banque/ui/view/ICompteView.java=UTF-8
+encoding//src/com/mia/banque/ui/view/swt/BanqueView.java=UTF-8
+encoding//src/com/mia/banque/ui/view/swt/ClientView.java=UTF-8
+encoding//src/com/mia/banque/ui/view/swt/CompteView.java=UTF-8

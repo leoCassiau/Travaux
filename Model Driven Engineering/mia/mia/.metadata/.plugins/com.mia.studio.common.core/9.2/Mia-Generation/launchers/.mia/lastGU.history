@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <launcher name="Unit Launch-org.formation.generation-shell">
+    <source directory="file:/comptes/E104667T/mia">
+      <entry file="/comptes/E104667T/mia/com.mia.formation.generation.ui/src/com/mia/formation/generation/ui/BanqueView.java"
+        status="new" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E104667T/mia/com.mia.formation.generation.ui/src/com/mia/formation/generation/ui/ClientView.java"
+        status="new" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E104667T/mia/com.mia.formation.generation.ui/src/com/mia/formation/generation/ui/CompteView.java"
+        status="new" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E104667T/mia/com.mia.formation.generation.ui/src/com/mia/formation/generation/ui/OperationView.java"
+        status="new" fileEncoding="UTF-8"/>
+    </source>
+  </launcher>
+</history>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.sirius.properties.feature"
+      label="%featureName"
+      version="4.1.1.201610201206"
+      provider-name="%providerName">
+
+   <description url="http://www.eclipse.org/sirius">
+      Runtime support for Sirius-defined property views. Not yet ready for production: APIs may break and behavior may change at any point without notice. Use at your own risk.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.sirius.interpreter"
+         download-size="29"
+         install-size="53"
+         version="4.1.1.201610201206"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.properties"
+         download-size="198"
+         install-size="539"
+         version="4.1.1.201610201206"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.properties.edit"
+         download-size="166"
+         install-size="359"
+         version="4.1.1.201610201206"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ui.properties"
+         download-size="114"
+         install-size="289"
+         version="4.1.1.201610201206"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.editor.properties.ext.widgets.reference"
+         download-size="17"
+         install-size="31"
+         version="4.1.1.201610201206"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.properties.ext.widgets.reference"
+         download-size="32"
+         install-size="68"
+         version="4.1.1.201610201206"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.properties.ext.widgets.reference.edit"
+         download-size="31"
+         install-size="56"
+         version="4.1.1.201610201206"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.ui.properties.ext.widgets.reference"
+         download-size="14"
+         install-size="24"
+         version="4.1.1.201610201206"
+         unpack="false"/>
+
+</feature>

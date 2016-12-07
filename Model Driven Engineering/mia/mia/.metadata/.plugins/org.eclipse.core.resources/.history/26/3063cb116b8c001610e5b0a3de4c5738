@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PACKAGE SYSTEM "package.dtd">
+<PACKAGE NAME="org.formation.generation.swt" METAMODEL="UI" NUMBER="5"
+>
+	<fileHeader version="6" toolName="Mia-Generation" toolVersion="9.2.1"/>
+	<SCENARIO NAME="sc" VISIBILITY="public" META_OBJECT="View" CATEGORY="default">
+		<SERVICE_CALL NAME="current" PACKAGE="System" META_OBJECT="View"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="org.formation.generation.swt" META_OBJECT="View" CATEGORY="default" NAME="shell" PARAM_COUNT="0"/>
+	</SCENARIO>
+	<SCRIPT NAME="viButtonDeclaration" META_OBJECT="Action" CATEGORY="default">
+		<TEXT><![CDATA[
+	private Button btn[[name]];
+
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="viButtonInit" META_OBJECT="Action" CATEGORY="default">
+		<TEXT><![CDATA[
+		btn[[name]] = new Button(grpButtons, SWT.NONE);
+		btn[[name]].setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, true, 1, 1));
+		btn[[name]].setText("[[name]]");
+		btn[[name]].addSelectionListener(new SelectionAdapter(){
+		        public void widgetSelected(SelectionEvent event)
+		        {
+		          [[name]]();
+		        }
+		      });
+
+
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="viMethodAfficher" META_OBJECT="Action" CATEGORY="default">
+		<TEXT><![CDATA[
+public void afficher[[name]]() {
+		// Start of user code for afficherCompte
+		// End of user code
+	}
+	
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="shell" META_OBJECT="View" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+package com.mia.formation.generation.ui;
+
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.widgets.Button;
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.layout.GridLayout;
+import org.eclipse.swt.layout.GridData;
+import org.eclipse.swt.widgets.Group;
+import org.eclipse.swt.events.SelectionAdapter;
+import org.eclipse.swt.events.SelectionEvent;
+
+public class [[name]] extends Shell {
+	[[actions.viButtonDeclaration]]
+
+	/**
+	 * Create the shell.
+	 * @param display
+	 */
+	public [[name]](Display display) {
+		super(display, SWT.SHELL_TRIM);
+		createContents();
+	}
+	
+	/**
+	 * Create contents of the shell.
+	 */
+	protected void createContents() {
+		setText("[[name]]");
+		setSize(450, 300);
+		
+		setLayout(new GridLayout(2, false));
+		
+		Group grpButtons = new Group(this, SWT.NONE);
+		grpButtons.setLayout(new GridLayout(2, false));
+		grpButtons.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true, 2, 1));
+		
+		[[actions.viButtonInit]]
+	}
+	
+	@Override
+	public void checkSubclass(){
+		
+	}
+	
+	[[actions.viMethodAfficher]]
+}
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="shell$Filename" META_OBJECT="View" CATEGORY="default">
+		<TEXT><![CDATA[
+com/mia/formation/generation/ui/[[name]].java
+]]></TEXT>
+	</SCRIPT>
+	<METAMODELS_INFO_CACHE>
+		<METAMODEL_IMPORT CLAUSE="ui.*" RELATED_METAS="Action,UIApplication,View,NamedElement"/>
+		<METAMODEL_CONTAINER_QNAME CQNAME="ui" RELATED_METAS="Action,UIApplication,View,NamedElement"/>
+	</METAMODELS_INFO_CACHE>
+</PACKAGE>

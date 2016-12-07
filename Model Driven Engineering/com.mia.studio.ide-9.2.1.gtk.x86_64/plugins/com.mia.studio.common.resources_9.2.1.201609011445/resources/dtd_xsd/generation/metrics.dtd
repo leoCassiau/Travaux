@@ -1,0 +1,67 @@
+<!ELEMENT	metrics	(fileHeader?, launcher)>
+		
+<!ELEMENT 	fileHeader	EMPTY>
+<!ATTLIST 	fileHeader	
+				version				CDATA	#REQUIRED
+				date				CDATA	#IMPLIED
+				timestamp			CDATA	#IMPLIED
+				toolName			CDATA	#IMPLIED
+				toolVersion			CDATA	#IMPLIED
+				>
+				
+<!ELEMENT	launcher	(generatedFiles)*>
+<!ATTLIST	launcher
+				name				CDATA	#REQUIRED
+				>
+				
+<!ELEMENT 	generatedFiles	(file*, total)>
+
+<!ELEMENT 	file	(size, area, generation)>
+<!ATTLIST 	file	
+				name				CDATA	#REQUIRED
+				path				CDATA	#REQUIRED
+				>
+
+<!ELEMENT 	size	EMPTY>
+<!ATTLIST 	size	
+				total				CDATA	#REQUIRED
+				handCoded			CDATA	#REQUIRED
+				>
+				
+<!ELEMENT 	area	EMPTY>
+<!ATTLIST 	area	
+				markedOut			CDATA	#REQUIRED
+				modified			CDATA	#REQUIRED
+				>
+
+<!ELEMENT 	generation	EMPTY>
+<!ATTLIST 	generation	
+				percent				CDATA	#REQUIRED
+				time				CDATA	#REQUIRED
+				timePercent			CDATA	#REQUIRED
+				descriptionName		CDATA	#REQUIRED
+				>
+
+<!ELEMENT 	total	(files, areas, generationTotal)>
+
+<!ELEMENT 	files	EMPTY>
+<!ATTLIST 	files	
+				totalNumber			CDATA	#REQUIRED
+				totalSize			CDATA	#REQUIRED
+				handCodedSize		CDATA	#REQUIRED
+				>
+				
+<!ELEMENT 	areas	EMPTY>
+<!ATTLIST 	areas	
+				markedOut			CDATA	#REQUIRED
+				modified			CDATA	#REQUIRED
+				>
+
+<!ELEMENT 	generationTotal	EMPTY>
+<!ATTLIST 	generationTotal	
+				percent				CDATA	#REQUIRED
+				sumTime				CDATA	#REQUIRED
+				totalTime			CDATA	#REQUIRED
+				netTimePercent		CDATA	#REQUIRED
+				grossTimePercent	CDATA	#REQUIRED
+				>

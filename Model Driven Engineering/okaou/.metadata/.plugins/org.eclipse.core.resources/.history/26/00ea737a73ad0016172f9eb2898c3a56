@@ -1,0 +1,21 @@
+package model.impl;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class Client implements model.IClient {
+
+private List<model.ICompte> listCompte;
+
+	public List<model.ICompte> getComptes() {
+		if (this.listCompte == null) {
+			this.listCompte = new ArrayList<model.ICompte>();
+		}
+		return this.listCompte;
+	}
+	
+	public void setComptes(List<model.ICompte> newValue) {
+		this.listCompte = newValue;
+	}
+
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PACKAGE SYSTEM "package.dtd">
+<PACKAGE NAME="SWTImplGenerator" METAMODEL="MVC" NUMBER="0"
+>
+	<fileHeader version="6" toolName="Mia-Generation" toolVersion="9.2.1"/>
+	<SCENARIO NAME="GenerateImpl" VISIBILITY="public" META_OBJECT="Model" CATEGORY="default">
+		<SERVICE_CALL NAME="current" PACKAGE="System" META_OBJECT="Model"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="InterfacesAndModelGenerator" META_OBJECT="Model" CATEGORY="default" NAME="Interfaces" PARAM_COUNT="0"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="InterfacesAndModelGenerator" META_OBJECT="Model" CATEGORY="default" NAME="Impl" PARAM_COUNT="0"/>
+	</SCENARIO>
+	<SCENARIO NAME="GenerateImpl" VISIBILITY="public" META_OBJECT="View" CATEGORY="default">
+		<SERVICE_CALL NAME="current" PACKAGE="System" META_OBJECT="Model"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="InterfacesAndModelGenerator" META_OBJECT="Model" CATEGORY="default" NAME="Interfaces" PARAM_COUNT="0"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="InterfacesAndModelGenerator" META_OBJECT="Model" CATEGORY="default" NAME="Impl" PARAM_COUNT="0"/>
+	</SCENARIO>
+	<METAMODELS_INFO_CACHE>
+		<METAMODEL_IMPORT CLAUSE="com.mia.formation.mvc.*" RELATED_METAS="Action,Model,ModelProperty,UIApplication,View,NamedElement"/>
+		<METAMODEL_CONTAINER_QNAME CQNAME="mvc" RELATED_METAS="Action,Model,ModelProperty,UIApplication,View,NamedElement"/>
+	</METAMODELS_INFO_CACHE>
+</PACKAGE>

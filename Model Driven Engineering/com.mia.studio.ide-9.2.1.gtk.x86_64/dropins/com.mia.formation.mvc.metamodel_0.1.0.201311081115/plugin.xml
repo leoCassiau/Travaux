@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated MVC -->
+      <package
+            uri="http://mvc/1.0"
+            class="com.mia.formation.mvc.MvcPackage"
+            genModel="model/MVC.genmodel"/>
+   </extension>
+
+</plugin>

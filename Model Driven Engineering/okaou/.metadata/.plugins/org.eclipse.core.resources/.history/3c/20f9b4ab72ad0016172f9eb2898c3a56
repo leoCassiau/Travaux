@@ -1,0 +1,9 @@
+package model.impl;
+
+import java.util.List;
+
+public class Operation implements model.IOperation {
+
+
+
+}

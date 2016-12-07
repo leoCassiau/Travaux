@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PACKAGE SYSTEM "package.dtd">
+<PACKAGE NAME="SWTImplGenerator" METAMODEL="MVC" NUMBER="0"
+>
+	<fileHeader version="6" toolName="Mia-Generation" toolVersion="9.2.1"/>
+	<METAMODELS_INFO_CACHE>
+	</METAMODELS_INFO_CACHE>
+</PACKAGE>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.4"?><plugin>
+   
+   
+   <extension point="com.mia.studio.generation.core.generation_package">
+      <package file="miaStudio/resources/ModelGenerator.pkg"/>
+   </extension>
+   
+   <extension point="com.mia.studio.generation.core.generation_package">
+      <package file="miaStudio/resources/ViewGenerator.pkg"/>
+   </extension>
+   
+   <extension point="com.mia.studio.generation.core.generation_package">
+      <package file="miaStudio/resources/IControlerIViewGenerator.pkg"/>
+   </extension>
+</plugin>

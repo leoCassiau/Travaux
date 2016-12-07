@@ -1,0 +1,258 @@
+
+
+#################################
+######### Experiments 1 #########
+#################################
+
+Solution without constraint :
+ 
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/16,2/8)  : [vm1(1,2,0,3)]
+machine-1 (1/8,2/32)  : [vm2(1,2,0,9)]
+machine-2 (1/4,2/32)  : [vm3(1,2,0,1)]
+machine-0 (3/4,4/32)  : [vm0(3,4,0,2)]
+
+
+
+Welcome to the constraint world ... 
+
+
+#################################
+######### Loops 1 ###############
+#################################
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/16,2/8)  : [vm1(1,2,1,3)]
+machine-1 (1/8,2/32)  : [vm2(1,2,1,9)]
+machine-2 (0/4,0/32)  : []
+machine-0 (0/4,0/32)  : []
+
+
+Computation time: 151
+Solving times: [151]
+Mean: 151
+
+
+#################################
+######### Loops 2 ###############
+#################################
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/16,2/8)  : [vm1(1,2,1,3)]
+machine-1 (1/8,2/32)  : [vm2(1,2,1,9)]
+machine-2 (0/4,0/32)  : []
+machine-0 (0/4,0/32)  : []
+
+
+Computation time: 7
+Solving times: [151, 7]
+Mean: 79
+
+
+#################################
+######### Loops 3 ###############
+#################################
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/16,2/8)  : [vm1(1,2,1,3)]
+machine-1 (1/8,2/32)  : [vm2(1,2,1,9)]
+machine-2 (0/4,0/32)  : []
+machine-0 (0/4,0/32)  : []
+
+
+Computation time: 7
+Solving times: [151, 7, 7]
+Mean: 55
+
+
+#################################
+######### Loops 4 ###############
+#################################
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/16,2/8)  : [vm1(1,2,1,3)]
+machine-1 (1/8,2/32)  : [vm2(1,2,1,9)]
+machine-2 (0/4,0/32)  : []
+machine-0 (0/4,0/32)  : []
+
+
+Computation time: 7
+Solving times: [151, 7, 7, 7]
+Mean: 43
+
+
+#################################
+######### Loops 5 ###############
+#################################
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/16,2/8)  : [vm1(1,2,1,3)]
+machine-1 (1/8,2/32)  : [vm2(1,2,1,9)]
+machine-2 (0/4,0/32)  : []
+machine-0 (0/4,0/32)  : []
+
+
+Computation time: 7
+Solving times: [151, 7, 7, 7, 7]
+Mean: 35
+
+
+#################################
+######### Loops 6 ###############
+#################################
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/16,2/8)  : [vm1(1,2,1,3)]
+machine-1 (1/8,2/32)  : [vm2(1,2,1,9)]
+machine-2 (0/4,0/32)  : []
+machine-0 (0/4,0/32)  : []
+
+
+Computation time: 15
+Solving times: [151, 7, 7, 7, 7, 15]
+Mean: 32
+
+
+#################################
+######### Loops 7 ###############
+#################################
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/16,2/8)  : [vm1(1,2,1,3)]
+machine-1 (1/8,2/32)  : [vm2(1,2,1,9)]
+machine-2 (0/4,0/32)  : []
+machine-0 (0/4,0/32)  : []
+
+
+Computation time: 9
+Solving times: [151, 7, 7, 7, 7, 15, 9]
+Mean: 29
+
+
+#################################
+######### Loops 8 ###############
+#################################
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/16,2/8)  : [vm1(1,2,1,3)]
+machine-1 (1/8,2/32)  : [vm2(1,2,1,9)]
+machine-2 (0/4,0/32)  : []
+machine-0 (0/4,0/32)  : []
+
+
+Computation time: 7
+Solving times: [151, 7, 7, 7, 7, 15, 9, 7]
+Mean: 26
+
+
+#################################
+######### Loops 9 ###############
+#################################
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/16,2/8)  : [vm1(1,2,1,3)]
+machine-1 (1/8,2/32)  : [vm2(1,2,1,9)]
+machine-2 (0/4,0/32)  : []
+machine-0 (0/4,0/32)  : []
+
+
+Computation time: 9
+Solving times: [151, 7, 7, 7, 7, 15, 9, 7, 9]
+Mean: 24
+
+
+#################################
+######### Loops 10 ###############
+#################################
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/16,2/8)  : [vm1(1,2,1,3)]
+machine-1 (1/8,2/32)  : [vm2(1,2,1,9)]
+machine-2 (0/4,0/32)  : []
+machine-0 (0/4,0/32)  : []
+
+
+Computation time: 7
+Solving times: [151, 7, 7, 7, 7, 15, 9, 7, 9, 7]
+Mean: 22
+
+
+#################################
+######### Loops 11 ###############
+#################################
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/16,2/8)  : [vm1(1,2,1,3)]
+machine-1 (1/8,2/32)  : [vm2(1,2,1,9)]
+machine-2 (0/4,0/32)  : []
+machine-0 (0/4,0/32)  : []
+
+
+Computation time: 6
+Solving times: [151, 7, 7, 7, 7, 15, 9, 7, 9, 7, 6]
+Mean: 21
+
+
+#################################
+######### Loops 12 ###############
+#################################
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/16,2/8)  : [vm1(1,2,1,3)]
+machine-1 (1/8,2/32)  : [vm2(1,2,1,9)]
+machine-2 (0/4,0/32)  : []
+machine-0 (0/4,0/32)  : []
+
+
+Computation time: 7
+Solving times: [151, 7, 7, 7, 7, 15, 9, 7, 9, 7, 6, 7]
+Mean: 19
+
+
+#################################
+######### Loops 13 ###############
+#################################
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/16,2/8)  : [vm1(1,2,1,3)]
+machine-1 (1/8,2/32)  : [vm2(1,2,1,9)]
+machine-2 (0/4,0/32)  : []
+machine-0 (0/4,0/32)  : []
+
+
+Computation time: 6
+Solving times: [151, 7, 7, 7, 7, 15, 9, 7, 9, 7, 6, 7, 6]
+Mean: 18
+
+
+#################################
+######### Loops 14 ###############
+#################################
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/16,2/8)  : [vm1(1,2,1,3)]
+machine-1 (1/8,2/32)  : [vm2(1,2,1,9)]
+machine-2 (0/4,0/32)  : []
+machine-0 (0/4,0/32)  : []
+
+
+Computation time: 6
+Solving times: [151, 7, 7, 7, 7, 15, 9, 7, 9, 7, 6, 7, 6, 6]
+Mean: 17
+
+
+#################################
+######### Loops 15 ###############
+#################################
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/16,2/8)  : [vm1(1,2,1,3)]
+machine-1 (1/8,2/32)  : [vm2(1,2,1,9)]
+machine-2 (0/4,0/32)  : []
+machine-0 (0/4,0/32)  : []
+
+
+Computation time: 5
+Solving times: [151, 7, 7, 7, 7, 15, 9, 7, 9, 7, 6, 7, 6, 6, 5]
+Mean: 17

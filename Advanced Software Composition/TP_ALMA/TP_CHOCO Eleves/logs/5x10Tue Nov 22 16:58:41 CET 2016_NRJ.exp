@@ -1,0 +1,72 @@
+
+
+#################################
+######### Experiments 1 #########
+#################################
+
+Solution without constraint :
+ 
+
+###### Memory Management #######
+machine-0: 1 (8)
+machine-2: 4 2 (16)
+machine-4: 4 1 (16)
+machine-1: 4 2 (32)
+machine-3: 1 1 2 (16)
+Occupation rate: 24%
+
+######## Cpu Management ########
+machine-0: 3 (4)
+machine-2: 3 1 (4)
+machine-4: 3 1 (4)
+machine-1: 3 2 (16)
+machine-3: 2 2 2 (16)
+Occupation rate: 68%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-0 (3/4,1/8)  : [vm9(3,1)]
+machine-2 (4/4,6/16)  : [vm4(3,4), vm5(1,2)]
+machine-4 (4/4,5/16)  : [vm2(3,4), vm8(1,1)]
+machine-1 (5/16,6/32)  : [vm1(3,4), vm3(2,2)]
+machine-3 (6/16,4/16)  : [vm7(2,1), vm6(2,1), vm0(2,2)]
+
+ Machine Energy :  - 187 - 200 - 200 - 165 - 168
+ Energy : 920
+
+
+Welcome to the constraint world ...
+
+
+#################################
+######### Loops 1 ###############
+#################################
+
+###### Memory Management #######
+machine-4: 4 4 4 2 2 2 1 1 1 1 (16)
+machine-2: (16)
+machine-0: (8)
+machine-3: (16)
+machine-1: (32)
+Occupation rate: 27%
+
+######## Cpu Management ########
+machine-4: 3 3 3 2 2 1 3 2 2 1 (4)
+machine-2: (4)
+machine-0: (4)
+machine-3: (16)
+machine-1: (16)
+Occupation rate: 110%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-4 (22/4,22/16)  : [vm4(3,4), vm2(3,4), vm1(3,4), vm3(2,2), vm0(2,2), vm5(1,2), vm9(3,1), vm7(2,1), vm6(2,1), vm8(1,1)]
+machine-2 (0/4,0/16)  : []
+machine-0 (0/4,0/8)  : []
+machine-3 (0/16,0/16)  : []
+machine-1 (0/16,0/32)  : []
+
+ Machine Energy :  - 0 - 200 - 200 - 200 - 200
+ Energy : 800
+
+Computation time: 233
+Solving times: [233]
+Mean: 233

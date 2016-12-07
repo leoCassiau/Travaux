@@ -1,0 +1,13 @@
+com.mia.umlmia.behavioralelements.activitygraphs
+com.mia.umlmia.behavioralelements.collaborations
+com.mia.umlmia.behavioralelements.commonbehavior
+com.mia.umlmia.behavioralelements.statemachines
+com.mia.umlmia.behavioralelements.usecases
+com.mia.umlmia.enumerations
+com.mia.umlmia.foundation.core
+com.mia.umlmia.foundation.datatypes
+com.mia.umlmia.foundation.extensionmechanisms
+com.mia.umlmia.generalmechanisms
+com.mia.umlmia.properties
+metamodel.UML
+metamodel.UML.model

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.mia.itmf.modelmanager"
+      label="%featureName"
+      version="2.0.1.201608300926"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="com.mia.itmf.modelmanager.core"
+         download-size="50"
+         install-size="92"
+         version="2.0.1.201608300926"
+         unpack="false"/>
+
+   <plugin
+         id="com.mia.itmf.modelmanager.ui"
+         download-size="179"
+         install-size="352"
+         version="2.0.1.201608300926"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,160 @@
+INTRODUCTION
+The Licensee declares that the conditions expressed in this license agreement are fully and unreservedly accepted.
+The Licensee has contacted the Licensor in his quality of an IT-professional and Owner of intellectual property needed for the present agreement.
+Before the underwriting by the named parties interested therein, the present agreement forms - together with its special stipulations – a contractual offer made by Mia-Software for a period of 30 calendar days starting at the date of emission. At the end of this term, Mia-Software is free to modify the conditions of its offer.
+The Licensor offers to any interested parties a product evaluation, without cost, of the Software package specified in the Special Stipulations.  At the same time, the Licensee can opt to purchase immediately a definitive license (a floating or a site-specific license) as set out below.  In that case, the Licensee will do so at his risk and peril.  In particular, the Licensee cannot to claim any error of information on the part of the Licensor regarding the Software package below, which a free trial of this product would allowed the Licensee to fully appreciate the alleged damage.
+In the sense of this present agreement, the term Software Package designs the entirety of the Software packages listed in the "Special Stipulations" appended to this document.
+
+ARTICLE 1 – SUBJECT OF THE AGREEMENT 
+The subject of this agreement is to concede to the Licensor by the Licensee a non-exclusive and not transferable right to use the Software Package, whose characteristics and specifications are shown in the appended document.
+
+ARTICLE 2 – DELIVERY AND INSTALLATION 
+The Software Package targeted by the agreement will be handed over to the Licensee at the agreed site and on terms described in the appendix. The delivery is restricted to the sole and only native machine code of the Software Package.
+The delivery of the Software Package comprises the constitutive programs of the Software Package, delivered on a machine-readable support that reproduces the original and actual version of the package as deposited in the archives of Mia-Software
+The delivery of the Software Package will be formalized by a delivery note dated and signed by the two parties. 
+Concerning the installation of the Software Package, the Licensee declares to have been informed by the Licensor about the recommended configuration.
+The actual installation of the Software Package will be carried out by the Licensee under his own responsibility, while being assisted by the Licensor.
+The Licensee will provide – free of charge – the machine time, the manpower and, in a more general way, all elements necessary to install the Software Package.
+The Licensor cannot be held responsible for delays due to the unavailability of manpower or, in a more general way, due to the insufficiency of needed resources to run the installation process.
+The number of machines and sites on which the Software Package will be installed, as well as the number of users, depends on the type of license purchased and which are indicated in the Special Stipulations.
+
+ARTICLE 3 - DOCUMENTATION 
+The Licensor hands over to the Licensee one copy of the current user-documentation referring to the Software Package, of which - as defined above - a right to use has been conceded.
+
+ARTICLE 4 – DURATION OF THE AGREEMENT
+The present contract takes effect on the effective date defined in the Special Stipulations, retroactively if necessary.
+The usage rights conceded for the Software Package by virtue of acquiring a floating license or a site-specific license will be granted for the duration of the author’s rights. 
+Should an evaluation license be acquired, the Software Package’s usage rights are provisional and will be granted for the duration indicated in the article “Evaluation License”.
+
+ARTICLE 5 – INTELLECTUAL PROPERTY AND RIGHTS OF USE 
+As the owner of the copyrights, the Licensor conserves the intellectual property of the Software Package, as well as all prerogatives linked to it.
+By the present agreement, the Licensor grants to the Licensee a personal non exclusive and non transferable right to use the Software Package for his internal uses only, and this restricted to only one equipment and site as described in the appended Special Stipulations.
+Any transfer of the Software Package onto another equipment as the one described in the appendix or to another location as the one described must be the subject of a previously written authorization by the Licensor. In this case, the written form is mandatory.
+The Licensee does not acquire any further intellectual property right, or any other right then those granted by the present agreement.
+Particularly with regard to and as far as the Software Package is concerned, the Licensee will abstain from:
+-	All reproduction outside the case specified by law (backup copy) 
+-	Any representation 
+-	Any analysis of the source or object code 
+-	Any decompilation of the object code 
+-	Any – partial - modification, translation, adaptation, any arrangement or correction of the code
+-	Any commercialization
+Idem, the Licensee will abstain from any reproduction, representation, commercialization, or cession of the user documentation treating the Software Package, be it free, or not free of charge.
+The Licensee commits himself to use the Software Package solely for its own needs. He must abstain from delivering or allowing the use of the Software Package to anyone else, except his employees. The Licensee has to abstain from having profiting any third person of the Software Package, be it directly or indirectly.
+The Licensee commits himself not to develop or to commercialize the Software Package or any other product susceptible to compete with it.
+The Licensee will not be allowed to modify, or to adapt the Software Package without the specific written authorization of the Licensor. The written form is needed to validate this authorization.
+The Licensee is not allowed to correct any errors present in the Software Package, as the parties agree to leave this option to the sole attention of the Licensor.
+The Licensee commits himself to abstain from changing any label or inscription figuring on any copy of the Software Package or related media.
+The Licensee declares to recognize the copyright of the Licensor and states to have been informed of sanctions in the case of any infringement of copyright.
+The Licensor restricts to himself the right to desist from or to modify the Software Package.
+
+5.2 : Description of the different types of license
+The type of license acquired by the Licensor is indicated in the Special Stipulations.
+5.2.1 : Floating License
+Should the Licensee acquire a floating license for the Software Package, the maximum number of user using the Software Package simultaneously sera limited. This number will be specifically mentioned in the Special Stipulations or the agreement is null and void.
+The Special Stipulations will also indicate the site(s) on which the Software Package will be installed by the Licensee.  In the case of a site not being explicitly mentioned, the Licensee is authorized to install the Software Package on as many sites in metropolitan France as he wishes.
+5.2.2 : Site-specific License
+Should the Licensee acquire a site-specific license for the Software Package, the site(s) on which the Software Package is to be installed by the Licensee must be indicated in the Special Stipulations or the agreement is null and void.
+The Special Stipulations will also indicate the machine(s) on which the Software Package will be installed by the Licensee.  In the case of a machine not being explicitly mentioned, the Licensee is authorized to install the Software Package on as many machines on the designated site(s) as he wishes.
+ 
+
+5.2.3 : Evaluation License
+Should the Licensee acquire an evaluation license for the Software Package, the Licensee will be authorized to install, free of charge, the Software Package on any site of his choice in metropolitan and on a single machine.
+The usage rights are thus limited in the following way:
+• Model-In-Action (Mia) : The usage rights conceded by virtue of this present contract will expire automatically completely and without warning after the generation of 50 scripts by the Licensee.
+• ESSOR : The usage rights conceded by virtue of this present contract will expire automatically completely and without warning 30 days after the installation of the Software Package by the Licensee.
+Once the license has expired, the Licensee must, without fail, delete the Software Package from the machine on which it has been installed and make no copies in any format whatsoever, unless the Licensee acquires before its expiration a license allowing definitive usage (a floating or a site-specific license).
+5.3 : Verifications
+The Licensee authorizes the Licensor to verify, having received reasonable warning, at his site, whether the Software Package usage conforms with the stipulations of the present contract.  He also authorizes the Licensor to carry out this verification at the end of the evaluation agreement should the acquisition of a definitive license not be agreed between the Parties.  Should a definitive license be agreed between the Parties, the Licensee also authorizes the Licensor to carry out this verification at the end of the present contract if the latter is ended prematurely.  In the case of any difficulties encountered, the Licensor can exercise his right to carry out an on-site verification following a request made to the President of a competent tribunal.
+
+ARTICLE 6 – PRICES
+The Licensee commits himself to pay the price of the Software Package's license as mentioned in the appended Special Stipulations.
+The price is to be considered net and without rebate.
+The Licensor will send out an invoice at the moment of delivering the Software Package to the Licensee. The invoice is payable 30 days after its emission to the end of month.
+In the case of non-payment at the agreed term and notwithstanding any indemnities and interests, the Licensee will owe legally and without further request a late payment fine running from the very first day of delay. The said fine will be calculated as follow: 2 x the legal interest rate in effect.
+Furthermore, in the case of a total or partial non-payment of the Software Package's user license, or as well in the case of non-observance of any other of the obligations of the Licensee, the Licensor will be entitled to retire the right to use the Software Package, if a certified mail with notice of receipt has not been honored within a delay of 8 days. Consecutively to this situation, the Licensee will have to restitute the Software Package, its documentation and any eventual copy of those items. After having paid the full price due, the Licensee will be reinstated into his rights.
+
+ARTICLE 7 – GUARANTEE
+7.1: General points
+It is understood that the Software Package conforms fully to its Documentation at the moment of delivery.
+The Licensee recognizes to be aware of the fact that it is impossible to guaranty that the Software Package will satisfy his exigencies of performances or that it will run without discontinuity or bugs.
+The Licensee recognizes to be aware of the fact that there is no warranty that the Software Package will satisfy his needs. It is therefore up to the Licensee to take care of such risks in asking the Licensor to give him any useful information about the Software Package, or to formulate his interest of disposing of an evaluation license, free of charge and limited in time.
+There is no warranty whatsoever linked to this present license; other then the one described in the contract of Maintenance except for the warranty in the case of counterfeiting.
+7.2: Maintenance Contract
+Every License contract (except for an evaluation license) must be accompanied by the acquisition of a Maintenance Contract, the conditions of which are detailed in “THE MAINTENANCE CONTRACT FOR Software PACKAGE N°      .”
+
+ARTICLE 8 – WARRANTY IN THE CASE OF COUNTERFEITING 
+If ever the Licensee is confronted to claims that the Software package delivered might constitute an infringement of a right of intellectual property, the Licensor warrants the Licensee against such a claim and will make this his personal affair.
+The Licensor will take over any claimed damages and all the costs (including a lawyer) that the Licensee might need to fight such a claim.
+This warranty is explicitly subordinated to the following cumulative obligations:
+-	Submitting immediately and by registered letter (with acknowledging receipt) to the Licensor all information and all documents related to such a claim;
+-	To transfer to the Licensor the exclusive control of everything concerning the defense and the settlement of this claim;
+-	Providing a complete and loyal assistance to the Licensor;
+If the use of the Software Package is susceptible to motivate such a claim, or, if it can be seen as a constitutive part of a counterfeiting, the Licensor - at his own costs and appreciation -:
+-	Could obtain the right to continue utilizing the Software Package;
+-	Could modify or replace the Software Package in a way to obtain a no longer counterfeited Software Package;
+-	If none of these options could be taken into consideration, terminates - fully entitled and without further summons – the actual agreement, without being held responsible of any other consequence towards the Licensee other than those named above.
+In all of these situations, the responsibility of the Licensor with regard to counterfeiting is explicitly limited to the sum of 15.000 €uros.
+
+ARTICLE 9 – LIABILITY
+The Licensor commits himself to execute his contractual obligations with all the possible care being a standard in the trade.
+The Licensee recognizes to have been fully informed about the technical options as well as the functional conditions of the Software Package, which is running under his own liability, his direction and exclusive control. It is up to him to take all necessary measures enabling him to protect himself against any detrimental consequences resulting of the eventual use of the Software Package.
+The Licensor cannot be held liable for any direct or indirect damages resulting from the use of the Software Package, supplied as stated in the present agreement. In particular, the parties agree that any financial or commercial damage caused to the client does not entitle him to any compensation.
+If, for any reason, the liability of the Licensor would be assumed under the terms of the present agreement, it could only be as the consequence of a proven fault. The eventual compensation cannot exceed the sum (ex VAT) of the Software Package's license fees, set up in the present agreement.
+
+ARTICLE 10 – NON-SOLICITATION OF PERSONNEL
+During the running of the agreement and 6 months consecutive to its termination and in the absence of any previously written (additional) agreement, each of the parties commits itself not to hire, or propose to hire any member of staff of the other party, in charge of the present agreement's execution.
+In case of a non-observance of this article each party agrees to compensate the other party in paying an amount equal to the total annual salary (taxes incl.) paid to this member of staff during the year preceding his leaving, or, assuming that the said member of staff has a duration of employment less than 12 months, by paying an amount equal to the total salary paid since his hiring, plus the costs of training and hiring that person. 
+
+ARTICLE 11 – CONFIDENTIALITY
+Both parties commit themselves not to divulge documents and information handed over to each other during the negotiation or the execution of the agreement, committing their Personnel to respect this obligation as well. 
+The obligation of confidentiality is limited for each single, confidential piece of information, if this information falls into the public domain, while it is up to the solicitor of the intended divulgation to prove this.
+ 
+
+ARTICLE 12 – NON-TRANSFERABLE RIGHTS 
+The Licensee cannot transfer any of the rights deriving from this present agreement, be it partially, free of charge or against payment.
+When executing the present agreement, the following is considered to be assimilated to a cession: a contribution to capital, a merger, a take over, a cession of stock, a change of majority in stock, a take-over within the framework of a collective procedure, etc. 
+
+ARTICLE 13 – NOTICE OF CANCELLATION OF THE AGREEMENT 
+If the Licensee has not respected any one obligation deriving from the present agreement during a period of eight calendar days - after a registered letter has been sent and remained unsuccessful regarding the obligation - the Licensor reserves the right to cancel unilaterally the present agreement. This does not affect any claim to damages. In this case, the Licensee has to restitute – if necessary by means of coercion – the Software Package, its documentation and the eventual copies thereof.
+The former applies also in the case of a bankruptcy or in the case of winding-up a business (under reserve of the conditions foreseen by the article L. 621/28 of the (French) Commercial Law).
+
+ARTICLE 14 – SITE
+The rights of usage are conceded to the Licensee for his own needs and on the site designated in the Appendix. 
+The term "Site" corresponds to a unique and identical establishment identified by its SIRET number. This notion of a "site" can only be applied to the internal workings of a company identified by its SIREN Number.  (SIRET and SIREN are legal identifiers of French commercial entities). 
+
+ARTICLE 15 – PARTICIPATION OF THE LICENSEE
+The Licensee commits himself to cooperate with the Licensor and to communicate all the information, qualified to be needed to carry out his mission, as well as to put at his disposal the necessary Personnel and hardware without charge.
+
+ARTICLE 16 – DIVULGATION 
+The Software Package is part of thecompany secrets of the Licensor and should be considered by the Licensee as confidential information, whether it is protected by the rights of intellectual property, a patent, a copyright etc..., or in any other way.
+The Licensee bars himself from divulging the Software Package, the media, the programs or any other element concerning the Software Package, as well as all total or partial reproduction of the Software Package, except for backups, but - in this latter case – taking every necessary action to prevent an illicit divulgation. 
+The Licensee commits to take all necessary measures to avoid that the Software Package and its documentation might be handed over to third parties and commits to ensure that his collaborators or his staff respect those obligations as well.
+The Licensee bars himself from using the Software Package to the purpose of creating or having creating a program having the same utilization aim. 
+It is formally understood that the Licensor is authorized at any given moment to control the respect of these obligations.
+If the Licensee should not respect the obligations stipulated in this article, the Licensor reserves to himself the right to claim damages from the Licensee.
+
+ARTICLE 17 – MODIFICATIONS 
+Without a prior written agreement by the Licensor, the Licensee bars himself from modifying any of the elements handed over to him by the Licensor. The written form is needed for validity.
+
+ARTICLE 18 – SOURCE PROGRAM 
+The source program of the Software Package concerned by the present agreement has been registered at the Agence pour la Protection des Programmes (APP).
+The Licensee has no claim to have a right of access to that source.
+ 
+
+ARTICLE 19 – INTEGRALITY OF AGREEMENT 
+The present agreement and the Special Stipulations appended to it represent the integrality of the agreement between the parties. Any modification of these agreements can only be made in the form of an amendment. To be valide, this amendment must be of written form. 
+To avoid risks of interpretation concerning the titles or subtitles placed in front of a single stipulation, or any stipulation by itself, the titles are considered non-existent.
+
+ARTICLE 20 – MISCELLANEOUS 
+The fact that one of the parties has not insisted to enforce the application of a clause, element of the present agreement - being it in permanent or temporary form - will not, in any case, be considered as a renunciation of the rights of this party based on the said clause.
+The Licensee authorizes the Licensor to mention his name on a reference list, which he may publish.
+
+ARTICLE 21 – NULLITY
+Should a clause of the present agreement be declared void by jurisdiction, the remaining parts of the stipulation will continue to be applied. 
+
+ARTICLE 22 – CONFLICTS OF RIGHTS
+In the absence of a prior private understanding, any differences having as the source this present agreement, will be adjudicated by the Tribunal de commerce de Rennes (35) (commercial court).
+The law applicable is the French Law, taken as an entity.
+
+ARTICLE 23 – ELECTION OF DOMICILIATION 
+Except for derogation, established by a common and specific agreement, each party elects their principal office as its legal domiciliation.

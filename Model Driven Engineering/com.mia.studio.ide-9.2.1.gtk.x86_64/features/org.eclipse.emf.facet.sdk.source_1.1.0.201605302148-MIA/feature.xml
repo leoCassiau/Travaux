@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.emf.facet.sdk.source" label="EMF Facet SDK Source"
+         version="1.1.0.201605302148-MIA"
+         provider-name="Eclipse Modeling Project">
+   <description url="http://www.eclipse.org/modeling/emft/facet/">
+      EMF Facet provides non-intrusive mechanisms to add new features (types, attributes, references and operations) to an EMF meta-model and to customize displaying of the EObjects (icons, labels, etc.). This feature contains all the user plug-ins of EMF Facet.
+   </description>
+   <copyright>
+      Copyright (c) 2010, 2011 Mia-Software.
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+   <license url="%licenseURL">
+      %license
+   </license>
+   <includes id="org.eclipse.emf.facet.widgets.source" version="1.1.0.201605302148-MIA"/>
+   <includes id="org.eclipse.emf.facet.common.source" version="1.1.0.201605302148-MIA"/>
+   <includes id="org.eclipse.emf.facet.util.source" version="1.1.0.201605302148-MIA"/>
+   <includes id="org.eclipse.emf.facet.examples.source" version="1.1.0.201605302148-MIA"/>
+   <plugin id="org.eclipse.emf.facet.common.sdk.core.source" download-size="13"
+           install-size="32"
+           version="1.1.0.201605302148-MIA"
+           unpack="false"/>
+   <plugin id="org.eclipse.emf.facet.common.sdk.ui.source" download-size="7"
+           install-size="11"
+           version="1.1.0.201605302148-MIA"
+           unpack="false"/>
+</feature>

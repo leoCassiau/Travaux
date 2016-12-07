@@ -1,0 +1,39 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="default.css" title="default">
+<link rel="stylesheet" type="text/css" href="../default.css" title="default">
+<TITLE>Generateur Couche Presentation Java/SWT</TITLE>
+</HEAD>
+<BODY>
+<H1>Exercice 1.1</H1>
+<HR>
+<STRONG>Generer des variables d'instance pour les boutons des actions</STRONG><BR><BR>
+<UL>
+<LI>Créer un template sur la métaclasse <I>Action</I> qui génère la déclaration d'une variable d'instance de <I>Button</I>
+<LI>Mettre en place, depuis le file template sur <I>View</I>, l'appel en boucle des generations de boutons pour les <I>Action></I> liées à la <I>View</I> courante.
+<LI>Mettre en place l'import de <I>org.eclipse.swt.widgets.Button</I>
+<LI>Tester depuis la runconfig.
+</UL>
+<BR>
+<I>Note sur l'appel en boucle :<BR>
+on utilisera de préférence la notation pointée du langage de template.<BR>
+<STRONG>Variante 1.1.b</STRONG> : Dans un second temps, on utilisera une macro Java, et l'api apply<I>
+<HR>
+
+<p><strong>Exemple de fichier généré :</strong><table class="code"><tr><td><code><pre class="jsccJAVA">
+package com.mia.formation.generation.ui;
+
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.widgets.Button;
+
+public class ClientView extends Shell {
+
+	private Button btnQuitter;
+	private Button btnAfficherCompte;
+
+}
+</pre></code></td></tr></table></p>
+
+</BODY>
+</HTML>

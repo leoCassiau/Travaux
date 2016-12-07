@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: banqueapplicationgenerator;singleton:=true
+Export-Package: modelgenerator.hn1314059830
+Bundle-Name: BanqueApplicationGenerator
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .,bin
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.6.0",com.mi
+ a.studio.common;bundle-version="9.0.0",com.mia.studio.engine;bundle-v
+ ersion="9.0.0",com.mia.studio.generation;bundle-version="9.0.0",com.m
+ ia.studio.generation.core;bundle-version="9.0.0",com.mia.studio.kerne
+ l;bundle-version="9.0.0",com.mia.studio.transformation;bundle-version
+ ="9.0.0",com.mia.studio.transformation.core;bundle-version="9.0.0",or
+ g.eclipse.emf.common;bundle-version="2.6.0",org.eclipse.emf.ecore;bun
+ dle-version="2.6.0",org.eclipse.emf.ecore.xmi;bundle-version="2.5.0",
+ org.eclipse.jdt.core;bundle-version="3.6.0",org.eclipse.uml2.uml,com.
+ mia.studio.empty.metamodel;bundle-version="9.0.0",org.eclipse.uml2.ty
+ pes,com.mia.formation.mvc.metamodel,com.mia.studio.empty.metamodel;bu
+ ndle-version="9.0.0",com.mia.studio.empty.metamodel;bundle-version=9.
+ 0.0
+Bundle-ManifestVersion: 2
+Bundle-Activator: banqueapplicationgenerator.Activator
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
+

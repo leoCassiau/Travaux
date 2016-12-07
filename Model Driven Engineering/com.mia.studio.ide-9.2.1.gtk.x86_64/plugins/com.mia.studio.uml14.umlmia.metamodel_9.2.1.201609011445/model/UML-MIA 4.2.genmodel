@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/Metamodel UML-MIA/src"
+    modelPluginID="UMLMIA" modelName="UMLMIA" rootExtendsInterface="com.mia.openapi.MIAObject"
+    rootExtendsClass="com.mia.openapi.DefaultMIAObject" rootImplementsInterface=""
+    importerID="org.eclipse.emf.importer.rose" arrayAccessors="true" complianceLevel="5.0"
+    copyrightFields="false">
+  <foreignModel>..\..\_brouillon\models\UML-MIA 4.2.mdl</foreignModel>
+  <modelPluginVariables>migrated</modelPluginVariables>
+  <genPackages prefix="Behavioralelements" basePackage="com.mia.umlmia" disposableProviderFactory="true"
+      ecorePackage="behavioralelements.ecore#/">
+    <nestedGenPackages prefix="Activitygraphs" disposableProviderFactory="true" ecorePackage="behavioralelements.ecore#//activitygraphs">
+      <genClasses ecoreClass="behavioralelements.ecore#//activitygraphs/UMLActionState">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//activitygraphs/UMLActionState/isDynamic"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//activitygraphs/UMLActionState/dynamicMultiplicity"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/UMLActionState/dynamicArguments"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//activitygraphs/UMLActivityGraph">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/UMLActivityGraph/partitions"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//activitygraphs/UMLArgumentList">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/UMLArgumentList/arguments"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//activitygraphs/UMLClassifierInState">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/UMLClassifierInState/inStates"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/UMLClassifierInState/type"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//activitygraphs/UMLObjectFlowState">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//activitygraphs/UMLObjectFlowState/isSynch"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/UMLObjectFlowState/parameters"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/UMLObjectFlowState/type"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//activitygraphs/UMLPartition">
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/UMLPartition/activityGraph"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/UMLPartition/contents"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//activitygraphs/UMLSubactivityState">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//activitygraphs/UMLSubactivityState/isDynamic"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//activitygraphs/UMLSubactivityState/dynamicMultiplicity"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/UMLSubactivityState/dynamicArguments"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//activitygraphs/UMLCallState"/>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Collaborations" disposableProviderFactory="true" ecorePackage="behavioralelements.ecore#//collaborations">
+      <genClasses ecoreClass="behavioralelements.ecore#//collaborations/UMLCollaboration">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLCollaboration/interactions"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLCollaboration/usedCollaborations"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLCollaboration/collaborations"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLCollaboration/ownedInstances"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLCollaboration/ownedLinks"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLCollaboration/representedClassifier"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLCollaboration/representedOperation"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//collaborations/UMLInteraction">
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLInteraction/context"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLInteraction/messages"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//collaborations/UMLMessage">
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLMessage/interaction"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLMessage/activator"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLMessage/successors"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLMessage/predecessors"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLMessage/arguments"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLMessage/communicationLink"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLMessage/receiver"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLMessage/action"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/UMLMessage/sender"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Commonbehavior" disposableProviderFactory="true" ecorePackage="behavioralelements.ecore#//commonbehavior">
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLUninterpretedAction"/>
+      <genClasses image="false" ecoreClass="behavioralelements.ecore#//commonbehavior/UMLAction">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//commonbehavior/UMLAction/recurrence"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//commonbehavior/UMLAction/target"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//commonbehavior/UMLAction/isAsynchronous"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//commonbehavior/UMLAction/script"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLAction/actualArguments"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLActionSequence">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLActionSequence/actions"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLArgument">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//commonbehavior/UMLArgument/value"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLAssignmentAction"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLAttributeLink">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLAttributeLink/instance"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLAttributeLink/attribute"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLCallAction">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLCallAction/operation"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLComponentInstance">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLComponentInstance/residents"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLCreateAction">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLCreateAction/instantiation"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLDataValue"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLDestroyAction"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLInstance">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLInstance/linkEnds"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLInstance/slots"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLInstance/ownedInstances"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLInstance/ownedLinks"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLInstance/classifier"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLLink">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLLink/messages"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLLink/connections"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLLink/stimulus"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLLink/association"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLLinkEnd">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLLinkEnd/instance"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLLinkEnd/link"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLLinkEnd/qualifiedValues"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLLinkEnd/associationEnd"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLLinkObject">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLLinkObject/link"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLNodeInstance">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLNodeInstance/residents"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLObject"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLReturnAction"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLSendAction">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLSendAction/signal"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLTerminateAction"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLReception">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLReception/signal"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLException"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLSignal">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLSignal/receptions"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLSignal/occurrences"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLSignal/contexts"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLSubsystemInstance"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UMLStimulus">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLStimulus/dispatchAction"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLStimulus/receiver"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLStimulus/sender"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLStimulus/arguments"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/UMLStimulus/communicationLink"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Statemachines" disposableProviderFactory="true" ecorePackage="behavioralelements.ecore#//statemachines">
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/UMLCallEvent">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLCallEvent/operation"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/UMLChangeEvent">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//statemachines/UMLChangeEvent/changeExpression"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/UMLCompositeState">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//statemachines/UMLCompositeState/isConcurrent"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLCompositeState/subvertexes"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="behavioralelements.ecore#//statemachines/UMLEvent">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLEvent/parameters"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/UMLFinalState"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/UMLGuard">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//statemachines/UMLGuard/expression"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/UMLPseudoState">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//statemachines/UMLPseudoState/kind"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/UMLSignalEvent">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLSignalEvent/signal"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/UMLState">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLState/doActivity"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLState/entry"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLState/exit"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLState/stateMachine"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLState/deferrableEvents"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLState/internals"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/UMLStateMachine">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLStateMachine/context"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLStateMachine/top"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLStateMachine/transitions"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="behavioralelements.ecore#//statemachines/UMLStateVertex">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLStateVertex/outgoings"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLStateVertex/container"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLStateVertex/incomings"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/UMLStubState">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//statemachines/UMLStubState/referenceState"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/UMLSubmachineState">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLSubmachineState/submachine"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/UMLSynchState">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//statemachines/UMLSynchState/bound"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/UMLTimeEvent">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//statemachines/UMLTimeEvent/when"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/UMLTransition">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLTransition/effect"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLTransition/source"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLTransition/target"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLTransition/guard"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/UMLTransition/trigger"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/UMLSimpleState"/>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Usecases" disposableProviderFactory="true" ecorePackage="behavioralelements.ecore#//usecases">
+      <genClasses ecoreClass="behavioralelements.ecore#//usecases/UMLActor"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//usecases/UMLExtend">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//usecases/UMLExtend/condition"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/UMLExtend/extension"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/UMLExtend/base"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/UMLExtend/extensionPoints"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//usecases/UMLInclude">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/UMLInclude/base"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/UMLInclude/addition"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//usecases/UMLUseCase">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/UMLUseCase/includes"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/UMLUseCase/extends"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/UMLUseCase/extensionPoints"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//usecases/UMLUseCaseInstance"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//usecases/UMLExtensionPoint">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//usecases/UMLExtensionPoint/location"/>
+      </genClasses>
+    </nestedGenPackages>
+  </genPackages>
+  <genPackages prefix="Foundation" basePackage="com.mia.umlmia" disposableProviderFactory="true"
+      ecorePackage="foundation.ecore#/">
+    <nestedGenPackages prefix="Core" disposableProviderFactory="true" ecorePackage="foundation.ecore#//core">
+      <genClasses ecoreClass="foundation.ecore#//core/UMLAbstraction">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLAbstraction/mapping"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLBinding">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLBinding/arguments"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLComponent">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLComponent/residents"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLComponent/deploymentLocations"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLComponent/implementations"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLDependency">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLDependency/clients"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLDependency/suppliers"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLDocument">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLDocument/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLDocument/type"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLNode">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLNode/residents"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLPermission"/>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLUsage"/>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLAssociation">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLAssociation/persistence"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLAssociation/derived"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLAssociation/connections"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLAssociation/associationClass"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLAssociation/package"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLAssociationClass">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLAssociationClass/association"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLAssociationEnd">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLAssociationEnd/isNavigable"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLAssociationEnd/ordering"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLAssociationEnd/aggregation"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLAssociationEnd/targetScope"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLAssociationEnd/multiplicity"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLAssociationEnd/changeability"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLAssociationEnd/association"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLAssociationEnd/qualifiers"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLAssociationEnd/type"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLAttribute">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLAttribute/multiplicity"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLAttribute/changeability"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLAttribute/targetScope"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLAttribute/ordering"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLAttribute/initialValue"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLAttribute/persistence"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLAttribute/derived"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLAttribute/owner"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLAttribute/type"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLAttribute/associationEnd"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLClass">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLClass/isActive"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLClass/persistence"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="foundation.ecore#//core/UMLClassifier">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLClassifier/attributes"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLClassifier/parentClassifier"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLClassifier/nestedClassifiers"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLClassifier/operations"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLClassifier/associationEnds"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLClassifier/importedInPackages"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLClassifier/package"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLConstraint">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLConstraint/body"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLConstraint/constrainedElements"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLConstraint/constrainedStereotype"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLDataType"/>
+      <genClasses image="false" ecoreClass="foundation.ecore#//core/UMLFeature">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLFeature/ownerScope"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="foundation.ecore#//core/UMLGeneralizableElement">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLGeneralizableElement/isRoot"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLGeneralizableElement/isLeaf"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLGeneralizableElement/isAbstract"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLGeneralizableElement/generalizations"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLGeneralizableElement/specializations"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLGeneralization">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLGeneralization/discriminator"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLGeneralization/child"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLGeneralization/parent"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLInterface"/>
+      <genClasses image="false" ecoreClass="foundation.ecore#//core/UMLModelElement">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLModelElement/constrainingElements"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLModelElement/behaviors"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLModelElement/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLModelElement/objectId"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLModelElement/documentation"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLModelElement/visibility"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLModelElement/isSpecification"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLModelElement/clientDependencies"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLModelElement/documents"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLModelElement/supplierDependencies"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLModelElement/templateParameters"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLModelElement/constraints"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLModelElement/implementationLocations"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLModelElement/stereotypes"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLModelElement/targetFlows"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLModelElement/sourceFlows"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLModelElement/comments"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLModelElement/taggedValues"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLOperation">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLOperation/occurrences"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLOperation/isQuery"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLOperation/concurrency"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLOperation/isRoot"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLOperation/isLeaf"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLOperation/isAbstract"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLOperation/specification"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLOperation/body"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLOperation/kind"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLOperation/raisedSignals"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLOperation/owner"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLOperation/returnType"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/UMLOperation/parameters"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLParameter">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLParameter/defaultValue"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLParameter/kind"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLParameter/states"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLParameter/type"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLFlow">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLFlow/targets"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLFlow/sources"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLArtifact">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLArtifact/implementationComponents"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/UMLComment">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/UMLComment/body"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/UMLComment/annotatedElements"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Datatypes" disposableProviderFactory="true" ecorePackage="foundation.ecore#//datatypes">
+      <genClasses ecoreClass="foundation.ecore#//datatypes/UMLEnumeration">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//datatypes/UMLEnumeration/literals"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/UMLEnumerationLiteral">
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//datatypes/UMLEnumerationLiteral/enumeration"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/UMLPrimitive"/>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/UMLProgrammingLanguageDataType">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//datatypes/UMLProgrammingLanguageDataType/expression"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Extensionmechanisms" disposableProviderFactory="true"
+        ecorePackage="foundation.ecore#//extensionmechanisms">
+      <genClasses ecoreClass="foundation.ecore#//extensionmechanisms/UMLStereotype">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//extensionmechanisms/UMLStereotype/extendedElements"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//extensionmechanisms/UMLStereotype/icon"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//extensionmechanisms/UMLStereotype/baseClass"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//extensionmechanisms/UMLStereotype/requiredTags"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//extensionmechanisms/UMLStereotype/definedTags"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//extensionmechanisms/UMLStereotype/stereotypeConstraints"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//extensionmechanisms/UMLTaggedValue">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//extensionmechanisms/UMLTaggedValue/tag"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//extensionmechanisms/UMLTaggedValue/value"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//extensionmechanisms/UMLTaggedValue/target"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//extensionmechanisms/UMLTaggedValue/type"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//extensionmechanisms/UMLTaggedValue/UMLModelElement"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//extensionmechanisms/UMLTaggedValue/referenceValue"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//extensionmechanisms/UMLTagDefinition">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//extensionmechanisms/UMLTagDefinition/tagType"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//extensionmechanisms/UMLTagDefinition/multiplicity"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//extensionmechanisms/UMLTagDefinition/owner"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//extensionmechanisms/UMLTagDefinition/typedValues"/>
+      </genClasses>
+    </nestedGenPackages>
+  </genPackages>
+  <genPackages prefix="Generalmechanisms" basePackage="com.mia.umlmia" disposableProviderFactory="true"
+      ecorePackage="generalmechanisms.ecore#/">
+    <genClasses ecoreClass="generalmechanisms.ecore#//UMLClassifierImport">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference generalmechanisms.ecore#//UMLClassifierImport/importedClassifier"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference generalmechanisms.ecore#//UMLClassifierImport/importedInPackage"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="generalmechanisms.ecore#//UMLElementImport">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute generalmechanisms.ecore#//UMLElementImport/alias"/>
+    </genClasses>
+    <genClasses ecoreClass="generalmechanisms.ecore#//UMLModel">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute generalmechanisms.ecore#//UMLModel/source"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference generalmechanisms.ecore#//UMLModel/propertiesMetaClasses"/>
+    </genClasses>
+    <genClasses ecoreClass="generalmechanisms.ecore#//UMLPackage">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference generalmechanisms.ecore#//UMLPackage/ownedClassifiers"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference generalmechanisms.ecore#//UMLPackage/ownedAssociations"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference generalmechanisms.ecore#//UMLPackage/importedClassifiers"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference generalmechanisms.ecore#//UMLPackage/importedPackages"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference generalmechanisms.ecore#//UMLPackage/importedInPackages"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference generalmechanisms.ecore#//UMLPackage/package"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference generalmechanisms.ecore#//UMLPackage/ownedPackages"/>
+    </genClasses>
+    <genClasses ecoreClass="generalmechanisms.ecore#//UMLPackageImport">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference generalmechanisms.ecore#//UMLPackageImport/importedInPackage"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference generalmechanisms.ecore#//UMLPackageImport/importedPackage"/>
+    </genClasses>
+    <genClasses ecoreClass="generalmechanisms.ecore#//UMLSubsystem">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute generalmechanisms.ecore#//UMLSubsystem/isInstantiable"/>
+    </genClasses>
+  </genPackages>
+  <genPackages prefix="Properties" basePackage="com.mia.umlmia" disposableProviderFactory="true"
+      ecorePackage="properties.ecore#/">
+    <genClasses ecoreClass="properties.ecore#//UMLProperty">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute properties.ecore#//UMLProperty/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute properties.ecore#//UMLProperty/value"/>
+    </genClasses>
+    <genClasses ecoreClass="properties.ecore#//UMLPropertyMetaClass">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute properties.ecore#//UMLPropertyMetaClass/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference properties.ecore#//UMLPropertyMetaClass/targets"/>
+    </genClasses>
+    <genClasses ecoreClass="properties.ecore#//UMLPropertySet">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute properties.ecore#//UMLPropertySet/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference properties.ecore#//UMLPropertySet/properties"/>
+    </genClasses>
+    <genClasses ecoreClass="properties.ecore#//UMLPropertyTarget">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute properties.ecore#//UMLPropertyTarget/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference properties.ecore#//UMLPropertyTarget/sets"/>
+    </genClasses>
+  </genPackages>
+  <genPackages prefix="Enumerations" basePackage="com.mia.umlmia" disposableProviderFactory="true"
+      ecorePackage="enumerations.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="enumerations.ecore#//PseudostateKind">
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//PseudostateKind/initial"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//PseudostateKind/deepHistory"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//PseudostateKind/shallowHistory"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//PseudostateKind/join"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//PseudostateKind/fork"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//PseudostateKind/branch"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//PseudostateKind/junction"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//PseudostateKind/final"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//PseudostateKind/choice"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="enumerations.ecore#//DocumentKind">
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//DocumentKind/file"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//DocumentKind/url"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="enumerations.ecore#//PersistenceKind">
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//PersistenceKind/transient"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//PersistenceKind/persistent"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="enumerations.ecore#//VisibilityKind">
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//VisibilityKind/public"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//VisibilityKind/protected"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//VisibilityKind/private"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//VisibilityKind/package"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//VisibilityKind/implementation"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="enumerations.ecore#//OrderingKind">
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//OrderingKind/ordered"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//OrderingKind/unordered"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="enumerations.ecore#//AggregationKind">
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//AggregationKind/none"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//AggregationKind/aggregate"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//AggregationKind/composite"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="enumerations.ecore#//ScopeKind">
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//ScopeKind/instance"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//ScopeKind/classifier"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="enumerations.ecore#//ChangeableKind">
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//ChangeableKind/changeable"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//ChangeableKind/frozen"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//ChangeableKind/addOnly"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="enumerations.ecore#//CallConcurrencyKind">
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//CallConcurrencyKind/concurrent"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//CallConcurrencyKind/guarded"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//CallConcurrencyKind/sequential"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="enumerations.ecore#//ParameterDirectionKind">
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//ParameterDirectionKind/in"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//ParameterDirectionKind/out"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//ParameterDirectionKind/inout"/>
+      <genEnumLiterals ecoreEnumLiteral="enumerations.ecore#//ParameterDirectionKind/return"/>
+    </genEnums>
+  </genPackages>
+</genmodel:GenModel>

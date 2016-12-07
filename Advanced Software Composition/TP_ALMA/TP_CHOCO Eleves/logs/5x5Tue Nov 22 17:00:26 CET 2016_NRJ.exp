@@ -1,0 +1,72 @@
+
+
+#################################
+######### Experiments 1 #########
+#################################
+
+Solution without constraint :
+ 
+
+###### Memory Management #######
+machine-4: 4 (32)
+machine-0: 1 (32)
+machine-2: 2 (16)
+machine-1: 1 (16)
+machine-3: 2 (8)
+Occupation rate: 11%
+
+######## Cpu Management ########
+machine-4: 1 (16)
+machine-0: 2 (16)
+machine-2: 2 (8)
+machine-1: 3 (8)
+machine-3: 3 (4)
+Occupation rate: 31%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-4 (1/16,4/32)  : [vm2(1,4)]
+machine-0 (2/16,1/32)  : [vm3(2,1)]
+machine-2 (2/8,2/16)  : [vm4(2,2)]
+machine-1 (3/8,1/16)  : [vm0(3,1)]
+machine-3 (3/4,2/8)  : [vm1(3,2)]
+
+ Machine Energy :  - 153 - 156 - 162 - 168 - 187
+ Energy : 826
+
+
+Welcome to the constraint world ...
+
+
+#################################
+######### Loops 1 ###############
+#################################
+
+###### Memory Management #######
+machine-3: 4 2 2 1 1 (8)
+machine-1: (16)
+machine-2: (16)
+machine-0: (32)
+machine-4: (32)
+Occupation rate: 25%
+
+######## Cpu Management ########
+machine-3: 1 3 2 3 2 (4)
+machine-1: (8)
+machine-2: (8)
+machine-0: (16)
+machine-4: (16)
+Occupation rate: 55%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-3 (11/4,10/8)  : [vm2(1,4), vm1(3,2), vm4(2,2), vm0(3,1), vm3(2,1)]
+machine-1 (0/8,0/16)  : []
+machine-2 (0/8,0/16)  : []
+machine-0 (0/16,0/32)  : []
+machine-4 (0/16,0/32)  : []
+
+ Machine Energy :  - 0 - 200 - 200 - 200 - 200
+ Energy : 800
+
+Computation time: 250
+Solving times: [250]
+Mean: 250

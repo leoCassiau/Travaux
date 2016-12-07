@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.emf.ecore
+Export-Package: com.mia.formation.mvc,com.mia.formation.mvc.impl,com.m
+ ia.formation.mvc.util
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Version: 0.1.0.201311081115
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.mia.formation.mvc.metamodel;singleton:=true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+

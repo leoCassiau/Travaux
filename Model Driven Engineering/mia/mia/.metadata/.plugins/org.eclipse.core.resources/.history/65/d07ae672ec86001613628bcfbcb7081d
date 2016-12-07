@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.formation.generation;singleton:=true
+Bundle-Name: org.formation.generation
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .,bin
+Require-Bundle: org.eclipse.core.runtime;bundle-version=3.6.0,com.mia.
+ studio.common;bundle-version=9.0.0,com.mia.studio.engine;bundle-versi
+ on=9.0.0,com.mia.studio.generation;bundle-version=9.0.0,com.mia.studi
+ o.generation.core;bundle-version=9.0.0,com.mia.studio.kernel;bundle-v
+ ersion=9.0.0,com.mia.studio.transformation;bundle-version=9.0.0,com.m
+ ia.studio.transformation.core;bundle-version=9.0.0,org.eclipse.emf.co
+ mmon;bundle-version=2.6.0,org.eclipse.emf.ecore;bundle-version=2.6.0,
+ org.eclipse.emf.ecore.xmi;bundle-version=2.5.0,org.eclipse.jdt.core;b
+ undle-version=3.6.0
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.formation.generation.Activator
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
+

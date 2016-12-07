@@ -1,0 +1,1242 @@
+
+
+#################################
+######### Experiments 1 #########
+#################################
+
+Solution without constraint :
+ 
+
+###### Memory Management #######
+machine-11: (16)
+machine-12: (32)
+machine-13: (8)
+machine-15: (16)
+machine-16: (16)
+machine-17: (8)
+machine-21: (16)
+machine-23: (16)
+machine-24: (16)
+machine-29: (8)
+machine-30: (16)
+machine-34: (8)
+machine-38: (32)
+machine-40: (16)
+machine-41: (16)
+machine-42: (8)
+machine-45: (32)
+machine-51: (8)
+machine-53: (32)
+machine-58: (32)
+machine-59: (8)
+machine-60: (16)
+machine-64: (8)
+machine-68: (8)
+machine-72: (16)
+machine-81: (8)
+machine-90: (16)
+machine-94: (8)
+machine-97: (8)
+machine-102: (32)
+machine-104: (32)
+machine-107: (32)
+machine-112: (8)
+machine-114: (8)
+machine-117: (16)
+machine-121: (8)
+machine-123: (16)
+machine-124: (8)
+machine-129: (8)
+machine-130: (16)
+machine-136: (8)
+machine-137: (16)
+machine-138: (16)
+machine-139: (32)
+machine-141: (16)
+machine-146: (16)
+machine-151: (32)
+machine-158: (32)
+machine-161: (32)
+machine-165: (8)
+machine-178: (16)
+machine-180: (16)
+machine-186: (32)
+machine-194: (8)
+machine-195: (8)
+machine-1: (16)
+machine-4: (8)
+machine-5: (32)
+machine-8: (32)
+machine-19: (8)
+machine-22: (8)
+machine-26: (8)
+machine-31: (32)
+machine-32: (16)
+machine-33: (32)
+machine-35: (32)
+machine-36: (8)
+machine-37: (8)
+machine-43: (8)
+machine-44: (16)
+machine-46: (32)
+machine-47: (8)
+machine-49: (32)
+machine-50: (8)
+machine-61: (16)
+machine-63: (8)
+machine-66: (32)
+machine-70: (8)
+machine-73: (16)
+machine-74: (16)
+machine-78: (16)
+machine-82: (16)
+machine-84: (8)
+machine-85: (8)
+machine-87: (32)
+machine-88: (8)
+machine-89: (8)
+machine-91: (32)
+machine-93: (16)
+machine-95: (8)
+machine-100: (8)
+machine-101: (32)
+machine-103: (8)
+machine-109: (16)
+machine-110: (8)
+machine-111: (8)
+machine-119: (16)
+machine-125: (16)
+machine-127: (16)
+machine-131: (32)
+machine-134: (8)
+machine-140: (16)
+machine-145: (8)
+machine-152: (32)
+machine-153: (16)
+machine-154: (32)
+machine-155: (32)
+machine-156: (8)
+machine-157: (8)
+machine-159: (32)
+machine-160: (8)
+machine-164: (32)
+machine-167: (8)
+machine-169: (32)
+machine-170: (16)
+machine-173: (16)
+machine-174: (16)
+machine-175: (8)
+machine-177: (32)
+machine-181: (8)
+machine-185: (32)
+machine-188: (32)
+machine-189: (8)
+machine-192: (16)
+machine-196: (32)
+machine-197: (16)
+machine-198: (16)
+machine-3: (32)
+machine-10: (16)
+machine-14: (32)
+machine-18: (8)
+machine-20: (8)
+machine-25: (16)
+machine-27: (32)
+machine-28: (8)
+machine-39: (16)
+machine-48: (8)
+machine-52: (8)
+machine-54: (16)
+machine-55: (16)
+machine-56: (32)
+machine-57: (16)
+machine-62: (32)
+machine-65: (32)
+machine-67: (8)
+machine-69: (16)
+machine-71: (32)
+machine-75: (8)
+machine-76: (32)
+machine-77: (16)
+machine-79: (8)
+machine-80: (32)
+machine-83: (8)
+machine-86: (32)
+machine-92: (32)
+machine-96: (16)
+machine-98: (8)
+machine-99: (32)
+machine-105: (8)
+machine-106: (32)
+machine-108: (16)
+machine-113: (16)
+machine-115: (32)
+machine-116: (32)
+machine-118: (32)
+machine-120: (8)
+machine-122: (32)
+machine-126: (8)
+machine-128: (8)
+machine-132: (16)
+machine-133: (8)
+machine-135: (16)
+machine-142: (8)
+machine-143: (16)
+machine-144: (8)
+machine-147: (32)
+machine-148: (32)
+machine-149: (8)
+machine-150: (16)
+machine-162: (16)
+machine-163: (32)
+machine-166: (32)
+machine-168: (8)
+machine-171: (32)
+machine-172: (8)
+machine-176: (16)
+machine-179: (16)
+machine-182: (8)
+machine-183: (16)
+machine-184: (16)
+machine-187: (8)
+machine-190: (8)
+machine-191: (32)
+machine-193: (32)
+machine-199: (32)
+machine-9: 1 (16)
+machine-7: 2 (32)
+machine-6: 2 (32)
+machine-2: 4 (16)
+machine-0: 2 (32)
+Occupation rate: 0%
+
+######## Cpu Management ########
+machine-11: (4)
+machine-12: (4)
+machine-13: (4)
+machine-15: (4)
+machine-16: (4)
+machine-17: (4)
+machine-21: (4)
+machine-23: (4)
+machine-24: (4)
+machine-29: (4)
+machine-30: (4)
+machine-34: (4)
+machine-38: (4)
+machine-40: (4)
+machine-41: (4)
+machine-42: (4)
+machine-45: (4)
+machine-51: (4)
+machine-53: (4)
+machine-58: (4)
+machine-59: (4)
+machine-60: (4)
+machine-64: (4)
+machine-68: (4)
+machine-72: (4)
+machine-81: (4)
+machine-90: (4)
+machine-94: (4)
+machine-97: (4)
+machine-102: (4)
+machine-104: (4)
+machine-107: (4)
+machine-112: (4)
+machine-114: (4)
+machine-117: (4)
+machine-121: (4)
+machine-123: (4)
+machine-124: (4)
+machine-129: (4)
+machine-130: (4)
+machine-136: (4)
+machine-137: (4)
+machine-138: (4)
+machine-139: (4)
+machine-141: (4)
+machine-146: (4)
+machine-151: (4)
+machine-158: (4)
+machine-161: (4)
+machine-165: (4)
+machine-178: (4)
+machine-180: (4)
+machine-186: (4)
+machine-194: (4)
+machine-195: (4)
+machine-1: (8)
+machine-4: (8)
+machine-5: (8)
+machine-8: (8)
+machine-19: (8)
+machine-22: (8)
+machine-26: (8)
+machine-31: (8)
+machine-32: (8)
+machine-33: (8)
+machine-35: (8)
+machine-36: (8)
+machine-37: (8)
+machine-43: (8)
+machine-44: (8)
+machine-46: (8)
+machine-47: (8)
+machine-49: (8)
+machine-50: (8)
+machine-61: (8)
+machine-63: (8)
+machine-66: (8)
+machine-70: (8)
+machine-73: (8)
+machine-74: (8)
+machine-78: (8)
+machine-82: (8)
+machine-84: (8)
+machine-85: (8)
+machine-87: (8)
+machine-88: (8)
+machine-89: (8)
+machine-91: (8)
+machine-93: (8)
+machine-95: (8)
+machine-100: (8)
+machine-101: (8)
+machine-103: (8)
+machine-109: (8)
+machine-110: (8)
+machine-111: (8)
+machine-119: (8)
+machine-125: (8)
+machine-127: (8)
+machine-131: (8)
+machine-134: (8)
+machine-140: (8)
+machine-145: (8)
+machine-152: (8)
+machine-153: (8)
+machine-154: (8)
+machine-155: (8)
+machine-156: (8)
+machine-157: (8)
+machine-159: (8)
+machine-160: (8)
+machine-164: (8)
+machine-167: (8)
+machine-169: (8)
+machine-170: (8)
+machine-173: (8)
+machine-174: (8)
+machine-175: (8)
+machine-177: (8)
+machine-181: (8)
+machine-185: (8)
+machine-188: (8)
+machine-189: (8)
+machine-192: (8)
+machine-196: (8)
+machine-197: (8)
+machine-198: (8)
+machine-3: (16)
+machine-10: (16)
+machine-14: (16)
+machine-18: (16)
+machine-20: (16)
+machine-25: (16)
+machine-27: (16)
+machine-28: (16)
+machine-39: (16)
+machine-48: (16)
+machine-52: (16)
+machine-54: (16)
+machine-55: (16)
+machine-56: (16)
+machine-57: (16)
+machine-62: (16)
+machine-65: (16)
+machine-67: (16)
+machine-69: (16)
+machine-71: (16)
+machine-75: (16)
+machine-76: (16)
+machine-77: (16)
+machine-79: (16)
+machine-80: (16)
+machine-83: (16)
+machine-86: (16)
+machine-92: (16)
+machine-96: (16)
+machine-98: (16)
+machine-99: (16)
+machine-105: (16)
+machine-106: (16)
+machine-108: (16)
+machine-113: (16)
+machine-115: (16)
+machine-116: (16)
+machine-118: (16)
+machine-120: (16)
+machine-122: (16)
+machine-126: (16)
+machine-128: (16)
+machine-132: (16)
+machine-133: (16)
+machine-135: (16)
+machine-142: (16)
+machine-143: (16)
+machine-144: (16)
+machine-147: (16)
+machine-148: (16)
+machine-149: (16)
+machine-150: (16)
+machine-162: (16)
+machine-163: (16)
+machine-166: (16)
+machine-168: (16)
+machine-171: (16)
+machine-172: (16)
+machine-176: (16)
+machine-179: (16)
+machine-182: (16)
+machine-183: (16)
+machine-184: (16)
+machine-187: (16)
+machine-190: (16)
+machine-191: (16)
+machine-193: (16)
+machine-199: (16)
+machine-9: 1 (4)
+machine-7: 1 (4)
+machine-6: 2 (4)
+machine-2: 2 (4)
+machine-0: 3 (4)
+Occupation rate: 1%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-11 (0/4,0/16)  : []
+machine-12 (0/4,0/32)  : []
+machine-13 (0/4,0/8)  : []
+machine-15 (0/4,0/16)  : []
+machine-16 (0/4,0/16)  : []
+machine-17 (0/4,0/8)  : []
+machine-21 (0/4,0/16)  : []
+machine-23 (0/4,0/16)  : []
+machine-24 (0/4,0/16)  : []
+machine-29 (0/4,0/8)  : []
+machine-30 (0/4,0/16)  : []
+machine-34 (0/4,0/8)  : []
+machine-38 (0/4,0/32)  : []
+machine-40 (0/4,0/16)  : []
+machine-41 (0/4,0/16)  : []
+machine-42 (0/4,0/8)  : []
+machine-45 (0/4,0/32)  : []
+machine-51 (0/4,0/8)  : []
+machine-53 (0/4,0/32)  : []
+machine-58 (0/4,0/32)  : []
+machine-59 (0/4,0/8)  : []
+machine-60 (0/4,0/16)  : []
+machine-64 (0/4,0/8)  : []
+machine-68 (0/4,0/8)  : []
+machine-72 (0/4,0/16)  : []
+machine-81 (0/4,0/8)  : []
+machine-90 (0/4,0/16)  : []
+machine-94 (0/4,0/8)  : []
+machine-97 (0/4,0/8)  : []
+machine-102 (0/4,0/32)  : []
+machine-104 (0/4,0/32)  : []
+machine-107 (0/4,0/32)  : []
+machine-112 (0/4,0/8)  : []
+machine-114 (0/4,0/8)  : []
+machine-117 (0/4,0/16)  : []
+machine-121 (0/4,0/8)  : []
+machine-123 (0/4,0/16)  : []
+machine-124 (0/4,0/8)  : []
+machine-129 (0/4,0/8)  : []
+machine-130 (0/4,0/16)  : []
+machine-136 (0/4,0/8)  : []
+machine-137 (0/4,0/16)  : []
+machine-138 (0/4,0/16)  : []
+machine-139 (0/4,0/32)  : []
+machine-141 (0/4,0/16)  : []
+machine-146 (0/4,0/16)  : []
+machine-151 (0/4,0/32)  : []
+machine-158 (0/4,0/32)  : []
+machine-161 (0/4,0/32)  : []
+machine-165 (0/4,0/8)  : []
+machine-178 (0/4,0/16)  : []
+machine-180 (0/4,0/16)  : []
+machine-186 (0/4,0/32)  : []
+machine-194 (0/4,0/8)  : []
+machine-195 (0/4,0/8)  : []
+machine-1 (0/8,0/16)  : []
+machine-4 (0/8,0/8)  : []
+machine-5 (0/8,0/32)  : []
+machine-8 (0/8,0/32)  : []
+machine-19 (0/8,0/8)  : []
+machine-22 (0/8,0/8)  : []
+machine-26 (0/8,0/8)  : []
+machine-31 (0/8,0/32)  : []
+machine-32 (0/8,0/16)  : []
+machine-33 (0/8,0/32)  : []
+machine-35 (0/8,0/32)  : []
+machine-36 (0/8,0/8)  : []
+machine-37 (0/8,0/8)  : []
+machine-43 (0/8,0/8)  : []
+machine-44 (0/8,0/16)  : []
+machine-46 (0/8,0/32)  : []
+machine-47 (0/8,0/8)  : []
+machine-49 (0/8,0/32)  : []
+machine-50 (0/8,0/8)  : []
+machine-61 (0/8,0/16)  : []
+machine-63 (0/8,0/8)  : []
+machine-66 (0/8,0/32)  : []
+machine-70 (0/8,0/8)  : []
+machine-73 (0/8,0/16)  : []
+machine-74 (0/8,0/16)  : []
+machine-78 (0/8,0/16)  : []
+machine-82 (0/8,0/16)  : []
+machine-84 (0/8,0/8)  : []
+machine-85 (0/8,0/8)  : []
+machine-87 (0/8,0/32)  : []
+machine-88 (0/8,0/8)  : []
+machine-89 (0/8,0/8)  : []
+machine-91 (0/8,0/32)  : []
+machine-93 (0/8,0/16)  : []
+machine-95 (0/8,0/8)  : []
+machine-100 (0/8,0/8)  : []
+machine-101 (0/8,0/32)  : []
+machine-103 (0/8,0/8)  : []
+machine-109 (0/8,0/16)  : []
+machine-110 (0/8,0/8)  : []
+machine-111 (0/8,0/8)  : []
+machine-119 (0/8,0/16)  : []
+machine-125 (0/8,0/16)  : []
+machine-127 (0/8,0/16)  : []
+machine-131 (0/8,0/32)  : []
+machine-134 (0/8,0/8)  : []
+machine-140 (0/8,0/16)  : []
+machine-145 (0/8,0/8)  : []
+machine-152 (0/8,0/32)  : []
+machine-153 (0/8,0/16)  : []
+machine-154 (0/8,0/32)  : []
+machine-155 (0/8,0/32)  : []
+machine-156 (0/8,0/8)  : []
+machine-157 (0/8,0/8)  : []
+machine-159 (0/8,0/32)  : []
+machine-160 (0/8,0/8)  : []
+machine-164 (0/8,0/32)  : []
+machine-167 (0/8,0/8)  : []
+machine-169 (0/8,0/32)  : []
+machine-170 (0/8,0/16)  : []
+machine-173 (0/8,0/16)  : []
+machine-174 (0/8,0/16)  : []
+machine-175 (0/8,0/8)  : []
+machine-177 (0/8,0/32)  : []
+machine-181 (0/8,0/8)  : []
+machine-185 (0/8,0/32)  : []
+machine-188 (0/8,0/32)  : []
+machine-189 (0/8,0/8)  : []
+machine-192 (0/8,0/16)  : []
+machine-196 (0/8,0/32)  : []
+machine-197 (0/8,0/16)  : []
+machine-198 (0/8,0/16)  : []
+machine-3 (0/16,0/32)  : []
+machine-10 (0/16,0/16)  : []
+machine-14 (0/16,0/32)  : []
+machine-18 (0/16,0/8)  : []
+machine-20 (0/16,0/8)  : []
+machine-25 (0/16,0/16)  : []
+machine-27 (0/16,0/32)  : []
+machine-28 (0/16,0/8)  : []
+machine-39 (0/16,0/16)  : []
+machine-48 (0/16,0/8)  : []
+machine-52 (0/16,0/8)  : []
+machine-54 (0/16,0/16)  : []
+machine-55 (0/16,0/16)  : []
+machine-56 (0/16,0/32)  : []
+machine-57 (0/16,0/16)  : []
+machine-62 (0/16,0/32)  : []
+machine-65 (0/16,0/32)  : []
+machine-67 (0/16,0/8)  : []
+machine-69 (0/16,0/16)  : []
+machine-71 (0/16,0/32)  : []
+machine-75 (0/16,0/8)  : []
+machine-76 (0/16,0/32)  : []
+machine-77 (0/16,0/16)  : []
+machine-79 (0/16,0/8)  : []
+machine-80 (0/16,0/32)  : []
+machine-83 (0/16,0/8)  : []
+machine-86 (0/16,0/32)  : []
+machine-92 (0/16,0/32)  : []
+machine-96 (0/16,0/16)  : []
+machine-98 (0/16,0/8)  : []
+machine-99 (0/16,0/32)  : []
+machine-105 (0/16,0/8)  : []
+machine-106 (0/16,0/32)  : []
+machine-108 (0/16,0/16)  : []
+machine-113 (0/16,0/16)  : []
+machine-115 (0/16,0/32)  : []
+machine-116 (0/16,0/32)  : []
+machine-118 (0/16,0/32)  : []
+machine-120 (0/16,0/8)  : []
+machine-122 (0/16,0/32)  : []
+machine-126 (0/16,0/8)  : []
+machine-128 (0/16,0/8)  : []
+machine-132 (0/16,0/16)  : []
+machine-133 (0/16,0/8)  : []
+machine-135 (0/16,0/16)  : []
+machine-142 (0/16,0/8)  : []
+machine-143 (0/16,0/16)  : []
+machine-144 (0/16,0/8)  : []
+machine-147 (0/16,0/32)  : []
+machine-148 (0/16,0/32)  : []
+machine-149 (0/16,0/8)  : []
+machine-150 (0/16,0/16)  : []
+machine-162 (0/16,0/16)  : []
+machine-163 (0/16,0/32)  : []
+machine-166 (0/16,0/32)  : []
+machine-168 (0/16,0/8)  : []
+machine-171 (0/16,0/32)  : []
+machine-172 (0/16,0/8)  : []
+machine-176 (0/16,0/16)  : []
+machine-179 (0/16,0/16)  : []
+machine-182 (0/16,0/8)  : []
+machine-183 (0/16,0/16)  : []
+machine-184 (0/16,0/16)  : []
+machine-187 (0/16,0/8)  : []
+machine-190 (0/16,0/8)  : []
+machine-191 (0/16,0/32)  : []
+machine-193 (0/16,0/32)  : []
+machine-199 (0/16,0/32)  : []
+machine-9 (1/4,1/16)  : [vm1(1,1)]
+machine-7 (1/4,2/32)  : [vm3(1,2)]
+machine-6 (2/4,2/32)  : [vm0(2,2)]
+machine-2 (2/4,4/16)  : [vm4(2,4)]
+machine-0 (3/4,2/32)  : [vm2(3,2)]
+
+ Machine Energy :  - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 162 - 162 - 175 - 175 - 187
+ Energy : 861
+
+
+Welcome to the constraint world ...
+
+
+#################################
+######### Loops 1 ###############
+#################################
+
+###### Memory Management #######
+machine-0: 4 2 2 2 1 (32)
+machine-2: (16)
+machine-6: (32)
+machine-7: (32)
+machine-9: (16)
+machine-195: (8)
+machine-194: (8)
+machine-186: (32)
+machine-180: (16)
+machine-178: (16)
+machine-165: (8)
+machine-161: (32)
+machine-158: (32)
+machine-151: (32)
+machine-146: (16)
+machine-141: (16)
+machine-139: (32)
+machine-138: (16)
+machine-137: (16)
+machine-136: (8)
+machine-130: (16)
+machine-129: (8)
+machine-124: (8)
+machine-123: (16)
+machine-121: (8)
+machine-117: (16)
+machine-114: (8)
+machine-112: (8)
+machine-107: (32)
+machine-104: (32)
+machine-102: (32)
+machine-97: (8)
+machine-94: (8)
+machine-90: (16)
+machine-81: (8)
+machine-72: (16)
+machine-68: (8)
+machine-64: (8)
+machine-60: (16)
+machine-59: (8)
+machine-58: (32)
+machine-53: (32)
+machine-51: (8)
+machine-45: (32)
+machine-42: (8)
+machine-41: (16)
+machine-40: (16)
+machine-38: (32)
+machine-34: (8)
+machine-30: (16)
+machine-29: (8)
+machine-24: (16)
+machine-23: (16)
+machine-21: (16)
+machine-17: (8)
+machine-16: (16)
+machine-15: (16)
+machine-13: (8)
+machine-12: (32)
+machine-11: (16)
+machine-198: (16)
+machine-197: (16)
+machine-196: (32)
+machine-192: (16)
+machine-189: (8)
+machine-188: (32)
+machine-185: (32)
+machine-181: (8)
+machine-177: (32)
+machine-175: (8)
+machine-174: (16)
+machine-173: (16)
+machine-170: (16)
+machine-169: (32)
+machine-167: (8)
+machine-164: (32)
+machine-160: (8)
+machine-159: (32)
+machine-157: (8)
+machine-156: (8)
+machine-155: (32)
+machine-154: (32)
+machine-153: (16)
+machine-152: (32)
+machine-145: (8)
+machine-140: (16)
+machine-134: (8)
+machine-131: (32)
+machine-127: (16)
+machine-125: (16)
+machine-119: (16)
+machine-111: (8)
+machine-110: (8)
+machine-109: (16)
+machine-103: (8)
+machine-101: (32)
+machine-100: (8)
+machine-95: (8)
+machine-93: (16)
+machine-91: (32)
+machine-89: (8)
+machine-88: (8)
+machine-87: (32)
+machine-85: (8)
+machine-84: (8)
+machine-82: (16)
+machine-78: (16)
+machine-74: (16)
+machine-73: (16)
+machine-70: (8)
+machine-66: (32)
+machine-63: (8)
+machine-61: (16)
+machine-50: (8)
+machine-49: (32)
+machine-47: (8)
+machine-46: (32)
+machine-44: (16)
+machine-43: (8)
+machine-37: (8)
+machine-36: (8)
+machine-35: (32)
+machine-33: (32)
+machine-32: (16)
+machine-31: (32)
+machine-26: (8)
+machine-22: (8)
+machine-19: (8)
+machine-8: (32)
+machine-5: (32)
+machine-4: (8)
+machine-1: (16)
+machine-199: (32)
+machine-193: (32)
+machine-191: (32)
+machine-190: (8)
+machine-187: (8)
+machine-184: (16)
+machine-183: (16)
+machine-182: (8)
+machine-179: (16)
+machine-176: (16)
+machine-172: (8)
+machine-171: (32)
+machine-168: (8)
+machine-166: (32)
+machine-163: (32)
+machine-162: (16)
+machine-150: (16)
+machine-149: (8)
+machine-148: (32)
+machine-147: (32)
+machine-144: (8)
+machine-143: (16)
+machine-142: (8)
+machine-135: (16)
+machine-133: (8)
+machine-132: (16)
+machine-128: (8)
+machine-126: (8)
+machine-122: (32)
+machine-120: (8)
+machine-118: (32)
+machine-116: (32)
+machine-115: (32)
+machine-113: (16)
+machine-108: (16)
+machine-106: (32)
+machine-105: (8)
+machine-99: (32)
+machine-98: (8)
+machine-96: (16)
+machine-92: (32)
+machine-86: (32)
+machine-83: (8)
+machine-80: (32)
+machine-79: (8)
+machine-77: (16)
+machine-76: (32)
+machine-75: (8)
+machine-71: (32)
+machine-69: (16)
+machine-67: (8)
+machine-65: (32)
+machine-62: (32)
+machine-57: (16)
+machine-56: (32)
+machine-55: (16)
+machine-54: (16)
+machine-52: (8)
+machine-48: (8)
+machine-39: (16)
+machine-28: (8)
+machine-27: (32)
+machine-25: (16)
+machine-20: (8)
+machine-18: (8)
+machine-14: (32)
+machine-10: (16)
+machine-3: (32)
+Occupation rate: 0%
+
+######## Cpu Management ########
+machine-0: 2 3 2 1 1 (4)
+machine-2: (4)
+machine-6: (4)
+machine-7: (4)
+machine-9: (4)
+machine-195: (4)
+machine-194: (4)
+machine-186: (4)
+machine-180: (4)
+machine-178: (4)
+machine-165: (4)
+machine-161: (4)
+machine-158: (4)
+machine-151: (4)
+machine-146: (4)
+machine-141: (4)
+machine-139: (4)
+machine-138: (4)
+machine-137: (4)
+machine-136: (4)
+machine-130: (4)
+machine-129: (4)
+machine-124: (4)
+machine-123: (4)
+machine-121: (4)
+machine-117: (4)
+machine-114: (4)
+machine-112: (4)
+machine-107: (4)
+machine-104: (4)
+machine-102: (4)
+machine-97: (4)
+machine-94: (4)
+machine-90: (4)
+machine-81: (4)
+machine-72: (4)
+machine-68: (4)
+machine-64: (4)
+machine-60: (4)
+machine-59: (4)
+machine-58: (4)
+machine-53: (4)
+machine-51: (4)
+machine-45: (4)
+machine-42: (4)
+machine-41: (4)
+machine-40: (4)
+machine-38: (4)
+machine-34: (4)
+machine-30: (4)
+machine-29: (4)
+machine-24: (4)
+machine-23: (4)
+machine-21: (4)
+machine-17: (4)
+machine-16: (4)
+machine-15: (4)
+machine-13: (4)
+machine-12: (4)
+machine-11: (4)
+machine-198: (8)
+machine-197: (8)
+machine-196: (8)
+machine-192: (8)
+machine-189: (8)
+machine-188: (8)
+machine-185: (8)
+machine-181: (8)
+machine-177: (8)
+machine-175: (8)
+machine-174: (8)
+machine-173: (8)
+machine-170: (8)
+machine-169: (8)
+machine-167: (8)
+machine-164: (8)
+machine-160: (8)
+machine-159: (8)
+machine-157: (8)
+machine-156: (8)
+machine-155: (8)
+machine-154: (8)
+machine-153: (8)
+machine-152: (8)
+machine-145: (8)
+machine-140: (8)
+machine-134: (8)
+machine-131: (8)
+machine-127: (8)
+machine-125: (8)
+machine-119: (8)
+machine-111: (8)
+machine-110: (8)
+machine-109: (8)
+machine-103: (8)
+machine-101: (8)
+machine-100: (8)
+machine-95: (8)
+machine-93: (8)
+machine-91: (8)
+machine-89: (8)
+machine-88: (8)
+machine-87: (8)
+machine-85: (8)
+machine-84: (8)
+machine-82: (8)
+machine-78: (8)
+machine-74: (8)
+machine-73: (8)
+machine-70: (8)
+machine-66: (8)
+machine-63: (8)
+machine-61: (8)
+machine-50: (8)
+machine-49: (8)
+machine-47: (8)
+machine-46: (8)
+machine-44: (8)
+machine-43: (8)
+machine-37: (8)
+machine-36: (8)
+machine-35: (8)
+machine-33: (8)
+machine-32: (8)
+machine-31: (8)
+machine-26: (8)
+machine-22: (8)
+machine-19: (8)
+machine-8: (8)
+machine-5: (8)
+machine-4: (8)
+machine-1: (8)
+machine-199: (16)
+machine-193: (16)
+machine-191: (16)
+machine-190: (16)
+machine-187: (16)
+machine-184: (16)
+machine-183: (16)
+machine-182: (16)
+machine-179: (16)
+machine-176: (16)
+machine-172: (16)
+machine-171: (16)
+machine-168: (16)
+machine-166: (16)
+machine-163: (16)
+machine-162: (16)
+machine-150: (16)
+machine-149: (16)
+machine-148: (16)
+machine-147: (16)
+machine-144: (16)
+machine-143: (16)
+machine-142: (16)
+machine-135: (16)
+machine-133: (16)
+machine-132: (16)
+machine-128: (16)
+machine-126: (16)
+machine-122: (16)
+machine-120: (16)
+machine-118: (16)
+machine-116: (16)
+machine-115: (16)
+machine-113: (16)
+machine-108: (16)
+machine-106: (16)
+machine-105: (16)
+machine-99: (16)
+machine-98: (16)
+machine-96: (16)
+machine-92: (16)
+machine-86: (16)
+machine-83: (16)
+machine-80: (16)
+machine-79: (16)
+machine-77: (16)
+machine-76: (16)
+machine-75: (16)
+machine-71: (16)
+machine-69: (16)
+machine-67: (16)
+machine-65: (16)
+machine-62: (16)
+machine-57: (16)
+machine-56: (16)
+machine-55: (16)
+machine-54: (16)
+machine-52: (16)
+machine-48: (16)
+machine-39: (16)
+machine-28: (16)
+machine-27: (16)
+machine-25: (16)
+machine-20: (16)
+machine-18: (16)
+machine-14: (16)
+machine-10: (16)
+machine-3: (16)
+Occupation rate: 1%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-0 (9/4,11/32)  : [vm4(2,4), vm2(3,2), vm0(2,2), vm3(1,2), vm1(1,1)]
+machine-2 (0/4,0/16)  : []
+machine-6 (0/4,0/32)  : []
+machine-7 (0/4,0/32)  : []
+machine-9 (0/4,0/16)  : []
+machine-195 (0/4,0/8)  : []
+machine-194 (0/4,0/8)  : []
+machine-186 (0/4,0/32)  : []
+machine-180 (0/4,0/16)  : []
+machine-178 (0/4,0/16)  : []
+machine-165 (0/4,0/8)  : []
+machine-161 (0/4,0/32)  : []
+machine-158 (0/4,0/32)  : []
+machine-151 (0/4,0/32)  : []
+machine-146 (0/4,0/16)  : []
+machine-141 (0/4,0/16)  : []
+machine-139 (0/4,0/32)  : []
+machine-138 (0/4,0/16)  : []
+machine-137 (0/4,0/16)  : []
+machine-136 (0/4,0/8)  : []
+machine-130 (0/4,0/16)  : []
+machine-129 (0/4,0/8)  : []
+machine-124 (0/4,0/8)  : []
+machine-123 (0/4,0/16)  : []
+machine-121 (0/4,0/8)  : []
+machine-117 (0/4,0/16)  : []
+machine-114 (0/4,0/8)  : []
+machine-112 (0/4,0/8)  : []
+machine-107 (0/4,0/32)  : []
+machine-104 (0/4,0/32)  : []
+machine-102 (0/4,0/32)  : []
+machine-97 (0/4,0/8)  : []
+machine-94 (0/4,0/8)  : []
+machine-90 (0/4,0/16)  : []
+machine-81 (0/4,0/8)  : []
+machine-72 (0/4,0/16)  : []
+machine-68 (0/4,0/8)  : []
+machine-64 (0/4,0/8)  : []
+machine-60 (0/4,0/16)  : []
+machine-59 (0/4,0/8)  : []
+machine-58 (0/4,0/32)  : []
+machine-53 (0/4,0/32)  : []
+machine-51 (0/4,0/8)  : []
+machine-45 (0/4,0/32)  : []
+machine-42 (0/4,0/8)  : []
+machine-41 (0/4,0/16)  : []
+machine-40 (0/4,0/16)  : []
+machine-38 (0/4,0/32)  : []
+machine-34 (0/4,0/8)  : []
+machine-30 (0/4,0/16)  : []
+machine-29 (0/4,0/8)  : []
+machine-24 (0/4,0/16)  : []
+machine-23 (0/4,0/16)  : []
+machine-21 (0/4,0/16)  : []
+machine-17 (0/4,0/8)  : []
+machine-16 (0/4,0/16)  : []
+machine-15 (0/4,0/16)  : []
+machine-13 (0/4,0/8)  : []
+machine-12 (0/4,0/32)  : []
+machine-11 (0/4,0/16)  : []
+machine-198 (0/8,0/16)  : []
+machine-197 (0/8,0/16)  : []
+machine-196 (0/8,0/32)  : []
+machine-192 (0/8,0/16)  : []
+machine-189 (0/8,0/8)  : []
+machine-188 (0/8,0/32)  : []
+machine-185 (0/8,0/32)  : []
+machine-181 (0/8,0/8)  : []
+machine-177 (0/8,0/32)  : []
+machine-175 (0/8,0/8)  : []
+machine-174 (0/8,0/16)  : []
+machine-173 (0/8,0/16)  : []
+machine-170 (0/8,0/16)  : []
+machine-169 (0/8,0/32)  : []
+machine-167 (0/8,0/8)  : []
+machine-164 (0/8,0/32)  : []
+machine-160 (0/8,0/8)  : []
+machine-159 (0/8,0/32)  : []
+machine-157 (0/8,0/8)  : []
+machine-156 (0/8,0/8)  : []
+machine-155 (0/8,0/32)  : []
+machine-154 (0/8,0/32)  : []
+machine-153 (0/8,0/16)  : []
+machine-152 (0/8,0/32)  : []
+machine-145 (0/8,0/8)  : []
+machine-140 (0/8,0/16)  : []
+machine-134 (0/8,0/8)  : []
+machine-131 (0/8,0/32)  : []
+machine-127 (0/8,0/16)  : []
+machine-125 (0/8,0/16)  : []
+machine-119 (0/8,0/16)  : []
+machine-111 (0/8,0/8)  : []
+machine-110 (0/8,0/8)  : []
+machine-109 (0/8,0/16)  : []
+machine-103 (0/8,0/8)  : []
+machine-101 (0/8,0/32)  : []
+machine-100 (0/8,0/8)  : []
+machine-95 (0/8,0/8)  : []
+machine-93 (0/8,0/16)  : []
+machine-91 (0/8,0/32)  : []
+machine-89 (0/8,0/8)  : []
+machine-88 (0/8,0/8)  : []
+machine-87 (0/8,0/32)  : []
+machine-85 (0/8,0/8)  : []
+machine-84 (0/8,0/8)  : []
+machine-82 (0/8,0/16)  : []
+machine-78 (0/8,0/16)  : []
+machine-74 (0/8,0/16)  : []
+machine-73 (0/8,0/16)  : []
+machine-70 (0/8,0/8)  : []
+machine-66 (0/8,0/32)  : []
+machine-63 (0/8,0/8)  : []
+machine-61 (0/8,0/16)  : []
+machine-50 (0/8,0/8)  : []
+machine-49 (0/8,0/32)  : []
+machine-47 (0/8,0/8)  : []
+machine-46 (0/8,0/32)  : []
+machine-44 (0/8,0/16)  : []
+machine-43 (0/8,0/8)  : []
+machine-37 (0/8,0/8)  : []
+machine-36 (0/8,0/8)  : []
+machine-35 (0/8,0/32)  : []
+machine-33 (0/8,0/32)  : []
+machine-32 (0/8,0/16)  : []
+machine-31 (0/8,0/32)  : []
+machine-26 (0/8,0/8)  : []
+machine-22 (0/8,0/8)  : []
+machine-19 (0/8,0/8)  : []
+machine-8 (0/8,0/32)  : []
+machine-5 (0/8,0/32)  : []
+machine-4 (0/8,0/8)  : []
+machine-1 (0/8,0/16)  : []
+machine-199 (0/16,0/32)  : []
+machine-193 (0/16,0/32)  : []
+machine-191 (0/16,0/32)  : []
+machine-190 (0/16,0/8)  : []
+machine-187 (0/16,0/8)  : []
+machine-184 (0/16,0/16)  : []
+machine-183 (0/16,0/16)  : []
+machine-182 (0/16,0/8)  : []
+machine-179 (0/16,0/16)  : []
+machine-176 (0/16,0/16)  : []
+machine-172 (0/16,0/8)  : []
+machine-171 (0/16,0/32)  : []
+machine-168 (0/16,0/8)  : []
+machine-166 (0/16,0/32)  : []
+machine-163 (0/16,0/32)  : []
+machine-162 (0/16,0/16)  : []
+machine-150 (0/16,0/16)  : []
+machine-149 (0/16,0/8)  : []
+machine-148 (0/16,0/32)  : []
+machine-147 (0/16,0/32)  : []
+machine-144 (0/16,0/8)  : []
+machine-143 (0/16,0/16)  : []
+machine-142 (0/16,0/8)  : []
+machine-135 (0/16,0/16)  : []
+machine-133 (0/16,0/8)  : []
+machine-132 (0/16,0/16)  : []
+machine-128 (0/16,0/8)  : []
+machine-126 (0/16,0/8)  : []
+machine-122 (0/16,0/32)  : []
+machine-120 (0/16,0/8)  : []
+machine-118 (0/16,0/32)  : []
+machine-116 (0/16,0/32)  : []
+machine-115 (0/16,0/32)  : []
+machine-113 (0/16,0/16)  : []
+machine-108 (0/16,0/16)  : []
+machine-106 (0/16,0/32)  : []
+machine-105 (0/16,0/8)  : []
+machine-99 (0/16,0/32)  : []
+machine-98 (0/16,0/8)  : []
+machine-96 (0/16,0/16)  : []
+machine-92 (0/16,0/32)  : []
+machine-86 (0/16,0/32)  : []
+machine-83 (0/16,0/8)  : []
+machine-80 (0/16,0/32)  : []
+machine-79 (0/16,0/8)  : []
+machine-77 (0/16,0/16)  : []
+machine-76 (0/16,0/32)  : []
+machine-75 (0/16,0/8)  : []
+machine-71 (0/16,0/32)  : []
+machine-69 (0/16,0/16)  : []
+machine-67 (0/16,0/8)  : []
+machine-65 (0/16,0/32)  : []
+machine-62 (0/16,0/32)  : []
+machine-57 (0/16,0/16)  : []
+machine-56 (0/16,0/32)  : []
+machine-55 (0/16,0/16)  : []
+machine-54 (0/16,0/16)  : []
+machine-52 (0/16,0/8)  : []
+machine-48 (0/16,0/8)  : []
+machine-39 (0/16,0/16)  : []
+machine-28 (0/16,0/8)  : []
+machine-27 (0/16,0/32)  : []
+machine-25 (0/16,0/16)  : []
+machine-20 (0/16,0/8)  : []
+machine-18 (0/16,0/8)  : []
+machine-14 (0/16,0/32)  : []
+machine-10 (0/16,0/16)  : []
+machine-3 (0/16,0/32)  : []
+
+ Machine Energy :  - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 200 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 200 - 200 - 200 - 200
+ Energy : 1000
+
+Computation time: 475
+Solving times: [475]
+Mean: 475

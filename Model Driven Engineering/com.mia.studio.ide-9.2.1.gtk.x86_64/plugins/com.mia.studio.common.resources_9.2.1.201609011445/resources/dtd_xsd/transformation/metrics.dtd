@@ -1,0 +1,35 @@
+<!ELEMENT	metrics	(fileHeader?, total, scenario*)>
+<!ELEMENT 	fileHeader	EMPTY>
+<!ATTLIST 	fileHeader	
+			version				CDATA	#REQUIRED
+			date				CDATA	#IMPLIED
+			toolName			CDATA	#IMPLIED
+			toolVersion			CDATA	#IMPLIED
+			>
+<!ELEMENT 	total	EMPTY>
+<!ATTLIST 	total	
+			time				CDATA	#REQUIRED
+			initialMemoryUsage		CDATA	#IMPLIED
+			memoryConsumed			CDATA	#IMPLIED
+			xmx				CDATA	#IMPLIED
+			>
+<!ELEMENT	scenario	(parameter, ruleSetCall)*>
+<!ATTLIST	scenario
+			project			CDATA 	#REQUIRED
+			name			CDATA 	#REQUIRED>
+			
+<!ELEMENT	parameter	(measure)>
+<!ATTLIST	parameter
+			kind			CDATA 	#REQUIRED
+			modelID			CDATA 	#REQUIRED
+			modelFormat		CDATA 	#REQUIRED
+			modelFilename		CDATA	#REQUIRED>
+<!ELEMENT	ruleSetCall	(measure)>
+<!ATTLIST	ruleSetCall
+			name			CDATA 	#REQUIRED>
+<!ELEMENT	measure		EMPTY>
+<!ATTLIST	measure
+			time			CDATA	#REQUIRED
+			memoryConsumed		CDATA	#REQUIRED
+			timePercent		CDATA	#REQUIRED
+			memoryPercent		CDATA	#REQUIRED>

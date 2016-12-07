@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PACKAGE SYSTEM "package.dtd">
+<PACKAGE NAME="SWTImplGenerator" METAMODEL="MVC" NUMBER="15"
+>
+	<fileHeader version="6" toolName="Mia-Generation" toolVersion="9.2.1"/>
+	<SCENARIO NAME="GenerateImpl" VISIBILITY="public" META_OBJECT="View" CATEGORY="default">
+		<SERVICE_CALL NAME="current" PACKAGE="System" META_OBJECT="View"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="SWTImplGenerator" META_OBJECT="View" CATEGORY="default" NAME="View" PARAM_COUNT="0"/>
+		<GENERATION_STEP TYPE="FileTemplate" PACKAGE="SWTImplGenerator" META_OBJECT="View" CATEGORY="default" NAME="Controler" PARAM_COUNT="0"/>
+	</SCENARIO>
+	<TEXT_MACRO NAME="button" META_OBJECT="Action" CATEGORY="default" RETURN_TYPE_KIND="primitive" RETURN_TYPE_NAME="String">
+		<TEXT><![CDATA[
+return "btn"+current.getName();
+]]></TEXT>
+	</TEXT_MACRO>
+	<SCRIPT NAME="declareButton" META_OBJECT="Action" CATEGORY="default">
+		<TEXT><![CDATA[
+	private Button [[button]];
+
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="fonctionControler" META_OBJECT="Action" CATEGORY="default">
+		<TEXT><![CDATA[
+	public void [[current.name]]() {
+[[BeginTag]]
+[[EndTag]]
+	}
+	
+]]></TEXT>
+		<PROPERTY NAME="BeginTag"/>
+		<PROPERTY NAME="EndTag"/>
+	</SCRIPT>
+	<SCRIPT NAME="fonctionControler$BeginTag" META_OBJECT="Action" CATEGORY="default">
+		<TEXT><![CDATA[
+// Start of user code for [[current.name]]
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="fonctionControler$EndTag" META_OBJECT="Action" CATEGORY="default">
+		<TEXT><![CDATA[
+// End of user code for [[current.name]]
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="fonctionView" META_OBJECT="Action" CATEGORY="default">
+		<TEXT><![CDATA[
+	public void [[current.name]]() {
+		this.controler.[[current.name]]();
+	}
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="newButton" META_OBJECT="Action" CATEGORY="default">
+		<TEXT><![CDATA[
+		[[button]] = new Button(grpButtons, SWT.NONE);
+		[[button]].setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, true, 1, 1));
+		[[button]] .setText("[[current.name]] ");
+		[[button]] .addSelectionListener(new SelectionAdapter(){
+		        public void widgetSelected(SelectionEvent event)
+		        {
+		          [[current.name]] ();
+		        }
+		      });
+
+
+]]></TEXT>
+	</SCRIPT>
+	<TEXT_MACRO NAME="group" META_OBJECT="Model" CATEGORY="default" RETURN_TYPE_KIND="primitive" RETURN_TYPE_NAME="String">
+		<TEXT><![CDATA[
+return "grp" + current.getName();
+]]></TEXT>
+	</TEXT_MACRO>
+	<TEXT_MACRO NAME="list" META_OBJECT="Model" CATEGORY="default" RETURN_TYPE_KIND="primitive" RETURN_TYPE_NAME="String">
+		<TEXT><![CDATA[
+return current.getName() + "List";
+]]></TEXT>
+	</TEXT_MACRO>
+	<SCRIPT NAME="newBouton" META_OBJECT="Model" CATEGORY="default">
+		<TEXT><![CDATA[
+		Group [[group]] = new Group(this, SWT.NONE);
+		[[group]].setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true, 2, 1));
+		[[group]].setText("Liste des [[current.name]]");
+		[[group]].setLayout(new GridLayout());
+
+		this.[[list]] = new List([[group]], SWT.BORDER | SWT.V_SCROLL | SWT.SINGLE);
+		this.[[list]].setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true));
+		
+		for (final com.mia.banque.model.I[[current.name]] elt : this.model.get[[current.name]]s()) {
+			this.[[list]].add(elt.toString());
+		}
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="newText" META_OBJECT="ModelProperty" CATEGORY="default">
+		<TEXT><![CDATA[
+		Label lbl[[current.name]] = new Label(this, SWT.NONE);
+		lbl[[current.name]].setLayoutData(new GridData(SWT.RIGHT, SWT.CENTER, false, false,
+				1, 1));
+		lbl[[current.name]].setText("[[current.name]]");
+
+		Text [[current.name]]Field = new Text(this, SWT.BORDER);
+		[[current.name]]Field.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true,
+				false, 1, 1));
+		[[current.name]]Field.setText(this.model.get[[current.name]]());
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="Controler" META_OBJECT="View" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+package com.mia.banque.ui.controler.swt;
+
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.events.SelectionAdapter;
+import org.eclipse.swt.events.SelectionEvent;
+import org.eclipse.swt.layout.GridData;
+import org.eclipse.swt.layout.GridLayout;
+import org.eclipse.swt.widgets.Button;
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Label;
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.widgets.Text;
+import org.eclipse.swt.widgets.List;
+import org.eclipse.swt.widgets.Group;
+
+import com.mia.banque.ui.controler.[[model.interface]]Controler;
+import com.mia.banque.ui.view.I[[name]];
+import com.mia.banque.ui.view.swt.[[name]];
+import com.mia.banque.model.[[model.interface]];
+
+public class [[model.name]]Controler implements [[model.interface]]Controler {
+
+	private [[name]] view;
+	private[[model.interface]]model;
+
+	public [[model.name]]Controler(com.mia.banque.model.I[[model.name]] model) {
+		this.model = model;
+	}
+	
+	public void initView() {
+		Display display = Display.getDefault();
+		
+		
+		this.view = new [[model.name]]View(display, this.model, this);
+		this.view.open();
+		this.view.layout();
+		
+		while (!this.view.isDisposed()) {
+			if (!display.readAndDispatch()) {
+				display.sleep();
+			}
+		}
+
+	}
+	
+[[actions.fonctionControler]]
+}
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="Controler$Filename" META_OBJECT="View" CATEGORY="default">
+		<TEXT><![CDATA[
+com.mia.banque.application/src/com/mia/banque/ui/controler/swt/[[model.name]]Controler.java
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="View" META_OBJECT="View" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+package com.mia.banque.ui.view.swt;
+
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.events.SelectionAdapter;
+import org.eclipse.swt.events.SelectionEvent;
+import org.eclipse.swt.layout.GridData;
+import org.eclipse.swt.layout.GridLayout;
+import org.eclipse.swt.widgets.Button;
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Label;
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.widgets.Text;
+import org.eclipse.swt.widgets.List;
+import org.eclipse.swt.widgets.Group;
+
+import com.mia.banque.ui.controler.I[[model.name]]Controler;
+import com.mia.banque.ui.view.I[[name]];
+import com.mia.banque.model.I[[model.name]];
+
+public class [[name]] extends Shell implements I[[name]] {
+	
+	private I[[model.name]]Controler controler;
+	private I[[model.name]] model;
+
+[[actions.declareButton]]
+[[model.ownedElements.declareList]]
+
+
+	/**
+	 * Create the shell.
+	 * @param display
+	 */
+	public [[name]](Display display, com.mia.banque.model.I[[model.name]] model, I[[model.name]]Controler controler) {
+		super(display, SWT.SHELL_TRIM);
+		this.model = model;
+		this.controler = controler;
+		
+		createContents();
+	}
+
+[[actions.fonctionView]]
+
+	private void createContents(){
+		setText("[[description]]");
+		setSize(458, 308);
+		setLayout(new GridLayout(2, false));
+
+[[model.properties.newText]]
+
+		// Liste
+[[model.ownedElements.newBouton]]
+
+
+
+		Group grpButtons = new Group(this, SWT.NONE);
+		grpButtons.setLayout(new GridLayout(2, false));
+		grpButtons.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true, 2, 1));
+		
+[[actions.newButton]]
+	}
+
+
+	@Override
+	protected void checkSubclass() {
+		// Disable the check that prevents subclassing of SWT components
+	}
+
+
+}
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="View$Filename" META_OBJECT="View" CATEGORY="default">
+		<TEXT><![CDATA[
+com.mia.banque.application/src/com/mia/banque/ui/view/swt/[[name]].java
+]]></TEXT>
+	</SCRIPT>
+	<METAMODELS_INFO_CACHE>
+		<METAMODEL_IMPORT CLAUSE="com.mia.formation.mvc.*" RELATED_METAS="Action,Model,ModelProperty,UIApplication,View,NamedElement"/>
+		<METAMODEL_CONTAINER_QNAME CQNAME="mvc" RELATED_METAS="Action,Model,ModelProperty,UIApplication,View,NamedElement"/>
+	</METAMODELS_INFO_CACHE>
+</PACKAGE>

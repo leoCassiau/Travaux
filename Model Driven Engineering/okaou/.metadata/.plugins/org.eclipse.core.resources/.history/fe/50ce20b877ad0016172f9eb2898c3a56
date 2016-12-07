@@ -1,0 +1,9 @@
+package ui.controler;
+
+public interface IClientControler {
+	
+	public void initView();
+
+	public void ClientView;
+
+}

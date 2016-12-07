@@ -1,0 +1,102 @@
+
+
+#################################
+######### Experiments 1 #########
+#################################
+
+Solution without constraint :
+ 
+
+###### Memory Management #######
+machine-7: 1 (32)
+machine-8: 4 4 (32)
+machine-9: 4 2 (8)
+machine-3: 1 4 (16)
+machine-0: 1 2 (16)
+machine-1: 2 2 (32)
+machine-2: 2 1 (32)
+machine-4: 2 4 1 (8)
+machine-5: 1 2 (16)
+machine-6: 4 4 (32)
+Occupation rate: 30%
+
+######## Cpu Management ########
+machine-7: 3 (4)
+machine-8: 3 1 (4)
+machine-9: 3 1 (4)
+machine-3: 3 1 (8)
+machine-0: 3 1 (16)
+machine-1: 3 1 (16)
+machine-2: 3 1 (16)
+machine-4: 2 1 1 (16)
+machine-5: 2 2 (16)
+machine-6: 2 2 (16)
+Occupation rate: 47%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-7 (3/4,1/32)  : [vm18(3,1)]
+machine-8 (4/4,8/32)  : [vm17(3,4), vm1(1,4)]
+machine-9 (4/4,6/8)  : [vm15(3,4), vm3(1,2)]
+machine-3 (4/8,5/16)  : [vm11(3,1), vm6(1,4)]
+machine-0 (4/16,3/16)  : [vm10(3,1), vm7(1,2)]
+machine-1 (4/16,4/32)  : [vm5(3,2), vm9(1,2)]
+machine-2 (4/16,3/32)  : [vm4(3,2), vm14(1,1)]
+machine-4 (4/16,7/8)  : [vm13(2,2), vm19(1,4), vm16(1,1)]
+machine-5 (4/16,3/16)  : [vm12(2,1), vm0(2,2)]
+machine-6 (4/16,8/32)  : [vm8(2,4), vm2(2,4)]
+
+ Machine Energy :  - 187 - 200 - 200 - 175 - 162 - 162 - 162 - 162 - 162 - 162
+ Energy : 1734
+
+
+Welcome to the constraint world ...
+
+
+#################################
+######### Loops 1 ###############
+#################################
+
+###### Memory Management #######
+machine-9: 4 4 4 4 4 4 4 2 2 2 2 2 2 2 1 1 1 1 1 1 (8)
+machine-8: (32)
+machine-7: (32)
+machine-3: (16)
+machine-6: (32)
+machine-5: (16)
+machine-4: (8)
+machine-2: (32)
+machine-1: (32)
+machine-0: (16)
+Occupation rate: 60%
+
+######## Cpu Management ########
+machine-9: 3 3 2 2 1 1 1 3 3 2 2 1 1 1 3 3 3 2 1 1 (4)
+machine-8: (4)
+machine-7: (4)
+machine-3: (8)
+machine-6: (16)
+machine-5: (16)
+machine-4: (16)
+machine-2: (16)
+machine-1: (16)
+machine-0: (16)
+Occupation rate: 97%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-9 (39/4,48/8)  : [vm17(3,4), vm15(3,4), vm8(2,4), vm2(2,4), vm19(1,4), vm6(1,4), vm1(1,4), vm5(3,2), vm4(3,2), vm13(2,2), vm0(2,2), vm9(1,2), vm7(1,2), vm3(1,2), vm18(3,1), vm11(3,1), vm10(3,1), vm12(2,1), vm16(1,1), vm14(1,1)]
+machine-8 (0/4,0/32)  : []
+machine-7 (0/4,0/32)  : []
+machine-3 (0/8,0/16)  : []
+machine-6 (0/16,0/32)  : []
+machine-5 (0/16,0/16)  : []
+machine-4 (0/16,0/8)  : []
+machine-2 (0/16,0/32)  : []
+machine-1 (0/16,0/32)  : []
+machine-0 (0/16,0/16)  : []
+
+ Machine Energy :  - 0 - 0 - 200 - 200 - 200 - 200 - 200 - 200 - 200 - 200
+ Energy : 1600
+
+Computation time: 264
+Solving times: [264]
+Mean: 264

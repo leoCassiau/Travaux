@@ -1,0 +1,6 @@
+
+1-Completude
+2-Decoupage template/macro
+3-Repartition en packages
+4-Reutilisation macros ?
+5-Avis sur générateur

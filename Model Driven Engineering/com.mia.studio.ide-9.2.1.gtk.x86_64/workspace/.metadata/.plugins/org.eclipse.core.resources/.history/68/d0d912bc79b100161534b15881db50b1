@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PACKAGE SYSTEM "package.dtd">
+<PACKAGE NAME="IControlerIViewGenerator" METAMODEL="MVC" NUMBER="4"
+>
+	<fileHeader version="6" toolName="Mia-Generation" toolVersion="9.2.1"/>
+	<SCRIPT NAME="IControler1" META_OBJECT="View" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+package com.mia.banque.ui.controler;
+
+public interface I[[current.model.name]]Controler {
+	
+	public void initView();
+
+	[[actions.signature]]
+}
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="IControler1$Filename" META_OBJECT="View" CATEGORY="default">
+		<TEXT><![CDATA[
+com.mia.banque.application/src/com/mia/banque/ui/controler/I[[model.name]]Controler.java
+]]></TEXT>
+	</SCRIPT>
+	<SCRIPT NAME="IView1" META_OBJECT="View" CATEGORY="default" FILE_ENCODING="UTF-8" VISIBILITY="private">
+		<TEXT><![CDATA[
+package com.mia.banque.ui.view;
+
+public interface I[[name]] {
+	
+	[[actions.signature]]
+}
+]]></TEXT>
+		<PROPERTY NAME="Filename"/>
+	</SCRIPT>
+	<SCRIPT NAME="IView1$Filename" META_OBJECT="View" CATEGORY="default">
+		<TEXT><![CDATA[
+com.mia.banque.application/src/com/mia/banque/ui/view/I[[name]].java
+]]></TEXT>
+	</SCRIPT>
+	<METAMODELS_INFO_CACHE>
+		<METAMODEL_IMPORT CLAUSE="com.mia.formation.mvc.*" RELATED_METAS="Action,Model,ModelProperty,UIApplication,View,NamedElement"/>
+		<METAMODEL_CONTAINER_QNAME CQNAME="mvc" RELATED_METAS="Action,Model,ModelProperty,UIApplication,View,NamedElement"/>
+	</METAMODELS_INFO_CACHE>
+</PACKAGE>

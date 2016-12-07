@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//src/com/mia/banque/ui/controler/IBanqueControler.java=UTF-8
+encoding//src/com/mia/banque/ui/controler/swt/BanqueControler.java=UTF-8
+encoding//src/com/mia/banque/ui/view/IBanqueView.java=UTF-8

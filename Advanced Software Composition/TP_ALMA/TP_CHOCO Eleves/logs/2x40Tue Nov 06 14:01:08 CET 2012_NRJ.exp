@@ -1,0 +1,54 @@
+
+
+#################################
+######### Experiments 1 #########
+#################################
+
+Solution without constraint :
+ 
+
+###### Memory Management #######
+machine-0: 1 4 1 (8)
+machine-1: 4 1 4 1 1 4 (32)
+Occupation rate: 60%
+
+######## Cpu Management ########
+machine-0: 3 3 2 (8)
+machine-1: 3 3 3 3 3 1 (16)
+Occupation rate: 100%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-0 (8/8,6/8) 190 : [vm39(3,1), vm36(3,4), vm31(2,1)]
+machine-1 (16/16,15/32) 313 : [vm38(3,4), vm37(3,1), vm35(3,4), vm29(3,1), vm26(3,1), vm34(1,4)]
+
+ Machine Energy :  - 198 - 329
+ Energy : 527
+
+
+Welcome to the constraint world ...
+
+
+#################################
+######### Loops 1 ###############
+#################################
+
+###### Memory Management #######
+machine-0: 4 1 1 (8)
+machine-1: 4 4 4 1 1 1 (32)
+Occupation rate: 60%
+
+######## Cpu Management ########
+machine-0: 3 3 2 (8)
+machine-1: 3 3 1 3 3 3 (16)
+Occupation rate: 100%
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs
+machine-0 (8/8,6/8) 190 : [vm38(3,4), vm39(3,1), vm31(2,1)]
+machine-1 (16/16,15/32) 313 : [vm36(3,4), vm35(3,4), vm34(1,4), vm37(3,1), vm29(3,1), vm26(3,1)]
+
+ Machine Energy :  - 198 - 329
+ Energy : 527
+
+Computation time: 176
+Solving times: [176]
+Mean: 176

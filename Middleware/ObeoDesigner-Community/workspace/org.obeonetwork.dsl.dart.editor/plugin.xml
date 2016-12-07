@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+  Copyright (c) 2014 Obeo.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v1.0
+  which accompanies this distribution, and is available at
+  http://www.eclipse.org/legal/epl-v10.html
+  
+  Contributors:
+      Obeo - initial API and implementation
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated not dart -->
+      <category
+            id="org.obeonetwork.dsl.dart.category"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            category="org.obeonetwork.dsl.dart.category"
+            class="org.obeonetwork.dsl.dart.editor.internal.presentation.DartModelWizard"
+            icon="icons/full/etool16/NewDartSpecification.png"
+            id="org.obeonetwork.dsl.dart.editor.internal.presentation.DartModelWizardID"
+            name="%_UI_DartModelWizard_label">
+         <description>%_UI_DartModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated not dart -->
+      <editor
+            id="org.obeonetwork.dsl.dart.editor.internal.presentation.DartEditorID"
+            name="%_UI_DartEditor_label"
+            icon="icons/full/obj16/DartSpecificationFile.png"
+            extensions="dartspec"
+            class="org.obeonetwork.dsl.dart.editor.internal.presentation.DartEditor"
+            contributorClass="org.obeonetwork.dsl.dart.editor.internal.presentation.DartActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

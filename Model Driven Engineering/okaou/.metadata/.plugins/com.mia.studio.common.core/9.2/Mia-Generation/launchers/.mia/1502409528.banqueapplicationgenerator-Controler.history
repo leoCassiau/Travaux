@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <launcher name="banqueapplicationgenerator-Controler">
+    <source directory="file:/comptes/E115761C/Documents/Model%20Driven%20Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace">
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/controler/IBanqueControler.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/controler/swt/BanqueControler.java"
+        status="modified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/view/IBanqueView.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/view/swt/BanqueView.java"
+        status="modified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/controler/IClientControler.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/controler/swt/ClientControler.java"
+        status="modified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/view/IClientView.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/view/swt/ClientView.java"
+        status="modified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/controler/ICompteControler.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/controler/swt/CompteControler.java"
+        status="modified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/view/ICompteView.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/view/swt/CompteView.java"
+        status="modified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/controler/IOperationControler.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/controler/swt/OperationControler.java"
+        status="modified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/view/IOperationView.java"
+        status="unmodified" fileEncoding="UTF-8"/>
+      <entry file="/comptes/E115761C/Documents/Model Driven Engineering/com.mia.studio.ide-9.2.1.gtk.x86_64/workspace/com.mia.banque.application/src/com/mia/banque/ui/view/swt/OperationView.java"
+        status="modified" fileEncoding="UTF-8"/>
+    </source>
+  </launcher>
+</history>

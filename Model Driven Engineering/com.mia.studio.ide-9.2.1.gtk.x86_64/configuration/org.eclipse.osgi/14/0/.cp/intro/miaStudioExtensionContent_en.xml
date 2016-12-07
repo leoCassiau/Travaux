@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<introContent>
+  <extensionContent
+      id="miaStudio-introExtension"
+      style="css/miastudioIntro.css"
+      name="miastudio Extension"
+      path="overview/@">
+    <group
+        style-id="content-group"
+        id="miastudio-introLink-group">
+      <link 
+          label="Mia-Studio Generation"
+          url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.mia.studio.generation.ui.doc/doc/Manual/Manual.html"
+          id="miaStudio-Generation-introLink"
+          style-id="content-link">
+        <text>Learn more about Mia-Studio Generation,
+        	  a software development toolkit for writing 
+        	  Model-To-Text transformations.</text>
+      </link>
+      <link
+      	label="Upgrading to Mia-Studio 9.x"
+      	url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.mia.studio.generation.ui.doc/doc/Changes/Compatibilit-.html"
+      	id="miaStudio-Upgrade-9x"
+      	style-id="content-link">
+      	<text>Learn more about how to upgrade Mia-Studio 8.x projects to Mia-Studio 9.x</text>
+      </link>
+      <link 
+          label="Mia-Studio Transformation"
+          url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.mia.studio.transformation.ui.doc/doc/Manual/Manual.html"
+          id="miaStudio-Transformation-introLink"
+          style-id="content-link">
+        <text>Learn more about Mia-Studio Transformation,
+        	  a software development toolkit for writing 
+        	  Model-To-Model transformations.</text>
+      </link>
+    </group>
+  </extensionContent>
+  <extensionContent
+      id="miaStudio-introExtension-whats-new"
+      style="css/miastudioIntro.css"
+      name="miastudio Extension What's new"
+      path="whatsnew/@">
+    <group
+        style-id="content-group"
+        id="miastudio-introLink-group">
+      <link
+      	label="Upgrading to Mia-Studio 9.x"
+      	url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.mia.studio.generation.ui.doc/doc/Changes/Compatibilit-.html"
+      	id="miaStudio-Upgrade-9x"
+      	style-id="content-link">
+      	<text>Learn more about how to upgrade Mia-Studio 8.x projects to Mia-Studio 9.x</text>
+      </link>
+    </group>
+  </extensionContent>
+  </introContent>

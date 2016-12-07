@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.mia.studio.generation.core.launch">
+<stringAttribute key="applicableType" value="View"/>
+<stringAttribute key="bundleSymbolicName" value="banqueapplicationgenerator"/>
+<booleanAttribute key="generateOnScreen" value="true"/>
+<booleanAttribute key="generateTraces" value="true"/>
+<stringAttribute key="packageName" value="PACKET"/>
+<stringAttribute key="scenarioMetaObject" value="View"/>
+<stringAttribute key="scenarioName" value="scenar"/>
+</launchConfiguration>

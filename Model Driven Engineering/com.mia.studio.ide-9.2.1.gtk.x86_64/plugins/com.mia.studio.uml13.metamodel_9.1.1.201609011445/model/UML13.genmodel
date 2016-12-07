@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" copyrightText="Copyright :&#xD;&#xA;This is a property of Mia-Software company.&#xD;&#xA;See website for more informations : www.mia-software.com"
+    modelDirectory="/UML13_migration/src" modelPluginID="UML13" modelName="UML13"
+    rootExtendsInterface="com.mia.openapi.MIAObject" rootExtendsClass="com.mia.openapi.DefaultMIAObject"
+    importerID="org.eclipse.emf.importer.rose" arrayAccessors="true" complianceLevel="5.0"
+    copyrightFields="false">
+  <foreignModel>D:\barbierg\workspaces\eclipseEMFMIAWorkspace\_definitions\UML 1.3\Copie de UML 1.3 With Diagram.mdl</foreignModel>
+  <modelPluginVariables>migrated</modelPluginVariables>
+  <genPackages prefix="Foundation" disposableProviderFactory="true" ecorePackage="foundation.ecore#/">
+    <nestedGenPackages prefix="Core" disposableProviderFactory="true" ecorePackage="foundation.ecore#//core">
+      <genClasses ecoreClass="foundation.ecore#//core/Classifier">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/Classifier/feature"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Classifier/associationEnd"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Classifier/participant"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Classifier/Instance"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Classifier/CreateAction"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/Class">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/Class/isActive"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/DataType"/>
+      <genClasses image="false" ecoreClass="foundation.ecore#//core/StructuralFeature">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/StructuralFeature/multiplicity"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/StructuralFeature/changeability"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/StructuralFeature/targetScope"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/StructuralFeature/type"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/Namespace">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/Namespace/ownedElement"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/AssociationEnd">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/AssociationEnd/isNavigable"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/AssociationEnd/ordering"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/AssociationEnd/aggregation"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/AssociationEnd/targetScope"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/AssociationEnd/multiplicity"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/AssociationEnd/changeability"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//core/AssociationEnd/association"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/AssociationEnd/qualifier"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/AssociationEnd/type"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/AssociationEnd/specification"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/AssociationEnd/AssociationEndRole"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/Interface"/>
+      <genClasses ecoreClass="foundation.ecore#//core/Constraint">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/Constraint/body"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Constraint/constrainedElement"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/Association">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/Association/connection"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Association/AssociationRole"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Association/Link"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="foundation.ecore#//core/Element">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/Element/characteristic"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="foundation.ecore#//core/GeneralizableElement">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/GeneralizableElement/isRoot"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/GeneralizableElement/isLeaf"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/GeneralizableElement/isAbstract"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/GeneralizableElement/generalization"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/GeneralizableElement/specialization"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/Attribute">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/Attribute/initialValue"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//core/Attribute/associationEnd"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//core/Attribute/State"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Attribute/AssociationEndRole"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Attribute/AttributeLink"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/Operation">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/Operation/concurrency"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/Operation/isRoot"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/Operation/isLeaf"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/Operation/isAbstract"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Operation/method"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Operation/occurrence"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Operation/CallAction"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/Parameter">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/Parameter/defaultValue"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/Parameter/kind"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//core/Parameter/BehavioralFeature"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Parameter/type"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//core/Parameter/Event"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Parameter/ObjectFlowState"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Parameter/state"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/Method">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/Method/body"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Method/specification"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/Generalization">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/Generalization/discriminator"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Generalization/child"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Generalization/parent"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/AssociationClass"/>
+      <genClasses image="false" ecoreClass="foundation.ecore#//core/Feature">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/Feature/ownerScope"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//core/Feature/owner"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="foundation.ecore#//core/BehavioralFeature">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/BehavioralFeature/isQuery"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/BehavioralFeature/parameter"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/BehavioralFeature/raisedSignal"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="foundation.ecore#//core/ModelElement">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/ModelElement/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/ModelElement/visibility"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/ModelElement/isSpecification"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//core/ModelElement/namespace"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/ModelElement/clientDependency"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/ModelElement/templateParameter"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/ModelElement/taggedValue"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/ModelElement/constraint"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/ModelElement/supplierDependency"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/ModelElement/presentation"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/ModelElement/targetFlow"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/ModelElement/sourceFlow"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/ModelElement/elementResidence"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/ModelElement/comment"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/ModelElement/stereotype"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/ModelElement/behavior"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/ModelElement/Collaboration"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/ModelElement/ClassifierRole"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/ModelElement/elementImport"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/Dependency">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Dependency/client"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Dependency/supplier"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/Abstraction">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/Abstraction/mapping"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="foundation.ecore#//core/PresentationElement">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/PresentationElement/subject"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/Usage"/>
+      <genClasses ecoreClass="foundation.ecore#//core/Binding">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Binding/argument"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/Component">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Component/deploymentLocation"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//core/Component/residentElement"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/Node">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Node/resident"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/Permission"/>
+      <genClasses ecoreClass="foundation.ecore#//core/Comment">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Comment/annotatedElement"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/Flow">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Flow/target"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/Flow/source"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/Relationship"/>
+      <genClasses ecoreClass="foundation.ecore#//core/TemplateParameter">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/TemplateParameter/defaultElement"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/TemplateParameter/modelElement"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//core/ElementResidence">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//core/ElementResidence/visibility"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//core/ElementResidence/implementationLocation"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//core/ElementResidence/resident"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Datatypes" disposableProviderFactory="true" ecorePackage="foundation.ecore#//datatypes">
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="foundation.ecore#//datatypes/AggregationKind">
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/AggregationKind/none"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/AggregationKind/aggregate"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/AggregationKind/composite"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="foundation.ecore#//datatypes/ChangeableKind">
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/ChangeableKind/changeable"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/ChangeableKind/frozen"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/ChangeableKind/addOnly"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="foundation.ecore#//datatypes/OperationDirectionKind">
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/OperationDirectionKind/none"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="foundation.ecore#//datatypes/ParameterDirectionKind">
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/ParameterDirectionKind/in"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/ParameterDirectionKind/inout"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/ParameterDirectionKind/out"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/ParameterDirectionKind/return"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="foundation.ecore#//datatypes/MessageDirectionKind">
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/MessageDirectionKind/none"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="foundation.ecore#//datatypes/ScopeKind">
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/ScopeKind/instance"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/ScopeKind/classifier"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="foundation.ecore#//datatypes/VisibilityKind">
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/VisibilityKind/public"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/VisibilityKind/package"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/VisibilityKind/protected"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/VisibilityKind/private"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="foundation.ecore#//datatypes/PseudostateKind">
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/PseudostateKind/initial"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/PseudostateKind/deepHistory"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/PseudostateKind/shallowHistory"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/PseudostateKind/join"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/PseudostateKind/fork"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/PseudostateKind/branch"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/PseudostateKind/junction"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/PseudostateKind/final"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="foundation.ecore#//datatypes/CallConcurrencyKind">
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/CallConcurrencyKind/sequential"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/CallConcurrencyKind/guarded"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/CallConcurrencyKind/concurrent"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="foundation.ecore#//datatypes/OrderingKind">
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/OrderingKind/unordered"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/OrderingKind/ordered"/>
+        <genEnumLiterals ecoreEnumLiteral="foundation.ecore#//datatypes/OrderingKind/sorted"/>
+      </genEnums>
+      <genDataTypes ecoreDataType="foundation.ecore#//datatypes/Name"/>
+      <genDataTypes ecoreDataType="foundation.ecore#//datatypes/Integer"/>
+      <genDataTypes ecoreDataType="foundation.ecore#//datatypes/String"/>
+      <genDataTypes ecoreDataType="foundation.ecore#//datatypes/Time"/>
+      <genDataTypes ecoreDataType="foundation.ecore#//datatypes/Mapping"/>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/Multiplicity">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//datatypes/Multiplicity/range"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/ObjectSetExpression"/>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/TimeExpression"/>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/Expression">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//datatypes/Expression/language"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//datatypes/Expression/body"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/BooleanExpression"/>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/ActionExpression"/>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/MultiplicityRange">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//datatypes/MultiplicityRange/lower"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//datatypes/MultiplicityRange/upper"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//datatypes/MultiplicityRange/Multiplicity"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/Structure"/>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/Primitive"/>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/Enumeration">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//datatypes/Enumeration/literal"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/EnumerationLiteral">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//datatypes/EnumerationLiteral/name"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//datatypes/EnumerationLiteral/Enumeration"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/ProgrammingLanguageType">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//datatypes/ProgrammingLanguageType/type"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/IterationExpression"/>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/TypeExpression"/>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/ArgListsExpression"/>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/MappingExpression"/>
+      <genClasses ecoreClass="foundation.ecore#//datatypes/ProcedureExpression"/>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Extensionmechanisms" disposableProviderFactory="true"
+        ecorePackage="foundation.ecore#//extensionmechanisms">
+      <genClasses ecoreClass="foundation.ecore#//extensionmechanisms/Stereotype">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//extensionmechanisms/Stereotype/icon"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//extensionmechanisms/Stereotype/baseClass"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference foundation.ecore#//extensionmechanisms/Stereotype/requiredTag"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference foundation.ecore#//extensionmechanisms/Stereotype/extendedElement"/>
+      </genClasses>
+      <genClasses ecoreClass="foundation.ecore#//extensionmechanisms/TaggedValue">
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference foundation.ecore#//extensionmechanisms/TaggedValue/modelElement"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//extensionmechanisms/TaggedValue/tag"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute foundation.ecore#//extensionmechanisms/TaggedValue/value"/>
+      </genClasses>
+    </nestedGenPackages>
+  </genPackages>
+  <genPackages prefix="Behavioralelements" disposableProviderFactory="true" ecorePackage="behavioralelements.ecore#/">
+    <nestedGenPackages prefix="Usecases" disposableProviderFactory="true" ecorePackage="behavioralelements.ecore#//usecases">
+      <genClasses ecoreClass="behavioralelements.ecore#//usecases/UseCase">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/UseCase/extend"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/UseCase/include"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/UseCase/extensionPoint"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//usecases/Actor"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//usecases/UseCaseInstance"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//usecases/Extend">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/Extend/condition"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/Extend/base"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/Extend/extension"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/Extend/extensionPoint"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//usecases/Include">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/Include/addition"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/Include/base"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//usecases/ExtensionPoint">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//usecases/ExtensionPoint/location"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//usecases/ExtensionPoint/Extend"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Statemachines" disposableProviderFactory="true" ecorePackage="behavioralelements.ecore#//statemachines">
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/StateMachine">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/StateMachine/context"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/StateMachine/top"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/StateMachine/transitions"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/StateMachine/SubmachineState"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="behavioralelements.ecore#//statemachines/Event">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/Event/parameters"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/Event/State"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/Event/Transition"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/State">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/State/Attribute"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/State/entry"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/State/exit"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/State/ClassifierInState"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/State/StateMachine"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/State/deferrableEvent"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/State/internalTransition"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/State/doActivity"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/TimeEvent">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/TimeEvent/when"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/CallEvent">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/CallEvent/operation"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/SignalEvent">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/SignalEvent/signal"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/Transition">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/Transition/guard"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/Transition/effect"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/Transition/State"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/Transition/trigger"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/Transition/StateMachine"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/Transition/source"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/Transition/target"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="behavioralelements.ecore#//statemachines/StateVertex">
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/StateVertex/container"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/StateVertex/outgoing"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/StateVertex/incoming"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/CompositeState">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//statemachines/CompositeState/isConcurrent"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/CompositeState/subvertex"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/ChangeEvent">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/ChangeEvent/changeExpression"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/Guard">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/Guard/expression"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/Guard/Transition"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/Pseudostate">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//statemachines/Pseudostate/kind"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/SimpleState"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/SubmachineState">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//statemachines/SubmachineState/submachine"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/SynchState">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//statemachines/SynchState/bound"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/StubState">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//statemachines/StubState/referenceState"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//statemachines/FinalState"/>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Collaborations" disposableProviderFactory="true" ecorePackage="behavioralelements.ecore#//collaborations">
+      <genClasses ecoreClass="behavioralelements.ecore#//collaborations/Collaboration">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/Collaboration/interaction"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/Collaboration/constrainingElement"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/Collaboration/representedClassifier"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/Collaboration/representedOperation"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//collaborations/ClassifierRole">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/ClassifierRole/multiplicity"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/ClassifierRole/base"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/ClassifierRole/availableFeature"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/ClassifierRole/availableContents"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//collaborations/AssociationRole">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/AssociationRole/multiplicity"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/AssociationRole/base"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//collaborations/AssociationEndRole">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/AssociationEndRole/base"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/AssociationEndRole/availableQualifier"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//collaborations/Message">
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/Message/interaction"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/Message/activator"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/Message/sender"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/Message/receiver"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/Message/predecessor"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/Message/communicationConnection"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/Message/action"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//collaborations/Interaction">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/Interaction/link"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/Interaction/Instance"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/Interaction/message"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference behavioralelements.ecore#//collaborations/Interaction/context"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Commonbehavior" disposableProviderFactory="true" ecorePackage="behavioralelements.ecore#//commonbehavior">
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/Instance">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Instance/classifier"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Instance/AttributeLink"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Instance/linkEnd"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Instance/slot"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/Signal">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Signal/SendAction"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Signal/occurrence"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Signal/reception"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Signal/context"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/CreateAction">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/CreateAction/instantiation"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/DestroyAction"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/UninterpretedAction"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/Action">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Action/recurrence"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Action/target"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//commonbehavior/Action/isAsynchronous"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Action/script"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Action/actualArgument"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/AttributeLink">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/AttributeLink/attribute"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/AttributeLink/value"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/LinkObject"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/Object"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/DataValue"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/CallAction">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/CallAction/operation"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/SendAction">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/SendAction/signal"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/ActionSequence">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/ActionSequence/action"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/Argument">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Argument/value"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Argument/Action"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/Reception">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//commonbehavior/Reception/isPolymorphic"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//commonbehavior/Reception/specification"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Reception/signal"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/Link">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Link/association"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Link/connection"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Link/Stimulus"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/LinkEnd">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/LinkEnd/participant"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/LinkEnd/instance"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/LinkEnd/associationEnd"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/Call"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/ReturnAction"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/TerminateAction"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/Stimulus">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Stimulus/argument"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Stimulus/sender"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Stimulus/receiver"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Stimulus/communicationLink"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/Stimulus/dispatchAction"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/ActionInstance"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/Exception"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/AssignmentAction"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/ComponentInstance">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/ComponentInstance/NodeInstance"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/ComponentInstance/resident"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//commonbehavior/NodeInstance">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//commonbehavior/NodeInstance/resident"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Activitygraphs" disposableProviderFactory="true" ecorePackage="behavioralelements.ecore#//activitygraphs">
+      <genClasses ecoreClass="behavioralelements.ecore#//activitygraphs/ActivityGraph">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/ActivityGraph/partition"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//activitygraphs/Partition">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/Partition/contents"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//activitygraphs/SubactivityState">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//activitygraphs/SubactivityState/isDynamic"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/SubactivityState/dynamicArguments"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//activitygraphs/CallState"/>
+      <genClasses ecoreClass="behavioralelements.ecore#//activitygraphs/ObjectFlowState">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/ObjectFlowState/available"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/ObjectFlowState/type"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/ObjectFlowState/parameter"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//activitygraphs/ObjectFlowState/isSynch"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//activitygraphs/ClassifierInState">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/ClassifierInState/inState"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/ClassifierInState/type"/>
+      </genClasses>
+      <genClasses ecoreClass="behavioralelements.ecore#//activitygraphs/ActionState">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute behavioralelements.ecore#//activitygraphs/ActionState/isDynamic"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference behavioralelements.ecore#//activitygraphs/ActionState/dynamicArguments"/>
+      </genClasses>
+    </nestedGenPackages>
+  </genPackages>
+  <genPackages prefix="Standardelements" disposableProviderFactory="true" ecorePackage="standardelements.ecore#/"/>
+  <genPackages prefix="Modelmanagement" disposableProviderFactory="true" ecorePackage="modelmanagement.ecore#/">
+    <genClasses ecoreClass="modelmanagement.ecore#//Model"/>
+    <genClasses ecoreClass="modelmanagement.ecore#//Package">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modelmanagement.ecore#//Package/importedElement"/>
+    </genClasses>
+    <genClasses ecoreClass="modelmanagement.ecore#//Subsystem">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modelmanagement.ecore#//Subsystem/isInstantiable"/>
+    </genClasses>
+    <genClasses ecoreClass="modelmanagement.ecore#//ElementImport">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modelmanagement.ecore#//ElementImport/visibility"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modelmanagement.ecore#//ElementImport/alias"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference modelmanagement.ecore#//ElementImport/package"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference modelmanagement.ecore#//ElementImport/modelElement"/>
+    </genClasses>
+  </genPackages>
+  <genPackages prefix="Diagramming" disposableProviderFactory="true" ecorePackage="diagramming.ecore#/">
+    <genClasses ecoreClass="diagramming.ecore#//Diagram">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute diagramming.ecore#//Diagram/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute diagramming.ecore#//Diagram/toolName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute diagramming.ecore#//Diagram/diagramType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute diagramming.ecore#//Diagram/style"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference diagramming.ecore#//Diagram/element"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference diagramming.ecore#//Diagram/owner"/>
+    </genClasses>
+    <genClasses ecoreClass="diagramming.ecore#//DiagramElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute diagramming.ecore#//DiagramElement/geometry"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute diagramming.ecore#//DiagramElement/style"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference diagramming.ecore#//DiagramElement/diagram"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

@@ -1,0 +1,23 @@
+
+
+#################################
+######### Experiments 1 #########
+#################################
+
+Solution without constraint :
+ 
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/16,1/8)  : [vm3(1,1,0,3)]
+machine-2 (2/16,4/32)  : [vm0(2,4,0,7)]
+machine-0 (2/16,2/32)  : [vm1(2,2,0,1)]
+machine-1 (2/4,2/16)  : [vm2(2,2,0,1)]
+
+
+
+Welcome to the constraint world ... 
+
+
+#################################
+######### Loops 1 ###############
+#################################

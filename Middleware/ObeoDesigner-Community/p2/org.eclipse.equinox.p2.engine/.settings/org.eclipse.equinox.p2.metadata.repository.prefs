@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+repositories/file\:_home_integration_slave_jenkins_workspace_designer--master_packaging_fr.obeo.dsl.designer.ce.update_target_targetPlatformRepository/enabled=true
+repositories/file\:_home_integration_slave_jenkins_workspace_designer--master_packaging_fr.obeo.dsl.designer.ce.update_target_targetPlatformRepository/isSystem=false
+repositories/file\:_home_integration_slave_jenkins_workspace_designer--master_packaging_fr.obeo.dsl.designer.ce.update_target_targetPlatformRepository/name=TychoTargetPlatform
+repositories/file\:_home_integration_slave_jenkins_workspace_designer--master_packaging_fr.obeo.dsl.designer.ce.update_target_targetPlatformRepository/suffix=content.xml
+repositories/file\:_home_integration_slave_jenkins_workspace_designer--master_packaging_fr.obeo.dsl.designer.ce.update_target_targetPlatformRepository/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/file\:_home_integration_slave_jenkins_workspace_designer--master_packaging_fr.obeo.dsl.designer.ce.update_target_targetPlatformRepository/uri=file\:/home/integration/slave_jenkins/workspace/designer--master/packaging/fr.obeo.dsl.designer.ce.update/target/targetPlatformRepository/
+repositories/file\:_home_integration_slave_jenkins_workspace_designer--master_packaging_fr.obeo.dsl.designer.ce.update_target_targetPlatformRepository/version=0.0.1
+repositories/http\:__www.obeo.fr_download_release_designer_9.1_community_latest_repository/count=1
+repositories/http\:__www.obeo.fr_download_release_designer_9.1_community_latest_repository/enabled=true
+repositories/http\:__www.obeo.fr_download_release_designer_9.1_community_latest_repository/isSystem=false
+repositories/http\:__www.obeo.fr_download_release_designer_9.1_community_latest_repository/nickname=Obeo Designer 9.1 Community Edition
+repositories/http\:__www.obeo.fr_download_release_designer_9.1_community_latest_repository/uri=http\://www.obeo.fr/download/release/designer/9.1/community/latest/repository

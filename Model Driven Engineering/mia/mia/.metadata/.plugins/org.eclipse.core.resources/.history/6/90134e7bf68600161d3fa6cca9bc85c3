@@ -1,0 +1,9 @@
+package com.mia.formation.generation.ui;
+
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.widgets.Button;
+
+public class OperationView extends Shell {
+	private Button btnquitter;
+
+}

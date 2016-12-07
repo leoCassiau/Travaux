@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.swtbot.ide.source" version="2.1.1.201307101628" plugin="org.eclipse.swtbot.eclipse.ui" label="SWTBot IDE Features Developer Resources" provider-name="Eclipse.org">
+  <includes id="org.eclipse.swtbot.ide" version="2.1.1.201307101628"/>
+  <description url="http://eclipse.org/">
+      SWTBot IDE support
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.swtbot.eclipse.ui.source" version="2.1.1.201307101628" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.swtbot.eclipse.spy.source" version="2.1.1.201307101628" download-size="0" install-size="0" unpack="false"/>
+</feature>

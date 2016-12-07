@@ -1,0 +1,34 @@
+
+
+#################################
+######### Experiments 1 #########
+#################################
+
+Solution without constraint :
+ 
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/8,1/32)  : [vm0(1,1,0,5)]
+machine-2 (1/8,2/32)  : [vm1(1,2,0,3)]
+machine-1 (2/4,1/32)  : [vm3(2,1,0,3)]
+machine-0 (3/4,2/32)  : [vm2(3,2,0,8)]
+
+
+
+Welcome to the constraint world ... 
+
+
+#################################
+######### Loops 1 ###############
+#################################
+
+Name (cpuUsed/totalcpu,memoryused/totalmemory) - list VMs (cpuUsed,memoryUsed,on/off,priority) 
+machine-3 (1/8,1/32)  : [vm0(1,1,1,5)]
+machine-2 (0/8,0/32)  : []
+machine-1 (0/4,0/32)  : []
+machine-0 (3/4,2/32)  : [vm2(3,2,1,8)]
+
+
+Computation time: 147
+Solving times: [147]
+Mean: 147

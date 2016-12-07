@@ -1,0 +1,20 @@
+package model.impl;
+
+import java.util.List;
+
+public class Client implements com.mia.banque.model.IClient {
+
+private List<com.mia.banque.model.ICompte> listCompte;
+
+	public List<com.mia.banque.model.ICompte> getComptes() {
+		if (this.listCompte == null) {
+			this.listCompte = new ArrayList<com.mia.banque.model.ICompte>();
+		}
+		return this.listCompte;
+	}
+	
+	public void setComptes(List<com.mia.banque.model.ICompte> newValue) {
+		this.listCompte = newValue;
+	}
+
+}
